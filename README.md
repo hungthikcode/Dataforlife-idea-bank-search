@@ -1,90 +1,92 @@
-# 💡 Ngân hàng Ý tưởng - Data For Life
+# 💡 Idea Bank - Data For Life
 
-Một ứng dụng web được xây dựng bằng Streamlit để tìm kiếm và khám phá các ý tưởng từ cuộc thi "Dữ liệu với Cuộc sống - Data For Life" do Bộ Công an tổ chức.
+A web application built with Streamlit to search and explore ideas from the contest **"Data for Life"** organized by the Ministry of Public Security.
 
-![Demo ứng dụng](demo.png)
+![App Demo](demo.png)
 
-## 📌 Giới thiệu
+## 📌 Introduction
 
-Dự án này bao gồm hai thành phần chính:
-1.  **Một script thu thập dữ liệu (crawler)**: Tự động lấy toàn bộ thông tin các ý tưởng từ trang [idea-bank của Data For Life](https://dataforlife.vn/idea-bank/) và lưu dưới dạng file CSV.
-2.  **Một ứng dụng web tìm kiếm**: Cung cấp một giao diện thân thiện, giúp người dùng dễ dàng tìm kiếm, lọc và xem thông tin chi tiết về từng ý tưởng đã thu thập được.
+This project consists of two main components:
+1.  **A data collection script (crawler)**: Automatically fetches all idea information from the idea-bank of [Data For Life](https://dataforlife.vn/idea-bank/) and saves it as a CSV file.  
+2.  **A web search application**: Provides a user-friendly interface to easily search, filter, and view detailed information about each collected idea.
 
-## ✨ Tính năng
+## ✨ Features
 
--   **Giao diện Tìm kiếm Trực quan**: Dễ dàng tìm kiếm ý tưởng theo bất kỳ từ khóa nào (ví dụ: y tế, giao thông, môi trường, logistics...).
--   **Hiển thị Chi tiết**: Xem thông tin đầy đủ của mỗi ý tưởng bao gồm đề xuất, đối tượng, tác động, bối cảnh... trong một giao diện có thể mở rộng/thu gọn (expander).
--   **Tự động Thu thập Dữ liệu**: Script đi kèm (`scripts/crawl_data.py`) giúp tự động cào và cập nhật dữ liệu mới nhất từ trang web gốc.
--   **Tối ưu hóa Tốc độ**: Sử dụng cache của Streamlit để tăng tốc độ tải dữ liệu sau lần đầu tiên.
+-   **Intuitive Search Interface**: Easily search for ideas by any keyword (e.g., healthcare, transportation, environment, logistics...).  
+-   **Detailed View**: Display full information of each idea including proposal, target audience, impact, context… in an expandable/collapsible view.  
+-   **Automated Data Collection**: The included script (`scripts/crawl_data.py`) automatically crawls and updates the latest data from the original website.  
+-   **Performance Optimization**: Uses Streamlit’s cache to speed up data loading after the first run.  
 
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Technologies Used
 
--   **Ngôn ngữ**: Python
--   **Web Framework**: Streamlit
--   **Thu thập dữ liệu**: Requests, BeautifulSoup4
--   **Xử lý dữ liệu**: Pandas
+-   **Language**: Python  
+-   **Web Framework**: Streamlit  
+-   **Data Collection**: Requests, BeautifulSoup4  
+-   **Data Processing**: Pandas  
 
-## 📁 Cấu trúc Dự án
+## 📁 Project Structure
 
 ```
 .
-├── data/                  # Thư mục chứa dữ liệu (được .gitignore bỏ qua)
+├── data/                  
 │   └── CSV_dataset.csv
+    └── JSON_dataset.json
 ├── scripts/
-│   └── crawl_data.py      # Script để thu thập dữ liệu từ website
-├── .gitignore             # Các file/thư mục bị Git bỏ qua
-├── app.py                 # File ứng dụng Streamlit chính
-├── LICENSE                # Giấy phép sử dụng mã nguồn
-├── README.md              # File giới thiệu dự án
-└── requirements.txt       # Các thư viện Python cần thiết
+│   └── crawl_data.py      
+├── .gitignore            
+├── app.py                 
+├── LICENSE               
+├── README.md              
+└── requirements.txt       
 ```
 
-## 🚀 Hướng dẫn Cài đặt và Chạy
+## 🚀 Installation & Usage
 
-Bạn cần có [Python 3.8+](https://www.python.org/downloads/) được cài đặt trên máy.
+You need to have [Python 3.8+](https://www.python.org/downloads/) installed on your machine.
 
-**1. Clone repository này về máy:**
+**1. Clone this repository:**
 
 ```bash
 git clone https://github.com/hungthikcode/Dataforlife-ideas-search.git
-cd TEN_REPO_CUA_BAN
+cd YOUR_REPO_NAME
 ```
 
-**2. (Khuyến khích) Tạo và kích hoạt môi trường ảo:**
+**2. (Recommended) Create and activate a virtual environment:**
 
 ```bash
-# Đối với Windows
+# For Windows
 python -m venv venv
-.\venv\Scripts\activate
+.venv\Scripts\activate
 
-# Đối với macOS / Linux
+# For macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-**3. Cài đặt các thư viện cần thiết:**
+**3. Install required dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Chạy script để thu thập dữ liệu:**
+**4. Run the data collection script:**
 
-Lần đầu tiên chạy, bạn **bắt buộc** phải chạy script này để tạo file `data/CSV_dataset.csv`. Nếu không có file này, ứng dụng sẽ báo lỗi.
+The first time you run, you **must** execute this script to generate the file `data/CSV_dataset.csv`.  
+Without this file, the application will show an error.
 
 ```bash
 python scripts/crawl_data.py
 ```
-*Lưu ý: Quá trình này có thể mất vài phút tùy thuộc vào số lượng bài viết và tốc độ mạng của bạn.*
+*Note: This process may take several minutes depending on the number of posts and your internet speed.*  
 
-**5. Khởi chạy ứng dụng Streamlit:**
+**5. Launch the Streamlit app:**
 
 ```bash
 streamlit run app.py
 ```
 
-Sau khi chạy lệnh trên, một tab mới trên trình duyệt sẽ tự động mở ra với địa chỉ `http://localhost:8501`. Giờ đây bạn có thể bắt đầu tìm kiếm!
+After running the above command, a new browser tab will automatically open at `http://localhost:8501`. Now you can start exploring and searching ideas!  
 
-## 📄 Giấy phép
+## 📄 License
 
-Dự án này được cấp phép theo [Giấy phép MIT](LICENSE). Xem file `LICENSE` để biết thêm chi tiết.
+This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for more details.
