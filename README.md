@@ -48,7 +48,7 @@ You need to have [Python 3.8+](https://www.python.org/downloads/) installed on y
 
 ```bash
 git clone https://github.com/hungthikcode/Dataforlife-ideas-search.git
-cd YOUR_REPO_NAME
+cd Dataforlife-ideas-search
 ```
 
 **2. (Recommended) Create and activate a virtual environment:**
