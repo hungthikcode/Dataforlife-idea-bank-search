@@ -1,0 +1,2557 @@
+[
+    {
+        "category": "Môi trường",
+        "title": "PB-090",
+        "link": "https://dataforlife.vn/idea-bank/pb-090/",
+        "details": {
+            "Đề xuất": [
+                "Nền tảng giám sát và dự báo ô nhiễm không khí theo thời gian thực",
+                "1. Mục tiêu:",
+                "- Thu thập và phân tích dữ liệu không khí theo thời gian thực từ nhiều nguồn.",
+                "- Dự báo chất lượng không khí 3 – 5 ngày tới với độ chính xác cao.",
+                "- Cảnh báo người dân và chính quyền địa phương về nguy cơ ô nhiễm.",
+                "- Đưa ra khuyến nghị hành động cá nhân (ví dụ: tránh ra đường, đeo khẩu trang, bật lọc không khí).",
+                "- Hỗ trợ chính quyền quy hoạch giao thông, cây xanh, khu công nghiệp",
+                "2.Công nghệ sử dụng",
+                "- AI/Machine Learning: Dự báo chất lượng không khí dựa trên dữ liệu lịch sử, thời tiết, giao thông.",
+                "- Big Data: Kết hợp dữ liệu từ nhiều nguồn như cảm biến IoT, vệ tinh, khí tượng, mạng xã hội.",
+                "- Blockchain (tuỳ chọn): Đảm bảo minh bạch nguồn dữ liệu và truy xuất được thông tin.",
+                "- Ứng dụng di động/WebApp: Giao diện cho người dùng theo dõi và nhận cảnh báo",
+                "- Dashboard hỗ trợ chính quyền ra quyết định",
+                "3.Dữ liệu đầu vào",
+                "- Dữ liệu cảm biến không khí tại các khu vực dân cư (PM2.5, CO, NOx...).",
+                "- Dữ liệu thời tiết: nhiệt độ, độ ẩm, gió.",
+                "- Dữ liệu giao thông: mật độ xe, thời gian cao điểm.",
+                "- Dữ liệu vệ tinh của NASA, ESA (miễn phí).",
+                "- Dữ liệu phản ánh từ người dân (crowdsourcing).",
+                "- Dữ liệu từ hệ thống của Bộ TNMT",
+                "- Dữ liệu từ các cảm biến của các khu đô thị smart city",
+                "4.Khả năng mở rộng:",
+                "Có thể mở rộng sang giám sát ô nhiễm nước, rác thải sau này"
+            ],
+            "Đối tượng": [
+                "Toàn bộ cư dân thành thị, đặc biệt là nhóm dễ tổn thương: trẻ em, người cao tuổi, người mắc bệnh nền. Ngoài ra, chính quyền địa phương thiếu công cụ hỗ trợ quản lý và điều hành hiệu quả môi trường đô thị"
+            ],
+            "Tác động": [
+                "Ảnh hưởng đến sức khỏe cộng đồng, tăng chi phí y tế, suy giảm năng suất lao động. Thiếu công cụ để hỗ trợ quy hoạch đô thị xanh và chính sách bảo vệ môi trường"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tình trạng ô nhiễm không khí tăng cao trong 5 năm gần đây tại các đô thị như Hà Nội, TP.HCM, trong khi các ứng dụng dự báo hiện có chưa cập nhật theo thời gian thực và thiếu độ chính xác."
+            ],
+            "Thực trạng": [
+                "Tại nhiều đô thị lớn ở Việt Nam, ô nhiễm không khí đang ngày càng nghiêm trọng nhưng thông tin cảnh báo không kịp thời hoặc thiếu chính xác. Người dân, đặc biệt là nhóm dễ tổn thương như người già, trẻ em, không có giải pháp nào để chủ động bảo vệ sức khỏe"
+            ]
+        }
+    },
+    {
+        "category": "Giao thông vận tải",
+        "title": "PB-091",
+        "link": "https://dataforlife.vn/idea-bank/pb-091/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng nền tảng CĐS cho các Doanh nghiệp Logistics:",
+                "Nền tảng quản lý đơn hàng, quản lý vận chuyển & phân phối, quản lý kho hàng, nền tảng số cho chuỗi dịch vụ logistics, giúp kết nối các các bên liên quan trong chuỗi (cảng, hãng vận tải, đại lý, công ty giao nhận, kho...) để chia sẻ dữ liệu,...",
+                "Ngoài ra, hệ thống có thể ứng dụng, tích hợp công nghệ 4.0 như AI, IoT, Big Data và tự động hóa (RPA) để nâng cao hiệu quả vận hành và giảm chi phí.",
+                "",
+                "Nền tảng Giải pháp bao gồm:",
+                "- Quản lý Đơn hàng (Order Management Platform - OMP)",
+                "- Quản lý Vận chuyển & Phân phối (Transportation & Delivery Management - TMS)",
+                "- Quản lý Kho hàng (Warehouse Management System - WMS/iWMS)",
+                "- Cổng kết nối Chuỗi Logistics (Logistics Interconnect Hub): Kết nối cảng, hãng tàu, forwarder, kho, trung tâm phân phối; Đồng bộ chứng từ vận tải (eDO, eBL, booking...); Cảnh báo lịch trình, thay đổi ETA, phối hợp khai báo hải quan điện tử; Chia sẻ dữ liệu container, hàng hóa, phương tiện qua API/Open Data",
+                "- Quản lý Khách hàng & Đối tác (CRM + Partner Portal)",
+                "- Tích hợp Chatbot, chăm sóc khách hàng, khảo sát NPS",
+                "- Cổng giao tiếp điện tử giữa shipper – logistics – consignee",
+                "- Kết nối với các bên thứ ba: Cảng vụ, Hải quan, Vận tải đường sắt, Vận tải thủy, Hệ thống quản lý tàu biển; Các hãng logistics toàn cầu như Maersk, DHL, FedEx, Cainiao..."
+            ],
+            "Đối tượng": [
+                "Toàn bộ các Doanh nghiệp hoạt động trong lĩnh vực Logistics; các Nhà cung cấp trong chuỗi cung ứng và thậm chí cả Người dùng cuối chưa có cái nhìn tổng thể về các hoạt động phân phối trong chuỗi cung ứng Dịch vụ Logistic."
+            ],
+            "Tác động": [
+                "- Các Doanh nghiệp trong chuỗi cung ứng khó cạnh tranh với các nước trong Khu vực.",
+                "- Chi phí cho các công cụ, hệ thống CNTT hỗ trợ hoạt động, khai thác của các Doanh nghiệp Logistics còn quá cao.",
+                "- Rút ngắn được thời gian giao hàng & vận chuyển"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Theo dự báo, đến năm 2025, quy mô thị trường logistics Việt Nam sẽ đạt 45-50 tỷ USD, với tốc độ tăng trưởng trung bình 14-16% mỗi năm. Tuy nhiên, chi phí cho Dịch vụ Logistic vẫn còn ở mức cao so với các nước trong Khu vực và thế giới, dẫn tới khó cạnh tranh cho các Doanh nghiệp trong chuỗi cung ứng. Do vậy, cần thiết triển khai 1 nền tảng dùng chung, tiên tiến, hiện đại, công nghệ cao cho các Doanh nghiệp Logistics khai thác, sử dụng."
+            ],
+            "Thực trạng": [
+                "Hiện nay, tại Việt nam có khoảng 70.000 Doanh nghiệp hoạt động trong lĩnh vực Logistics, từ quy mô nhỏ tới quy mô lớn, và rất lớn; bao gổm rất nhiều hoạt động liên quan tới chuỗi cung ứng Logistics (từ lên đơn hàng tới vận chuyển, lưu kho, phân phối ra thị trường và cung cấp đến Người dùng cuối,...). Tuy nhiên, hiện chưa có bất ký nền tảng, giải pháp nào thực hiện toàn trình các hoạt động trên. Các Doanh nghiệp hiện đang triển khai các Giải pháp thành phần, nhiều công đoạn ngắt quãng, chưa có sự liên kết toàn diện trong chuỗi cung ứng Logistics. Các Doanh nghiệp hiện cũng đang triển khai rất nhiều giải pháp của các Nhà cung cấp Dịch vụ CNTT khác nhau, hoàn toàn không có sự liên kết trong việc trao đổi thông tin giữa các hệ thống khác nhau. Do vậy, hiện đang tồn tại nhiều bất cập trong công tác quản lý, khai thác, hoạt động tối ưu của các Doanh nghiệp Logistics này."
+            ]
+        }
+    },
+    {
+        "category": "Chính phủ",
+        "title": "PB-092",
+        "link": "https://dataforlife.vn/idea-bank/pb-092/",
+        "details": {
+            "Đề xuất": [
+                "SME Rating Platform – Định danh năng lực, kết nối phát triển:",
+                "A. MỤC TIÊU CHÍNH",
+                "1. Xây dựng một nền tảng số hóa giúp SME có hồ sơ năng lực 360° minh bạch, cập nhật định kỳ.",
+                "2. Cung cấp chỉ số xếp hạng doanh nghiệp (SME Score) dựa trên dữ liệu thực tế, khách quan.",
+                "3. Tạo cơ sở để kết nối thị trường – hỗ trợ chính sách – cấp vốn – thúc đẩy chuyển đổi số.",
+                "4. Góp phần hình thành hệ sinh thái tin cậy giữa Nhà nước – SME – Tổ chức tài chính – Doanh nghiệp lớn.",
+                "",
+                "B. GIẢI PHÁP",
+                "",
+                "1. Hồ sơ doanh nghiệp số (SME Profile 360)",
+                "2. Chấm điểm & xếp hạng doanh nghiệp (SME Score) - Xây dựng theo tiêu chị Bộ CT ban hành",
+                "3. Tích hợp dữ liệu và cập nhật động (Liên hết dữ liệu cơ quan thuế -HDDT; Dữ liệu BHXH về nguồn lực, Bộ KHCN về CĐS,...) ",
+                "4. Gợi ý và kết nối thông minh (Các doanh nghiệp có cùng level, lĩnh vực hoạt động, .. được hệ thống gợi ý liên kết,..); Gợi ý hỗ trợ phù hợp từ Sở KHĐT, Sở TTTT, ngân hàng (hạn mức tín dụng,..)",
+                "5. Dashboad quản trị cho T/Tp"
+            ],
+            "Đối tượng": [
+                "Cơ quan quản lý nhà nước, doanh nghiệp vừa và nhỏ"
+            ],
+            "Tác động": [
+                "Chưa có hệ thống đánh giá năng lực SME dẫn đến:",
+                "+ Gia tăng bất bình đẳng trong tiếp cận thị trường và tài chính",
+                "+ Giảm hiệu quả của các chính sách hỗ trợ và phát triển kinh tế địa phương",
+                "+ Gây ra tâm lý “đóng kín” – thiếu minh bạch – ngại đổi mới",
+                "+ Làm chậm tiến trình hiện đại hóa và hội nhập kinh tế toàn cầu của Việt Nam"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Nghị quyết 68/NQ/TW đã nêu rõ thực trạng"
+            ],
+            "Thực trạng": [
+                "1. Chiếm đa số nhưng thiếu năng lực quản trị và dữ liệu minh bạch (đóng góp 50% GDP)",
+                "2. Chưa có hệ thống đánh giá năng lực chính thức, khách quan cho SME",
+                "3. Thiếu nền tảng số để chia sẻ và theo dõi năng lực doanh nghiệp"
+            ]
+        }
+    },
+    {
+        "category": "Cơ sở dữ liệu Gen toàn quốc",
+        "title": "PB-087",
+        "link": "https://dataforlife.vn/idea-bank/pb-087/",
+        "details": {
+            "Đề xuất": [
+                "1. Xây dựng một cơ sở dữ liệu gen toàn quốc, giúp phân tích nguy cơ bệnh di truyền và mạn tính cho từng cá nhân.",
+                "2. Tăng cường khả năng phát hiện sớm và phòng ngừa các bệnh nguy hiểm, giảm thiểu chi phí y tế.",
+                "3. Nâng cao chất lượng sống của người dân thông qua việc cá nhân hóa các giải pháp chăm sóc sức khỏe dựa trên dữ liệu di truyền.",
+                "4. Tạo điều kiện để Việt Nam trở thành một quốc gia tiên phong trong việc ứng dụng công nghệ gen vào y tế công cộng ở khu vực Đông Nam Á."
+            ],
+            "Đối tượng": [
+                "1. Người dân Việt Nam, đặc biệt là các nhóm có nguy cơ cao mắc bệnh mạn tính hoặc bệnh di truyền.",
+                "2. Hệ thống y tế công cộng và các bệnh viện, do phải chịu áp lực lớn từ việc điều trị bệnh thay vì tập trung vào phòng ngừa.",
+                "3. Các gia đình, khi phải đối mặt với chi phí điều trị bệnh nặng và mất mát về sức khỏe."
+            ],
+            "Tác động": [
+                "1. Gánh nặng đối với hệ thống y tế: Việc phát hiện bệnh muộn làm tăng áp lực lên hệ thống chăm sóc sức khỏe, gây quá tải ở các bệnh viện.",
+                "2. Chi phí y tế cao: Điều trị bệnh ở giai đoạn muộn thường tốn kém, ảnh hưởng nặng nề đến kinh tế của người bệnh và xã hội.",
+                "3. Chất lượng cuộc sống giảm: Việc không phát hiện sớm bệnh tật khiến người dân đối diện với nguy cơ suy giảm sức khỏe và tuổi thọ.",
+                "4. Lãng phí cơ hội công nghệ: Việt Nam chưa khai thác được tiềm năng của công nghệ ADN SNP, dẫn đến việc bỏ lỡ cơ hội cải thiện y tế dự phòng."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tại Việt Nam, số lượng người mắc các bệnh mạn tính và di truyền đang gia tăng nhanh chóng, đặc biệt trong bối cảnh hiện đại hóa và lối sống thay đổi. Trong khi đó, công nghệ ADN SNP – một công cụ giúp xác định nguy cơ bệnh dựa trên cơ sở di truyền học – đã phát triển mạnh ở nhiều quốc gia, nhưng vẫn chưa được áp dụng rộng rãi trong hệ thống y tế tại Việt Nam."
+            ],
+            "Thực trạng": [
+                "Hiện nay, việc phòng ngừa và phát hiện sớm các bệnh nguy hiểm như ung thư, tiểu đường, tim mạch và các bệnh di truyền tại Việt Nam còn hạn chế do chưa tận dụng được công nghệ gen hiện đại. Việc thiếu một hệ thống phân tích dữ liệu di truyền (ADN SNP) trên quy mô lớn khiến các biện pháp y tế dự phòng chưa đạt hiệu quả cao."
+            ]
+        }
+    },
+    {
+        "category": "App theo dõi giao thông công cộng tích hợp GPS",
+        "title": "PB-088",
+        "link": "https://dataforlife.vn/idea-bank/pb-088/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống theo dõi xe buýt tích hợp GPS, hiển thị thông tin thời gian thực qua ứng dụng di động."
+            ],
+            "Đối tượng": [
+                "Học sinh, sinh viên, người lao động thường xuyên sử dụng xe buýt."
+            ],
+            "Tác động": [
+                "Gây mất thời gian, ảnh hưởng đến công việc và học tập của người dân."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hằng ngày tại TP.HCM – nơi có mật độ người đi xe buýt cao."
+            ],
+            "Thực trạng": [
+                "Hằng ngày tại TP.HCM, hàng chục nghìn người sử dụng xe buýt làm phương tiện di chuyển chính. Tuy nhiên, nhiều tuyến xe buýt thường xuyên bị trễ giờ, không có lịch trình rõ ràng và không có thông tin cập nhật theo thời gian thực. Điều này gây khó khăn cho người dân trong việc sắp xếp thời gian di chuyển, đặc biệt là học sinh, sinh viên và người lao động. Nguyên nhân chính là do chưa có hệ thống quản lý và theo dõi xe buýt hiện đại, tích hợp GPS và cập nhật thông tin trực tuyến."
+            ]
+        }
+    },
+    {
+        "category": "Giao thông vận tải",
+        "title": "PB-089",
+        "link": "https://dataforlife.vn/idea-bank/pb-089/",
+        "details": {
+            "Đề xuất": [
+                "Liên thông thanh toán vé tàu xe:",
+                "Phát triển một nền tảng thanh toán tập trung, tích hợp các loại vé từ các hệ thống khác nhau: xe buýt, xe khách, đường sắt, metro…",
+                "Hỗ trợ đa dạng phương thức thanh toán: ví điện tử, QR code, thẻ ngân hàng, thẻ thông minh (smartcard), NFC, CCCD …",
+                "Áp dụng chuẩn giao tiếp dữ liệu (API) để các đơn vị vận tải có thể kết nối hệ thống thanh toán và thông tin lộ trình với nhau.",
+                "Đồng bộ dữ liệu vé, hành trình, thời gian thực.",
+                "Xây dựng Super App  để tra cứu hành trình, thanh toán vé"
+            ],
+            "Đối tượng": [
+                "Người dân (hành khách): Mất thời gian mua nhiều loại vé khác nhau, Bất tiện trong việc chuyển tuyến.",
+                "Doanh nghiệp vận tải:Khó tiếp cận dữ liệu khách hàng.",
+                "Cơ quan quản lý nhà nước: Thiếu công cụ giám sát, quản lý luồng hành khách, doanh thu, gây khó khăn trong việc hoạch định giao thông công cộng và chính sách trợ giá"
+            ],
+            "Tác động": [
+                "Kém hiệu quả trong hệ sinh thái giao thông công cộng: Không thể triển khai mô hình – dịch vụ di chuyển liên tuyến.",
+                "Gia tăng chi phí xã hội: Giao thông cá nhân vẫn được ưa chuộng, gây tắc nghẽn, ô nhiễm, tai nạn.",
+                "Hạn chế chuyển đổi số trong lĩnh vực giao thông.",
+                "Không khuyến khích người dân sử dụng phương tiện công cộng, ảnh hưởng đến mục tiêu phát triển bền vững."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Đa phần các tuyến tàu khách, xe khách, xe buýt, đường sắt đô thị trên cả nước"
+            ],
+            "Thực trạng": [
+                "Phân mảnh hệ thống: Mỗi loại hình vận tải như xe khách, xe buýt, tàu hỏa, đường sắt đô thị đều có hệ thống bán vé và thanh toán riêng biệt, không đồng bộ.",
+                "Thanh toán chủ yếu thủ công: Nhiều tuyến xe khách, buýt liên tỉnh vẫn bán vé trực tiếp, thanh toán tiền mặt.",
+                "Chưa có nền tảng thanh toán liên thông quốc gia cho các phương tiện giao thông công cộng."
+            ]
+        }
+    },
+    {
+        "category": "Môi trường",
+        "title": "PB-081",
+        "link": "https://dataforlife.vn/idea-bank/pb-081/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng app di động giúp người dân cập nhật nhanh chóng tình hình môi trượng thực tế. ",
+                "Nền tảng số phân tích dữ liệu. Cảm biến IoT và AI giám sát thời gian thực."
+            ],
+            "Đối tượng": [
+                "Người dân nhiều nơi phãi chịu sự ảnh hưởng. Ngoài ra còn có doanh nghiệp, cơ sở sản xuất, hệ sinh thái tự nhiên và động vật, chính quyền,..."
+            ],
+            "Tác động": [
+                "Tăng nguy cơ cho các mầm bệnh và nguy cơ cao hơn về các bệnh mãn tính."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Bắt đầu từ giai đoạn đô thị hoá, công nghiệp hoá tăng tại các thành phố lớn. ",
+                "Sau đại dịch Covid để giảm hạn chế chi phí vận hành => các doanh nghiệp cũng hạn chế đầu tư vào xử lý môi trường."
+            ],
+            "Thực trạng": [
+                "Trong thực trạng hiện nay tại các đô thị lớn như Hà Nội, HCM,... thường xuyên trong top ô nhiễm không khí. Có nhiều nguồn gây ra ô nhiễm: xe cộ, rác thải, công trình, đốt rác tự phát, đốt than, nguồn nước, tiếng ồn,.... Người dân nhiều nơi phãi chịu nhiều áp lực từ môi trường và cơ quan xử lý lại bị quá tải và thiếu công cụ số hoá. Thiếu dữ liệu cập nhật theo thời gian thực để kiểm soát và hướng giải quyết nhanh chóng."
+            ]
+        }
+    },
+    {
+        "category": "Nông nghiệp",
+        "title": "PB-082",
+        "link": "https://dataforlife.vn/idea-bank/pb-082/",
+        "details": {
+            "Đề xuất": [
+                "- Xây dựng một nền tảng đơn giản, gọi là “Sàn nông sản siêu nhỏ” dạng Zalo Mini App hoặc ứng dụng tích hợp địa phương;",
+                "- Hộ nông dân chỉ cần gửi thông tin sản phẩm (ảnh, số lượng, giá) cho cán bộ xã/HTX/tình nguyện viên – người nhập giúp.",
+                "- Người tiêu dùng trong huyện hoặc tỉnh sẽ thấy bảng sản phẩm “gần mình” (có lọc theo xã, theo loại nông sản).",
+                "- Đặt hàng trước – thu gom theo tuyến – giao tận nơi bằng shipper địa phương hoặc xe tải liên xã."
+            ],
+            "Đối tượng": [
+                "- Hộ nông dân nhỏ lẻ, không có liên kết với hợp tác xã hay doanh nghiệp bao tiêu.",
+                "- Người tiêu dùng tại địa phương cũng bị ảnh hưởng vì không tiếp cận được nguồn nông sản tươi – sạch – giá tốt.",
+                " - Thanh niên địa phương ít cơ hội tham gia vào chuỗi tiêu thụ nông sản hiện đại do thiếu nền tảng hỗ trợ."
+            ],
+            "Tác động": [
+                "- Nông dân bị thiệt hại kinh tế do nông sản bị rớt giá, tồn kho, phải bỏ hoặc bán tháo.",
+                "- Tạo việc làm cho học sinh/sinh viên, cán bộ xã/thanh niên làm cộng tác viên số.",
+                "- Làm chậm quá trình chuyển đổi số và phát triển nông thôn thông minh."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "- Vấn đề diễn ra thường xuyên vào mỗi vụ thu hoạch rau, trái cây, sản phẩm nông nghiệp theo mùa.",
+                " - Diễn ra tại các xã nông thôn, vùng ven đô, thị xã, nơi hộ dân sản xuất nông sản theo quy mô nhỏ lẻ, không theo chuỗi.",
+                " - Tăng cao trong các giai đoạn giá nông sản biến động, thiên tai, dịch bệnh hoặc gián đoạn vận chuyển tiêu thụ."
+            ],
+            "Thực trạng": [
+                "- Nhiều hộ nông dân có nông sản nhưng không đủ lượng để lên sàn thương mại điện tử lớn.",
+                "- Khó chụp hình, viết mô tả, tính giá vận chuyển, không biết thao tác công nghệ.",
+                "- Không có người thu gom/chốt đơn gần họ."
+            ]
+        }
+    },
+    {
+        "category": "Giáo dục",
+        "title": "PB-083",
+        "link": "https://dataforlife.vn/idea-bank/pb-083/",
+        "details": {
+            "Đề xuất": [
+                "Chúng tôi mong muốn phát triển một nền tảng học tập trực tuyến cung cấp các công cụ mô phỏng, thí nghiệm ảo, bài tập tương tác và tài liệu đa phương tiện cho học sinh cấp ba, đặc biệt tập trung vào các môn khoa học tự nhiên. Nền tảng này nên được thiết kế thân thiện, dễ sử dụng và có thể tích hợp linh hoạt vào chương trình học hiện có."
+            ],
+            "Đối tượng": [
+                "Học sinh cấp ba: Các em thiếu cơ hội trải nghiệm học tập đa dạng, khó nắm bắt sâu sắc các khái niệm phức tạp, dẫn đến giảm hứng thú học tập và khả năng tự học.",
+                " * Giáo viên: Thầy cô gặp khó khăn trong việc thiết kế các bài giảng hấp dẫn, thiếu công cụ để minh họa kiến thức một cách trực quan, và phải tốn nhiều thời gian chuẩn bị tài liệu thủ công.",
+                " * Phụ huynh: Cha mẹ lo lắng về chất lượng học tập của con em mình, có thể phải đầu tư thêm vào các lớp học thêm hoặc tài liệu bên ngoài.",
+                "Tầm quan trọng và Tác động",
+                "Việc thiếu các công cụ học tập tương tác trực tiếp ảnh hưởng đến chất lượng giáo dục và khả năng cạnh tranh của học sinh Việt Nam trong tương lai. Học sinh sẽ khó phát triển các kỹ năng quan trọng của thế kỷ 21 như tư duy phản biện, giải quyết vấn đề và sáng tạo. Về lâu dài, điều này có thể tác động tiêu cực đến nguồn nhân lực chất lượng cao cho đất nước."
+            ],
+            "Tác động": [
+                "Rất đáng quan ngại"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hệ thống giáo dục phổ thông của Việt Nam đang trong quá trình đổi mới, nhưng việc ứng dụng công nghệ vào việc dạy và học còn khá hạn chế, đặc biệt là ở các trường công lập. Những trường này thường có nguồn lực eo hẹp hơn so với các trường quốc tế hoặc tư thục. Chương trình học hiện tại vẫn chủ yếu tập trung vào lý thuyết và việc truyền đạt kiến thức một chiều, ít khuyến khích học sinh tương tác và tự khám phá."
+            ],
+            "Thực trạng": [
+                "Nhiều học sinh cấp ba tại các trường công lập ở Việt Nam đang gặp khó khăn trong việc tiếp cận các công cụ học tập tương tác và tài nguyên giáo dục số hóa tiên tiến. Điều này đặc biệt thấy rõ trong các môn khoa học tự nhiên như Vật lý, Hóa học và Sinh học, nơi việc thực hành và trực quan hóa kiến thức là cực kỳ quan trọng để hiểu sâu."
+            ]
+        }
+    },
+    {
+        "category": "các tuyến xe khách",
+        "title": "PB-084",
+        "link": "https://dataforlife.vn/idea-bank/pb-084/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng một app mà trên đó có định vị các xe khách đang chạy trực tiếp, có thể để người dân chọn tuyến đường đi sau đó đưa ra những đề xuất mua vé online hoặc chọn các xe có thể đi qua tuyến đường mà người dân mong muốn ."
+            ],
+            "Đối tượng": [
+                "Những người thường phải di chuyển xa nơi ở"
+            ],
+            "Tác động": [
+                "Người dân không biết phải chọn xe nào và khung giờ nào có những xe nào đi tuyến mà mình muốn đi"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Nhu cầu người dân đi lại hằng ngày"
+            ],
+            "Thực trạng": [
+                "Người dân khi đi xa không biết phải đi xe nào giá cả bao nhiêu có khi phải ra đường bắt nhiều chặng xe khách, không biết địa bàn có những tuyến xe nào để đi"
+            ]
+        }
+    },
+    {
+        "category": "An ninh",
+        "title": "PB-085",
+        "link": "https://dataforlife.vn/idea-bank/pb-085/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng nền tảng dữ liệu RentWatch – Hệ sinh thái quốc gia giám sát và cảnh báo an toàn nhà trọ với các trụ cột sau:",
+                "",
+                "Cộng đồng lên tiếng: Người thuê có thể đánh giá, phản ánh, gửi hình ảnh về chất lượng phòng trọ (an toàn điện, lối thoát hiểm, đối xử chủ trọ...).",
+                "",
+                "Phân tích thông minh: Hệ thống sử dụng AI để phân tích dữ liệu cộng đồng và từ camera (nếu có) để xác định mức độ nguy hiểm.",
+                "",
+                "Xếp hạng công khai: Mỗi nhà trọ được chấm điểm an toàn và hiển thị theo màu: Xanh – Cam – Đỏ – Đen trên bản đồ số.",
+                "",
+                "Cảnh báo và kết nối: Gửi cảnh báo đến người thuê và chính quyền nếu có rủi ro cháy nổ; kết nối với PCCC để kiểm tra đột xuất.",
+                "",
+                "Hỗ trợ từ chính quyền: Hệ thống gợi ý chính sách hỗ trợ, xử lý chủ trọ vi phạm, bảo vệ người thuê khỏi bị trục xuất khi phản ánh."
+            ],
+            "Đối tượng": [
+                "Người thuê trọ thu nhập thấp: công nhân, sinh viên, lao động nhập cư, người đơn thân nuôi con, người làm nghề tự do.",
+                "",
+                "Trẻ em, người già, người khuyết tật đang sống trong các khu trọ xuống cấp.",
+                "",
+                "Chính quyền địa phương: thiếu dữ liệu giám sát, không thể xử lý hiệu quả.",
+                "",
+                "Toàn xã hội: phải gánh chịu hậu quả của các vụ cháy gây chấn động, mất mát nhân mạng, phá hủy tài sản, tạo khủng hoảng truyền thông, mất niềm tin vào năng lực quản trị đô thị."
+            ],
+            "Tác động": [
+                "Mất mát sinh mạng hàng loạt chỉ vì những lỗi sơ đẳng: không có lối thoát hiểm, dây điện chằng chịt, bình chữa cháy giả.",
+                "",
+                "Người thuê sống trong sợ hãi nhưng bất lực, không dám lên tiếng vì sợ bị đuổi, không có quyền lựa chọn, không có tiếng nói.",
+                "",
+                "Chính quyền không có dữ liệu nào để giám sát – chỉ biết sau khi thảm họa xảy ra.",
+                "",
+                "Chủ nhà trọ vi phạm nhưng không bị xử lý, tiếp tục cho thuê hàng trăm người khác.",
+                "",
+                "Gây ra khủng hoảng niềm tin vào an sinh xã hội và quản trị đô thị: “Người nghèo không có quyền được sống an toàn hay sao?”"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Kể từ năm 2023, những vụ cháy nhà trọ, chung cư mini bắt đầu lặp lại với mức độ nghiêm trọng hơn, với con số thương vong ngày càng tăng. Vụ cháy tại Khương Hạ – Hà Nội đã khiến 56 người tử vong, chủ yếu là sinh viên, công nhân, người làm thuê – những người không có lựa chọn nào khác ngoài việc sống trong những căn nhà trọ rẻ tiền. Đáng sợ hơn: chúng ta không có dữ liệu nào để ngăn chặn thảm kịch tiếp theo.",
+                "",
+                "Trong khi các ngành đang thúc đẩy chuyển đổi số, xây dựng đô thị thông minh, thì quản lý an toàn nhà trọ – nơi ở của hàng triệu người nghèo đô thị – gần như đang bị bỏ quên."
+            ],
+            "Thực trạng": [
+                "Trong những căn trọ chật chội, sâu hun hút trong hẻm nhỏ, hàng triệu người dân đang sống lặng lẽ với nỗi lo thường trực về một đêm không còn thức dậy được nữa – vì cháy. Đó không còn là nỗi sợ mơ hồ. Đó là thực tế cay nghiệt đã cướp đi sinh mạng của hàng chục người chỉ trong vài năm qua. Và điều đau đớn nhất là: họ không hề được cảnh báo, không có quyền lựa chọn an toàn, và không được bảo vệ.",
+                "",
+                "Từ lâu, thị trường nhà trọ giá rẻ tại Việt Nam vận hành trong sự thiếu minh bạch, không có cơ sở dữ liệu nào ghi nhận vi phạm, không có nơi để người thuê phản ánh, và không một ai biết được khu trọ nào đang trở thành \"bẫy sinh tử\"."
+            ]
+        }
+    },
+    {
+        "category": "App phục vụ phụ huynh theo dõi lịch học",
+        "title": "PB-086",
+        "link": "https://dataforlife.vn/idea-bank/pb-086/",
+        "details": {
+            "Đề xuất": [
+                "Một nền tảng/web + ứng dụng di động tích hợp AI:",
+                "1. Lộ trình cá nhân hóa – AI đánh giá năng lực ban đầu, sở thích, tốc độ tiếp thu để tạo kế hoạch học tập linh hoạt, tự điều chỉnh dựa trên kết quả.",
+                "2. Gia sư ảo & Chat-AI – Học sinh có thể đặt câu hỏi, nhận giải thích theo nhiều cấp độ, kèm ví dụ trực quan hoặc video ngắn gợi ý.",
+                "3. Bảng điều khiển – Hiển thị tiến độ, kỹ năng đang phát triển, cảnh báo “lỗ hổng kiến thức”, gợi ý hoạt động tương tác tại nhà; gửi thông báo khi học sinh hoàn thành mục tiêu.",
+                "4. Phân tích động lực – Gamification (huy hiệu, thử thách theo sở thích), nhóm học ảo giúp học sinh giữ hứng thú, giảm lệ thuộc vào 1 hình thức học.",
+                "5. Kết nối giáo viên – Chia sẻ báo cáo kỹ năng và bài tập tùy chỉnh để giáo viên chủ nhiệm cập nhật, đồng bộ phương pháp giảng dạy trên lớp.",
+                "6. Chi phí tiếp cận thấp – Cung cấp bản cơ bản miễn phí, tùy chọn trả phí cho kho nội dung mở rộng và báo cáo chuyên sâu, hướng tới cắt giảm đáng kể nhu cầu học thêm ngoại tuyến."
+            ],
+            "Đối tượng": [
+                "Học sinh (mất hứng thú, lệ thuộc dạy thêm), phụ huynh (tốn thời gian & chi phí, không rõ con tiến bộ ra sao), giáo viên (khó cá nhân hóa nội dung cho từng em)."
+            ],
+            "Tác động": [
+                "Áp lực học thêm gây căng thẳng, giảm thời gian tự khám phá; chi phí dạy thêm tăng gánh nặng kinh tế; thiếu phân tích dữ liệu dẫn tới “học lệch”, tiềm năng của học sinh không được khai thác đúng hướng."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hiện nay, khối lượng bài tập và kỳ vọng thi cử cao khiến học sinh, sinh viên phải tham gia lớp học thêm ngoài giờ; dữ liệu học tập rời rạc trên giấy hoặc nhiều nền tảng khác nhau, giáo viên và phụ huynh khó tổng hợp để điều chỉnh phương pháp kịp thời."
+            ],
+            "Thực trạng": [
+                "Chương trình học phổ thông còn mang tính “một cỡ cho tất cả”; học sinh phải học thêm nhiều môn theo cách thụ động, trong khi phụ huynh thiếu công cụ theo dõi chi tiết tiến độ, kỹ năng và sở thích của con để hỗ trợ hiệu quả tại nhà."
+            ]
+        }
+    },
+    {
+        "category": "Chính phủ",
+        "title": "PB-080",
+        "link": "https://dataforlife.vn/idea-bank/pb-080/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng tính năng “Cảnh báo giả danh định danh” tích hợp trên ứng dụng VNeID:",
+                " • Mỗi khi thông tin định danh (Căn cước/CCCD) được sử dụng để thực hiện giao dịch (vay tiền, mở tài khoản…), hệ thống sẽ gửi thông báo xác nhận đến chính chủ qua VNeID.",
+                " • Nếu không phải mình thực hiện, người dân có thể chọn “Tôi không thực hiện” để vô hiệu hóa giao dịch, đồng thời cảnh báo hệ thống.",
+                " • Xây dựng lịch sử truy cập định danh cá nhân để người dân tự theo dõi.",
+                " • Kết nối API xác thực định danh VNeID với các hệ thống tài chính, viễn thông, thương mại điện tử nhằm tăng độ an toàn khi giao dịch."
+            ],
+            "Đối tượng": [
+                "• Người dân: Bị giả mạo thông tin để thực hiện giao dịch, dẫn đến tổn thất về tài sản và uy tín.",
+                " • Doanh nghiệp: Dễ bị lừa đảo qua thông tin giả.",
+                " • Cơ quan quản lý nhà nước: phải xử lý khiếu nại, giảm uy tín định danh điện tử."
+            ],
+            "Tác động": [
+                "• Gia tăng lừa đảo công nghệ cao, ảnh hưởng an toàn dữ liệu số.",
+                " • Người dân dễ bị lừa đảo. Gây khó khăn trong triển khai dịch vụ công trực tuyến và phát triển công dân số, do tâm lý người dân e ngại thực hiện các dịch vụ công trực tuyến và giao dịch trực tuyến."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề diễn ra trong bối cảnh toàn dân đang triển khai định danh điện tử mức 2 và tích hợp các loại giấy tờ vào ứng dụng VNeID. Tuy nhiên, khi dữ liệu cá nhân được sử dụng trên nhiều nền tảng khác nhau (tài chính, viễn thông, thương mại điện tử…), xảy ra nguy cơ người dân bị lộ lọt thông tin cá nhân; bị mua bán thông tin cá nhân để hoạt động lừa đảo, vi phạm pháp luật; chưa có cơ chế cảnh báo, bảo vệ người dân khỏi việc bị mạo danh hoặc khai thác thông tin trái phép."
+            ],
+            "Thực trạng": [
+                "Tình trạng mạo danh định danh cá nhân (sử dụng trái phép số CCCD, thông tin cá nhân) để vay tiền online, mở tài khoản, đăng ký SIM rác hoặc lừa đảo trên mạng xã hội ngày càng phổ biến. Người dân không có công cụ để biết khi nào thông tin của mình bị khai thác trái phép và thường chỉ phát hiện khi hậu quả đã xảy ra. Hiện chưa có hệ thống nào cảnh báo chủ tài khoản khi định danh cá nhân bị sử dụng ngoài ý muốn."
+            ]
+        }
+    },
+    {
+        "category": "Môi trường",
+        "title": "PB-074",
+        "link": "https://dataforlife.vn/idea-bank/pb-074/",
+        "details": {
+            "Đề xuất": [
+                "Sử dụng các loại thùng rác có gắn các cảm biến nhận diện loại rác (Sử dụng trí tuệ nhân tạo, camera); Theo dõi lượng rác thải, lộ trình thu gom rác theo thời gian thực; Khuyến khích người dân bằng các sử dụng ứng dụng tích điểm, đổi quà cho người phân loại đúng rác thải."
+            ],
+            "Đối tượng": [
+                "Người dân, đơn vị xử lý rác thải"
+            ],
+            "Tác động": [
+                "Gây ô nhiễm môi trường, tốn kém tiền bạc trong việc xử lý rác thải."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tại những thành phố, đô thị hằng ngày luôn có lượng rác thải lớn thải ra môi trường."
+            ],
+            "Thực trạng": [
+                "Tại các thành phố lớn, số rác thải quá nhiều khiến việc phân loại khó khăn, tốn kém, gây ô nhiễm môi trường."
+            ]
+        }
+    },
+    {
+        "category": "Góp ý người dân",
+        "title": "PB-075",
+        "link": "https://dataforlife.vn/idea-bank/pb-075/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng một hệ thống dựa trên nền tảng số để thu thập online mọi ý kiến phản ánh/góp ý của công dân. Trên cơ sở dữ liệu thu thập được, quản lý, phân tích, chắt lọc, xử lý để phục vụ cán bộ lãnh đạo các cấp nắm được tình hình, thực trạng để có cách thức, biện pháp lãnh đạo tốt hơn; tư vấn, kịp thời xử lý các tình huống nhạy cảm phức tạp."
+            ],
+            "Đối tượng": [
+                "Chính quyền, tổ chức đoàn thể các cấp; các tổ chức, doanh nghiệp."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Xuất hiện trong cuộc sống hàng ngày của người dân Việt nam, người nước ngoài quan tâm đến chính trị, kinh tế, văn hoá, xã hội Việt Nam."
+            ],
+            "Thực trạng": [
+                "Trong giao tiếp hàng ngày với nhiều đối tượng trong xã hội luôn xuất hiện nhiều ý kiến khác nhau. Trong đó, rất cần quan tâm đến các ý kiến trái chiều, bức xúc với cán bộ, chính quyền các cấp; các ý kiến tâm huyết, góp ý để cải tiến xã hội, phát triển đất nước tốt hơn."
+            ]
+        }
+    },
+    {
+        "category": "Giao thông",
+        "title": "PB-077",
+        "link": "https://dataforlife.vn/idea-bank/pb-077/",
+        "details": {
+            "Đề xuất": [
+                "Hệ thống AI có thể phân tích mật độ xe từ camera và cảm biến, tự động điều chỉnh thời gian đèn đỏ – xanh để giảm ùn tắc, kết nối dữ liệu theo vùng để tạo luồng giao thông liên hoàn, tránh nghẽn nút thắt cổ chai."
+            ],
+            "Đối tượng": [
+                "Người dân tham gia giao thông."
+            ],
+            "Tác động": [
+                "Tai nạn giao thông, tắc đường"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hằng ngày, vào giờ cao điểm người dân tham gia giao thông thường bị kẹt xe tại các giao lộ."
+            ],
+            "Thực trạng": [
+                "Ùn tắc, tai nạn giao thông tại các giao lộ."
+            ]
+        }
+    },
+    {
+        "category": "Môi trường",
+        "title": "PB-078",
+        "link": "https://dataforlife.vn/idea-bank/pb-078/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển một hệ thống cảnh báo sớm điểm ngập dựa trên dữ liệu thời gian thực, sử dụng cảm biến IoT, camera, dữ liệu thời tiết, và phản ánh từ người dân. Hệ thống kết hợp trí tuệ nhân tạo (AI) để phân tích, dự báo, và cảnh báo sớm qua bản đồ số, tin nhắn hoặc ứng dụng di động. Giải pháp này sẽ hỗ trợ người dân chủ động né tránh khu vực ngập, đồng thời giúp cơ quan chức năng điều phối và ứng phó kịp thời."
+            ],
+            "Đối tượng": [
+                "Người dân sinh sống và làm việc tại các đô thị, người tham gia giao thông, doanh nghiệp vận tải, cơ quan quản lý đô thị và phòng chống thiên tai đều bị ảnh hưởng trực tiếp bởi tình trạng ngập úng."
+            ],
+            "Tác động": [
+                "Ngập lụt làm gián đoạn giao thông, ảnh hưởng đến sinh hoạt, sản xuất, gây thiệt hại tài sản và làm tăng nguy cơ tai nạn, bệnh tật. Ngoài ra, nó còn tạo áp lực lớn lên hệ thống hạ tầng đô thị và công tác cứu hộ, cứu nạn."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề trở nên nghiêm trọng hơn trong những năm gần đây do biến đổi khí hậu, mưa lớn cực đoan xuất hiện ngày càng nhiều, trong khi hệ thống thoát nước chưa được nâng cấp đồng bộ. Việc thiếu nền tảng thu thập và xử lý dữ liệu thời gian thực khiến công tác ứng phó với ngập úng còn nhiều hạn chế."
+            ],
+            "Thực trạng": [
+                "Tình trạng ngập úng tại các đô thị lớn như Hà Nội, TP.HCM, Đà Nẵng... xảy ra thường xuyên mỗi khi có mưa lớn. Hiện nay, người dân và cơ quan chức năng thiếu một hệ thống cảnh báo sớm và dữ liệu dự báo chính xác về các điểm ngập để kịp thời ứng phó. Việc xử lý vẫn chủ yếu mang tính bị động, gây thiệt hại đáng kể về giao thông, kinh tế và đời sống."
+            ]
+        }
+    },
+    {
+        "category": "Nông nghiệp",
+        "title": "PB-079",
+        "link": "https://dataforlife.vn/idea-bank/pb-079/",
+        "details": {
+            "Đề xuất": [
+                "Ứng dụng Nền Tảng Nông Nghiệp Số (MobiAgri)- Giúp truy xuất nguồn gốc, thể hiện danh mục phân bón và thuốc bảo vệ thực vật nâng chất lượng hàng nông sản xuất khẩu. Phổ biến rộng rãi đến từng Hợp tác xã, từng hộ nông dân về quy trình sản xuất và kết nối thông suốt từ nhà quản lý nông nghiệp đến nhà thu mua, nhà xuất khẩu và nhà nông. Đề xuất đưa App MobiAgri vào triển khai đại trà cho người dân về quy trình sản xuất, danh mục phân bón và thuốc bảo vệ thực vật được phép dùng và tiêu chuẩn xuất khẩu Nông sản."
+            ],
+            "Đối tượng": [
+                "Các nhà xuất khẩu và cả nông dân Việt Nam"
+            ],
+            "Tác động": [
+                "Các nhà xuất khẩu bị thua lỗ do bị trả hàng, bồi thường hợp đồng và nông dân Việt Nam bán với giá bấp bênh."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hàng năm, Nước ta có hàng ngàn tấn hàng nông sản của Việt Nam (ví dụ Sầu Riêng) xuất khẩu sang nước ngoài thỉnh thoảng bị trả về"
+            ],
+            "Thực trạng": [
+                "Hàng năm, Nước ta có hàng ngàn tấn hàng nông sản của Việt Nam (Ví dụ Sầu Riêng ) xuất khẩu sang nước ngoài thỉnh thoảng bị trả về, bị kiểm duyệt không thỏa điều kiện và trả về do không đáp ứng về việc sử dụng phân bón, thuốc bảo vệ thực vất chứa chất độc hại gây ảnh hưởng đến sức khỏe của người dùng. Điều này xảy ra do chưa có sự thống nhất thông suốt từ nhà quản lý – nông dân, từ nhà nhập khẩu – nhà thu mua xuất khẩu, thiếu quy trình sản xuất theo tiêu chuẩn đặt ra từ ban đầu, còn rất nhiều hộ nông dân đơn lẻ và sự thiếu hiểu biết của nông dân về chuỗi cung ứng nông sản do mình sản xuất ra. Gây ảnh hưởng rất lớn đến Nhà xuất khẩu và cả người Nông dân."
+            ]
+        }
+    },
+    {
+        "category": "Chính phủ",
+        "title": "PB-080",
+        "link": "https://dataforlife.vn/idea-bank/pb-080/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng tính năng “Cảnh báo giả danh định danh” tích hợp trên ứng dụng VNeID:",
+                " • Mỗi khi thông tin định danh (Căn cước/CCCD) được sử dụng để thực hiện giao dịch (vay tiền, mở tài khoản…), hệ thống sẽ gửi thông báo xác nhận đến chính chủ qua VNeID.",
+                " • Nếu không phải mình thực hiện, người dân có thể chọn “Tôi không thực hiện” để vô hiệu hóa giao dịch, đồng thời cảnh báo hệ thống.",
+                " • Xây dựng lịch sử truy cập định danh cá nhân để người dân tự theo dõi.",
+                " • Kết nối API xác thực định danh VNeID với các hệ thống tài chính, viễn thông, thương mại điện tử nhằm tăng độ an toàn khi giao dịch."
+            ],
+            "Đối tượng": [
+                "• Người dân: Bị giả mạo thông tin để thực hiện giao dịch, dẫn đến tổn thất về tài sản và uy tín.",
+                " • Doanh nghiệp: Dễ bị lừa đảo qua thông tin giả.",
+                " • Cơ quan quản lý nhà nước: phải xử lý khiếu nại, giảm uy tín định danh điện tử."
+            ],
+            "Tác động": [
+                "• Gia tăng lừa đảo công nghệ cao, ảnh hưởng an toàn dữ liệu số.",
+                " • Người dân dễ bị lừa đảo. Gây khó khăn trong triển khai dịch vụ công trực tuyến và phát triển công dân số, do tâm lý người dân e ngại thực hiện các dịch vụ công trực tuyến và giao dịch trực tuyến."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề diễn ra trong bối cảnh toàn dân đang triển khai định danh điện tử mức 2 và tích hợp các loại giấy tờ vào ứng dụng VNeID. Tuy nhiên, khi dữ liệu cá nhân được sử dụng trên nhiều nền tảng khác nhau (tài chính, viễn thông, thương mại điện tử…), xảy ra nguy cơ người dân bị lộ lọt thông tin cá nhân; bị mua bán thông tin cá nhân để hoạt động lừa đảo, vi phạm pháp luật; chưa có cơ chế cảnh báo, bảo vệ người dân khỏi việc bị mạo danh hoặc khai thác thông tin trái phép."
+            ],
+            "Thực trạng": [
+                "Tình trạng mạo danh định danh cá nhân (sử dụng trái phép số CCCD, thông tin cá nhân) để vay tiền online, mở tài khoản, đăng ký SIM rác hoặc lừa đảo trên mạng xã hội ngày càng phổ biến. Người dân không có công cụ để biết khi nào thông tin của mình bị khai thác trái phép và thường chỉ phát hiện khi hậu quả đã xảy ra. Hiện chưa có hệ thống nào cảnh báo chủ tài khoản khi định danh cá nhân bị sử dụng ngoài ý muốn."
+            ]
+        }
+    },
+    {
+        "category": "Cảnh báo thiên tai",
+        "title": "PB-072",
+        "link": "https://dataforlife.vn/idea-bank/pb-072/",
+        "details": {
+            "Đề xuất": [
+                "Có hệ thống cảnh báo sớm, thông qua hệ thống thông tin điện thoại, hệ thống truyền thanh,... để kịp thời thông báo người dân kịp thời di chuyển khỏi khu vực nguy hiểm."
+            ],
+            "Đối tượng": [
+                "Người dân"
+            ],
+            "Tác động": [
+                "Gây thiệt hại về tài sản, ảnh hưởng đến tình hình an ninh trật tự và phát triển kinh",
+                "tế xã hội."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tại các địa bàn thường xuyên có thiên tai xảy ra gây thiệt hạ về người và",
+                "tài sản của nhân dân."
+            ],
+            "Thực trạng": [
+                "Tình trạng người dân còn bị động, bất ngờ khi có thiên tai (lũ,",
+                "sạt lở, động đất,...)"
+            ]
+        }
+    },
+    {
+        "category": "Y tế",
+        "title": "PB-073",
+        "link": "https://dataforlife.vn/idea-bank/pb-073/",
+        "details": {
+            "Đề xuất": [
+                "Sử dụng công nghệ Internet of Things: Đo huyết áp, nhịp tim, đường huyêt,... kết nối đám mây; trí tuệ nhân tạo để chuẩn đoán sơ bộ, nhắc lịch khám, uống thuốc; nhận thông tin, tư vấn y tế qua ứng dụng trên điện thoại thông minh."
+            ],
+            "Đối tượng": [
+                "Người dân"
+            ],
+            "Tác động": [
+                "Khó tiếp cận được với y tế, không phát hiện được các bệnh từ sớm, từ xa."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tập trung ở vùng nông thôn, vùng sâu, vung xa."
+            ],
+            "Thực trạng": [
+                "Tại các vùng nông thôn, vùng sâu, vùng xa người dân vẫn khó tiếp cận, được khám chữa bệnh y tế một cách đầy đủ."
+            ]
+        }
+    },
+    {
+        "category": "Sức khoẻ cá nhân",
+        "title": "PB-063",
+        "link": "https://dataforlife.vn/idea-bank/pb-063/",
+        "details": {
+            "Đề xuất": [
+                "- Tích hợp dữ liệu từ hồ sơ bệnh án, thiết bị đeo tay, khai báo y tế cá nhân;",
+                "- Sử dụng AI phân tích nguy cơ bệnh theo nhóm tuổi, giới tính, tiền sử;",
+                "- Tự động gợi ý lịch khám, xét nghiệm, dinh dưỡng, vận động phù hợp từng người;",
+                "- Gửi cảnh báo khi phát hiện dấu hiệu bất thường kéo dài"
+            ],
+            "Đối tượng": [
+                "- Người dân, đặc biệt là người cao tuổi, người có bệnh mạn tính, người có nguy cơ cao;",
+                "- Bác sĩ, nhân viên y tế cơ sở;",
+                "- Cơ quan quản lý y tế cộng đồng."
+            ],
+            "Tác động": [
+                "- Thiếu cảnh báo kịp thời đối với các dấu hiệu nguy cơ sức khỏe;",
+                "- Chương trình chăm sóc sức khỏe thiếu tính cá nhân hóa, hiệu quả không cao;",
+                "- Gây quá tải cho hệ thống y tế khi không ngăn ngừa được bệnh từ sớm."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Trong bối cảnh hậu COVID-19, nhu cầu theo dõi sức khỏe, phòng bệnh chủ động ngày càng tăng. Việt Nam đang thúc đẩy chuyển đổi số ngành y tế, nhưng việc ứng dụng dữ liệu để phục vụ chăm sóc sức khỏe cá nhân hóa còn rất hạn chế."
+            ],
+            "Thực trạng": [
+                "Hiện nay, các chương trình chăm sóc sức khỏe cộng đồng thường triển khai theo mô hình đồng loạt, không cá nhân hóa theo nhu cầu thể chất, thói quen, tiền sử bệnh lý hay nguy cơ riêng của từng người. Điều này khiến hiệu quả phòng bệnh, tư vấn dinh dưỡng, cảnh báo sớm rủi ro sức khỏe chưa tối ưu."
+            ]
+        }
+    },
+    {
+        "category": "Tắc đường",
+        "title": "PB-064",
+        "link": "https://dataforlife.vn/idea-bank/pb-064/",
+        "details": {
+            "Đề xuất": [
+                "- Thu thập dữ liệu từ camera, GPS, cảm biến, mạng xã hội;",
+                "- Ứng dụng trí tuệ nhân tạo để dự báo tắc nghẽn trước 15–30 phút;",
+                "- Tự động đề xuất phân luồng, gửi cảnh báo qua app, bảng điện tử."
+            ],
+            "Đối tượng": [
+                "- Người dân tham gia giao thông hằng ngày;",
+                "- Lực lượng cảnh sát giao thông, điều phối đô thị"
+            ],
+            "Tác động": [
+                "- Lãng phí thời gian, giảm năng suất lao động;",
+                "- Gia tăng khí thải, ô nhiễm môi trường;",
+                "- Tăng nguy cơ tai nạn trong điều kiện tắc nghẽn;",
+                "- Giảm chất lượng sống và hiệu quả quản lý đô thị"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề diễn ra hàng ngày, đặc biệt nghiêm trọng trong các dịp lễ, giờ tan tầm, hoặc khi xảy ra tai nạn, mưa lớn. Bối cảnh đô thị hóa nhanh chóng và mật độ phương tiện tăng cao khiến hệ thống giao thông hiện có quá tải."
+            ],
+            "Thực trạng": [
+                "Tình trạng kẹt xe, ùn tắc giao thông tại các thành phố lớn như Hà Nội, TP.HCM diễn ra thường xuyên, Hệ thống điều phối giao thông hiện nay chủ yếu hoạt động thụ động, chưa có công cụ hỗ trợ dự báo và điều chỉnh lưu lượng giao thông theo thời gian thực."
+            ]
+        }
+    },
+    {
+        "category": "Đuối nước",
+        "title": "PB-065",
+        "link": "https://dataforlife.vn/idea-bank/pb-065/",
+        "details": {
+            "Đề xuất": [
+                "Ứng dụng (trên điện thoại thông minh) “Cảnh báo khu vực nguy cơ bị đuối nước hỗ trợ cứu hộ đuối nước bằng trí tuệ nhân tạo”"
+            ],
+            "Đối tượng": [
+                "Tất cả cộng đồng, đặc biệt là trẻ em và thanh niên"
+            ],
+            "Tác động": [
+                "Hậu quả đuối nước gây tử vong cao. Kể cả khi sống sót sau khi đuối nước, tai nạn này vẫn có nguy cơ để lại biến chứng nghiêm trọng, ám ảnh tâm lý nặng nề cho nạn nhân, để lại những tổn thương về não, phổi, hệ hô hấp,…"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Đuối nước chủ yếu xảy ra tại cộng đồng, chiếm tới 77,6% (ao, hồ, sông, suối, hồ, biển, ngã xuống hố ga, hồ xây dựng). Đuối nước xảy ra chủ yếu vào những tháng học sinh nghỉ hè. Nhận thức và hiểu biết chung về đuối nước còn thấp"
+            ],
+            "Thực trạng": [
+                "Theo số liệu thống kê, đuối nước đã cướp đi sinh mạng của 360.000 người mỗi năm trên toàn thế giới. Tại Việt Nam, mỗi năm có trên 2.000 trẻ em tử vong do đuối nước. Việt Nam là một trong những quốc gia có tỉ lệ trẻ em tử vong do đuối nước cao hơn các nước trong khu vực Đông Nam Á và cao gấp 10 lần các nước phát triển. Đáng lo ngại, hơn 50% số ca tử vong là người dưới 25 tuổi"
+            ]
+        }
+    },
+    {
+        "category": "Cháy rừng",
+        "title": "PB-066",
+        "link": "https://dataforlife.vn/idea-bank/pb-066/",
+        "details": {
+            "Đề xuất": [
+                "Ứng dụng (trên điện thoại thông minh) “Cảnh báo khu vực nguy cơ xảy ra cháy rừng và hỗ trợ chữa cháy rừng bằng trí tuệ nhân tạo”"
+            ],
+            "Đối tượng": [
+                "Gây thiệt hại cho hệ sinh thái rừng đa dạng của Việt Nam và trên thế giới (rừng đặc dụng, rừng phòng hộ, rừng sản xuất). Ảnh hưởng đến hàng nghìn loài động, thực vật nguy cấp, quý, hiếm. Ảnh hưởng đến cuộc sống của người dân sinh kế trong hệ sinh thái rừng."
+            ],
+            "Tác động": [
+                "Cháy rừng ngoài thiệt hại về cây gỗ, lâm sản, nó còn hủy hoại lớp phủ bảo vệ đất, làm suy giảm chất lượng nước và tăng nguy cơ sạt lở, xói mòn. Hơn thế, cháy rừng còn ảnh hưởng trực tiếp tới độ đa dạng sinh học và an ninh sinh thái, đặc biệt là tại nhiều khu vực miền núi khi sinh kế của người dân phụ thuộc vào rừng - từ lâm sản, cây dược liệu đến du lịch sinh thái..."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Cháy rừng thường xảy ra trong mùa có thời tiết khô hanh, nắng nóng, ít mưa, gió mạnh khiến nguy cơ cháy lan nhanh và khó kiểm soát. Cháy rừng cũng xảy ra trong mùa vụ người dân đốt dọn thực bì làm nương rẫy."
+            ],
+            "Thực trạng": [
+                "Theo thống kê của Bộ Nông nghiệp và Môi trường, trong 4 tháng đầu năm 2025, trên cả nước đã xảy ra 129 vụ cháy rừng, làm thiệt hại trên 150 ha rừng. Số vụ cháy rừng và diện tích bị thiệt hại tăng gần gấp đôi so với cùng kỳ năm 2024."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-067",
+        "link": "https://dataforlife.vn/idea-bank/pb-067/",
+        "details": {
+            "Đề xuất": [
+                "Sử dụng công cụ chuyên dụng có độ chính xác cao để đo đạc, chuyển đổi hồ sơ đất đai từ dạng giấy sang dạng số, tích hợp xây dựng CDSL đất đai quốc gia thống nhất, chính xác, đầy đủ. Tối ưu hóa dịch vụ công trực tuyến và tự động hóa quy trình"
+            ],
+            "Đối tượng": [
+                "Cá nhân, hộ gia đình và các doanh nghiệp, đặc biệt các doanh nghiệp hoạt động trong lĩnh vực bất động sản, xây dựng"
+            ],
+            "Tác động": [
+                "Tốn kém chi phí, thời gian khi phải đối chiếu, kiểm tra thực địa. Đối với khu vực xa, việc đối chiếu càng trở lên khó khăn và tốn kém, kéo dài dẫn đến chậm trễ, ảnh hưởng đến các hoạt động khác như sản xuất, kinh doanh"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Khi người dân đăng ký cấp giấy chứng nhận sử dụng đất"
+            ],
+            "Thực trạng": [
+                "Vấn đề cấp giấy chứng nhận quyền sử dụng đất mặc dù có thể nộp hồ sơ trực tuyến nhưng việc thẩm định hồ sơ, kiểm tra thực địa và xác minh thông tin vẫn thường yêu cầu cán bộ đến tận nơi hoặc người dân phải mang bản gốc giấy tờ đến để đối chiếu."
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-068",
+        "link": "https://dataforlife.vn/idea-bank/pb-068/",
+        "details": {
+            "Đề xuất": [
+                "Triển khai các hệ thống chống giả mạo tên miền, hệ thống phân tích và phát hiện SMS/Email lừa đảo ứng dụng AI để cảnh báo người dân hoặc tự động ngăn chặn các tin nhắn lừa đảo"
+            ],
+            "Đối tượng": [
+                "Người dân bị lừa đảo, các tổ chức, cá nhân đang hoạt động kinh doanh và gián tiếp ảnh hưởng đến cơ quan nhà nước cung cấp dịch vụ công."
+            ],
+            "Tác động": [
+                "Người dân bị lừa đảo sẽ bị thiệt hại về tài chính, lộ lọt thông tin, ảnh hưởng tâm lý và có thể bị sử dụng thông tin cá nhân để thực hiện hành vi trái pháp luật. Các tổ chức, doanh nghiệp bị lừa đảo sẽ bị ảnh hưởng đến uy tín, thiệt hại tài chính"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Khi có những chính sách, quy định mới liên quan đến các dịch vụ công, quyền lợi và trách nhiệm của người dân; khi có các sự kiện chính trị, xã hội mới"
+            ],
+            "Thực trạng": [
+                "Các đối tượng lừa đảo tạo ra các trang web hoặc tin nhắn SMS giả mạo cổng dịch vụ công, lừa người dân nhập thông tin và mật khẩu, sau đó chiếm đoạt tài khoản và truy cập dữ liệu"
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-069",
+        "link": "https://dataforlife.vn/idea-bank/pb-069/",
+        "details": {
+            "Đề xuất": [
+                "Ứng dụng AI phát triển các công cụ phát hiện Deepfake và các công cụ có khả năng nhận diện nội dung bất thường với hình ảnh, video, âm thanh trên các nền tảng mạng xã hội để ngăn chặn, cảnh báo đến người sử dụng"
+            ],
+            "Đối tượng": [
+                "Người thân, bạn bè của nạn nhân bị mạo danh, thường là các đối tượng ít am hiểu về công nghệ, dễ tin người và các tổ chức tài chính (ngân hàng, ví điện tử)"
+            ],
+            "Tác động": [
+                "Thiệt hại về tài chính, mất an toàn thông tin cá nhân và ảnh hưởng đến các mối quan hệ của nạn nhân bị lừa đảo. Đối với các tổ chức tài chính do các giao dịch, yêu cầu hoàn tiền của khách hàng bị lừa đảo dẫn đến tăng chi phí hoạt động, thiệt hại về uy tín"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Kẻ lừa đảo gọi đến nạn nhân, giả mạo khuôn mặt hoặc giọng nói của người thân, bạn bè, tạo ra một tình huống khẩn cấp để yêu cầu nạn nhân chuyển tiền hoặc cung cấp thông tin cá nhân"
+            ],
+            "Thực trạng": [
+                "Đối tượng lừa đảo sử dụng công nghệ Deepfake hoặc Voice AI để giả mạo khuôn mặt/giọng nói của người thân, bạn bè, hoặc nhân viên ngân hàng để thực hiện cuộc gọi video/audio lừa đảo, yêu cầu nạn nhân chuyển tiền hoặc cung cấp mã OTP"
+            ]
+        }
+    },
+    {
+        "category": "Cấp phép xây dựng",
+        "title": "PB-070",
+        "link": "https://dataforlife.vn/idea-bank/pb-070/",
+        "details": {
+            "Đề xuất": [
+                "Thiết lập một nền tảng trực",
+                "tuyến để công khai quy",
+                "trình, đẩy nhanh thời gian",
+                "xử lý và tiến độ hồ sơ, rút",
+                "ngắn thủ tục hành chính"
+            ],
+            "Đối tượng": [
+                "Các cá nhân, hộ gia đình, doanh nghiệp"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề diễn ra ở nhiều đô thị lớn và các tỉnh thành đang trong quá trình đô thị hoá, có nhu cầu xây dựng cao"
+            ],
+            "Thực trạng": [
+                "Quy trình cấp phép xây dựng thường yêu cầu nhiều loại hồ sơ, tài liệu gây khó khăn cho người dân"
+            ]
+        }
+    },
+    {
+        "category": "Giao thông",
+        "title": "PB-071",
+        "link": "https://dataforlife.vn/idea-bank/pb-071/",
+        "details": {
+            "Đề xuất": [
+                "Sử dụng trí tuệ nhân tạo phân tích mật độ giao thông tại các thời điểm để quyết định thời gian đèn giao thông, phân luồng giao thông cho phù hợp."
+            ],
+            "Đối tượng": [
+                "Người tham gia giao thông"
+            ],
+            "Tác động": [
+                "Tắc đường cục bộ gây ảnh hưởng sức khoẻ người dân, gây lãng phí thời gian, ô nhiễm môi trường, ảnh hưởng đến phát triển kinh tể."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tại các điểm giao cắt có đèn tín hiệu giao thông. Tuy nhiên việc thời gian xuất hiện đèn đỏ đôi khi chưa phù hợp với lưu lượng giao thông."
+            ],
+            "Thực trạng": [
+                "Hệ thống đèn tín hiệu điều khiển giao thông theo lưu lượng giao thông."
+            ]
+        }
+    },
+    {
+        "category": "An toàn môi trường mạng",
+        "title": "PB-058",
+        "link": "https://dataforlife.vn/idea-bank/pb-058/",
+        "details": {
+            "Đề xuất": [
+                "Một nền tảng giúp phụ huynh giám sát việc con sử dụng máy tính: Theo dõi ứng dụng con đang dùng theo thời gian thực, cảnh báo khi dùng sai mục đích, giới hạn thời gian, và gửi báo cáo định kỳ. Ứng dụng dễ sử dụng phù hợp với đại đa số phụ huynh Việt Nam."
+            ],
+            "Đối tượng": [
+                "Trẻ em, phụ huynh"
+            ],
+            "Tác động": [
+                "Trẻ có nguy cơ nghiện game, truy cập nội dung độc hại hoặc xao nhãng học tập dẫn đến nói dối…"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Trẻ em khi bắt đầu sử dụng máy tính"
+            ],
+            "Thực trạng": [
+                "Trẻ em sử dụng máy tính không kiểm soát; phụ huynh không có công cụ theo dõi và can thiệp phù hợp."
+            ]
+        }
+    },
+    {
+        "category": "Giáo dục",
+        "title": "PB-059",
+        "link": "https://dataforlife.vn/idea-bank/pb-059/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển một ứng dụng tích hợp chatbot AI có khả năng trò chuyện với người dùng, đánh giá cảm xúc, phân tích nguy cơ trầm cảm, từ đó đưa ra cảnh báo sớm và kết nối với chuyên gia tâm lý nếu cần thiết. Cũng là kênh thông tin để phụ huynh, nhà trường bí mật nắm bắt sớm tình hình của trẻ."
+            ],
+            "Đối tượng": [
+                "Gia đình, xã hội"
+            ],
+            "Tác động": [
+                "Ảnh hưởng đến tương lai của trẻ, nặng hơn là có những hành vi ảnh hưởng đến sức khỏe, thậm chí là mạng sống"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Trẻ khi bước vào lứa tuổi vị thành niên"
+            ],
+            "Thực trạng": [
+                "Tỷ lệ trầm cảm và rối loạn tâm lý ở thanh thiếu niên và sinh viên đang gia tăng, nhưng nhiều người không được chẩn đoán hoặc hỗ trợ kịp thời do thiếu chuyên gia tâm lý, e ngại kỳ thị xã hội, hoặc không nhận ra triệu chứng."
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-060",
+        "link": "https://dataforlife.vn/idea-bank/pb-060/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng Hệ sinh thái số quốc gia chống hàng giả hàng kém chất lượng - một nền tảng số quốc gia tích hợp AI-Blockchain-BigData-IoT để:",
+                "- Ngăn chặn từ gốc việc sản xuất, phân phối, kinh doanh hàng giả/kém chất lượng",
+                "- Truy xuất, xác thực nguồn gốc minh bạch cho từng sản phẩm",
+                "- Tự động phát hiện, xử lý vi phạm trên các nền tảng số.",
+                "- Thực thi pháp luật số hóa, minh bạch và răn đe.",
+                "- Tem sinh học xác thực nguồn gốc - chống giả mạo thông minh: Mỗi sản phẩm gắn1 con tem sinh học đổi màu khi bị can thiệp, có mã blockchain chứa lịch sử từ gieo trồng đến thu hoạch. Người tiêu dùng quét kiểm tra và phản hồi. Hệ thống AI phân tích hành vi gian lận và cảnh báo nhà quản lý"
+            ],
+            "Đối tượng": [
+                "- Toàn dân, doanh nghiệp, Tổ chức nhà nước làm công tác quản lý",
+                "- Người tiêu dùng, nông dân làm ăn chân chính"
+            ],
+            "Tác động": [
+                "- Ảnh hưởng đến hoạt động sản xuất, kinh doanh của người dân, doanh nghiệp",
+                "- Ảnh hưởng đến người tiêu dùng",
+                "- Gây khó trong công tác quản lý thị trường",
+                "- Mất niềm tin thị trường nội địa, nguy cơ bệnh tật"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "- Trong khoảng 2 thập kỷ gần đây, khi công nghệ làm hàng nhái, hàng giả phát triển.",
+                "- Xảy ra phổ biến cả online lẫn chợ truyền thống, gây hoang mang"
+            ],
+            "Thực trạng": [
+                "- Hiện nay hàng giả, hàng kém chất lượng tràn lan trên thị trường.",
+                "- Giả mạo thực phẩm sạch - nông sản hữu cơ tràn lan thị trường"
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-061",
+        "link": "https://dataforlife.vn/idea-bank/pb-061/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng Hệ sinh thái về xử phạt giao thông bao gồm các chức năng:",
+                "1. Tra cứu phạt nguội",
+                "- Trong ứng dụng liên thông sang VNeID để lấy dữ liệu cư dân (căn cước, bằng lái xe, chủ sở hữu xe máy/xe ô tô...)",
+                "- Trong ứng dụng liên thông sang kho bạc để nộp tiền phạt rồi xuất hoá đơn điện tử",
+                "Chủ trì: Cục cảnh sát giao thông phối hợp với Kho bạc nhà nước và Trung tâm dữ liệu Quốc gia về dân cư.",
+                "2. Cảnh sát giao thông số",
+                "- Xây dựng hệ thống AI thay thế cho cảnh sát giao thông điều hành, xử phạt",
+                "- Thông qua giám sát hình ảnh kết hợp với phân tích, hệ thông điều khiển giao thông để điều khiển tại các khu vực giao thông phức tạp",
+                "- Hiển thị tình trạng giao thông tại các điểm đang tắc nghẽn để cảnh báo sớm",
+                "- Xử phạt nguội người vi phạm."
+            ],
+            "Đối tượng": [
+                "- Người dân tham gia giao thông",
+                "- Toàn dân, Bộ Giao thông vận tải; Bộ Công an"
+            ],
+            "Tác động": [
+                "- Tra cứu phạt nguội chỉ để biết, thông báo để người dân biết, sau đến nộp phạt ở kho bạc một cách thủ công, với xu hướng chuyển đổi số thì sẽ mất thời gian của người dân.",
+                "- Không điều khiển giao thông kịp thời",
+                "- Không cảnh báo, phân luồng sớm tại các điểm tắc nghẽn",
+                "- Không kiểm tra, xử phạt được tại các điểm không có hệ thống giám sát",
+                "- Gây thất thu về ngân sách."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "- Hàng ngày vẫn có nhiều người vi phạm giao thông, mặc dù nghị định 100 đã ra để răn đe người dân. Hạ tầng giao thông ngày càng được xây dựng nhiều lên.",
+                "- Số lượng cảnh sát giao thông ngày càng thiếu (vì không tăng theo hạ tầng)"
+            ],
+            "Thực trạng": [
+                "- Hiện tại, rất nhiều ứng dụng di động tra cứu phạt nguội, chính thống từ cơ quan nhà nước có, các ứng dụng tư nhân cũng có. Nhưng cũng chỉ là tra cứu phạt nguội.",
+                "- Tình trạng vi phạm giao thông của nhân dân rất nhiều. Trong khi đó số lượng cảnh sát giao thông có hạn."
+            ]
+        }
+    },
+    {
+        "category": "Di chuyển",
+        "title": "PB-062",
+        "link": "https://dataforlife.vn/idea-bank/pb-062/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng một nền tảng vé điện tử tích hợp (ứng dụng trên điện thoại thẻ chip) dùng chung cho nhiều loại phương tiện (xe buýt nội thành, xe buýt liên tỉnh, tàu điện, xe điện...):",
+                "- Người dân chỉ cần chọn điểm đi - điểm đến trên app, hệ thông tự tính toán lộ trình tối ưu, gợi ý các phương tiện cần dùng, đồng thời cho phép mua vé liên tuyến.",
+                "- Tích hợp tính năng thanh toán tiền mặt, quét mã QR khi lên/xuống xe.",
+                "- Có chính sách giảm giá, ưu đãi cho người đi nhiều, học sinh/sinh viên, người thu nhập thấp."
+            ],
+            "Đối tượng": [
+                "Người dân di chuyển nội thành, liên tỉnh, đặc biệt là:",
+                "- Học sinh, sinh viên, người lao động đi làm xa.",
+                "- Du khách di chuyển giữa các điểm du lịch nội địa.",
+                "- Người dân nông thôn khi di chuyển vào đô thị."
+            ],
+            "Tác động": [
+                "Người dân ngại đi phương tiện công cộng, tiếp tục sử dụng xe cá nhân, góp phần gây ùn tắc, ô nhiễm môi trường, gia tăng chi phí xã hội."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "- Hàng ngày, nhất là vào những giờ cao điểm.",
+                "- Vào cuối tuần khi nhiều người ra vào ngoại thành - nội thành để về nhà."
+            ],
+            "Thực trạng": [
+                "- Hệ thống giao thông công cộng ở nhiều địa phương hoạt động rời rạc, không kết nối (ví dụ: xe buýt nội tỉnh không liên thông với xe buýt liên tỉnh hoặc tàu điện; vé từng tuyến riêng lẻ, không đồng bộ)",
+                "- Người dân di chuyển giữa các khu vực thường phải đổi phương tiện phức tạp, mua vé nhiều lần tốn thời gian, tốn chi phí."
+            ]
+        }
+    },
+    {
+        "category": "Môi trường",
+        "title": "PB-055",
+        "link": "https://dataforlife.vn/idea-bank/pb-055/",
+        "details": {
+            "Đề xuất": [
+                "riển khai hệ thống web/app đơn giản cho nhân viên đặt/hủy suất ăn trước 1–3 ngày.",
+                "",
+                "Hệ thống tự động thu thập dữ liệu mỗi ngày và chốt danh sách suất ăn lúc 7h sáng để gửi cho đầu bếp.",
+                "",
+                "Nhân viên không hủy đúng hạn vẫn bị tính phí – tăng tính cam kết và trách nhiệm cá nhân.",
+                "",
+                "Bếp ăn có thể lên kế hoạch đi chợ, chuẩn bị nguyên liệu một cách chính xác hơn, tiết kiệm chi phí và thời gian."
+            ],
+            "Đối tượng": [
+                "Doanh nghiệp: bị lãng phí chi phí thực phẩm, nhân công, vận hành bếp.",
+                "",
+                "Bếp ăn/đầu bếp: bị động, không thể lên kế hoạch mua sắm và chế biến phù hợp.",
+                "",
+                "Nhân viên: thiếu tính chủ động, không có công cụ thuận tiện để đặt/hủy suất ăn, đôi khi bị mất quyền lợi hoặc bị trừ tiền không rõ ràng."
+            ],
+            "Tác động": [
+                "Việc cải thiện quy trình đặt/hủy suất ăn không chỉ giúp tiết kiệm chi phí cho doanh nghiệp mà còn nâng cao ý thức trách nhiệm của nhân viên, tăng hiệu quả vận hành bếp ăn, và góp phần giảm thiểu lãng phí thực phẩm – một vấn đề đang được xã hội quan tâm."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Doanh nghiệp tổ chức bếp ăn cố định phục vụ nhân viên mỗi ngày. Tuy nhiên, đặc thù công việc của nhân viên không cố định nên số lượng người dùng bữa thay đổi liên tục. Việc thiếu cơ chế đặt/hủy suất ăn linh hoạt và có dữ liệu hỗ trợ ra quyết định khiến bếp ăn không thể dự báo chính xác số lượng cần chuẩn bị."
+            ],
+            "Thực trạng": [
+                "Tại nhiều doanh nghiệp, việc tổ chức bữa ăn cho nhân viên đang gặp tình trạng lãng phí thực phẩm do số lượng người ăn không ổn định. Có những ngày nhân viên bận việc cá nhân hoặc đi công tác không báo trước, khiến bếp nấu dư suất ăn. Ngược lại, đôi khi lại thiếu suất nếu có thêm người đột xuất."
+            ]
+        }
+    },
+    {
+        "category": "Giáo dục",
+        "title": "PB-056",
+        "link": "https://dataforlife.vn/idea-bank/pb-056/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển nền tảng tư vấn tâm lý trực tuyến, bảo mật và dễ tiếp cận, giúp các bạn trẻ được hỗ trợ kịp thời và thuận tiện."
+            ],
+            "Đối tượng": [
+                "Thanh thiếu niên gặp khó khăn về tâm lý"
+            ],
+            "Tác động": [
+                "Gây ảnh hưởng tiêu cực đến sức khỏe tâm thần, học tập và cuộc sống của thanh thiếu niên."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Mỗi năm, số lượng thanh thiếu niên gặp vấn đề tâm lý ở các thành phố lớn ngày càng tăng. nhất ở tuổi dậy thì"
+            ],
+            "Thực trạng": [
+                "Mỗi năm, tại các thành phố lớn, nhiều thanh thiếu niên gặp khó khăn trong việc tiếp cận các dịch vụ tư vấn tâm lý do thiếu thông tin và rào cản tâm lý khi phải đến trực tiếp các trung tâm hỗ trợ. Việc này khiến nhiều bạn trẻ không được giúp đỡ kịp thời, dẫn đến stress, trầm cảm hoặc các vấn đề tâm lý khác ngày càng gia tăng."
+            ]
+        }
+    },
+    {
+        "category": "Giáo dục",
+        "title": "PB-057",
+        "link": "https://dataforlife.vn/idea-bank/pb-057/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng một nền tảng sổ đầu bài điện tử – cho phép giáo viên ghi nhận bài học, điểm danh, đánh giá học sinh ngay trên điện thoại hoặc máy tính bảng. Hệ thống tự động tổng hợp dữ liệu, tạo báo cáo và đồng bộ với phần mềm quản lý nhà trường."
+            ],
+            "Đối tượng": [
+                "Giáo viên – những người phải ghi chép thủ công, dễ sai sót và tốn nhiều thời gian. Học sinh – dễ bị ghi nhầm nhận xét, khó theo dõi tiến độ học tập của bản thân."
+            ],
+            "Tác động": [
+                "Tốn thời gian, thiếu tính minh bạch và dễ xảy ra nhầm lẫn, gây ảnh hưởng đến đánh giá và kết quả học tập của học sinh. Ngoài ra, còn làm chậm quá trình chuyển đổi số trong ngành giáo dục."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề xảy ra hàng ngày trong các tiết học tại trường, đặc biệt rõ rệt vào cuối kỳ khi giáo viên phải tổng hợp điểm, nhận xét và báo cáo kết quả học tập."
+            ],
+            "Thực trạng": [
+                "Nhiều trường học hiện nay vẫn sử dụng sổ đầu bài bằng giấy để theo dõi việc giảng dạy và học tập. Việc này gây ra không ít khó khăn trong việc lưu trữ, tìm kiếm và tổng hợp dữ liệu học sinh."
+            ]
+        }
+    },
+    {
+        "category": "Ngập úng",
+        "title": "PB-048",
+        "link": "https://dataforlife.vn/idea-bank/pb-048/",
+        "details": {
+            "Đề xuất": [
+                "Một hệ thống cảnh báo ngập theo thời gian thực, tích hợp vào bản đồ giao thông để người dân chủ động tránh tuyến đường ngập."
+            ],
+            "Đối tượng": [
+                "Người dân tham gia giao thông, đặc biệt là người đi làm và học sinh."
+            ],
+            "Tác động": [
+                "Gây mất an toàn, lãng phí thời gian, ảnh hưởng đến sinh hoạt và kinh tế đô thị."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Mỗi mùa mưa tại TP.HCM, đặc biệt trong giờ cao điểm."
+            ],
+            "Thực trạng": [
+                "Mỗi mùa mưa, TP.HCM lại phải đối mặt với tình trạng ngập úng cục bộ tại nhiều tuyến đường lớn, khiến giao thông bị tê liệt trong giờ cao điểm. Người dân phải di chuyển chậm, gặp nguy hiểm do nước ngập che khuất ổ gà, nắp cống. Tình trạng này kéo dài nhiều năm do thiếu hệ thống cảnh báo ngập theo thời gian thực và dữ liệu dự báo chưa được tích hợp vào các ứng dụng giao thông phổ biến."
+            ]
+        }
+    },
+    {
+        "category": "Cảnh báo thiên tai",
+        "title": "PB-049",
+        "link": "https://dataforlife.vn/idea-bank/pb-049/",
+        "details": {
+            "Đề xuất": [
+                "Đề xuất về giải pháp mong muốn:",
+                "",
+                "Xây dựng hệ thống cảnh báo sớm hiện đại và đồng bộ: Ứng dụng công nghệ cảm biến, radar thời tiết, và trí tuệ nhân tạo để theo dõi mưa, lũ, sạt lở theo thời gian thực; tích hợp dữ liệu từ trung ương đến địa phương.",
+                "",
+                "Phát triển nền tảng thông tin đa kênh: Thiết lập ứng dụng trên điện thoại, hệ thống nhắn tin SMS tự động và loa phát thanh địa phương để gửi cảnh báo nhanh, chính xác đến từng hộ dân.",
+                "",
+                "Đào tạo và nâng cao năng lực cộng đồng: Tổ chức tập huấn định kỳ cho người dân về kỹ năng ứng phó thiên tai, sơ tán khẩn cấp, và sử dụng thiết bị hỗ trợ.",
+                "",
+                "Xây dựng bản đồ rủi ro thiên tai chi tiết: Cập nhật thường xuyên khu vực có nguy cơ cao để quy hoạch dân cư, xây dựng nhà an toàn, và bố trí điểm sơ tán phù hợp.",
+                "",
+                "Tăng cường đầu tư và hỗ trợ từ Nhà nước và các tổ chức quốc tế: Đảm bảo nguồn lực tài chính và kỹ thuật để triển khai hiệu quả các giải pháp dài hạn, hướng tới mục tiêu giảm thiểu thiệt hại và bảo vệ an toàn cho người dân."
+            ],
+            "Đối tượng": [
+                "Đối tượng bị ảnh hưởng:",
+                "",
+                "Người dân vùng núi và ven sông suối, đặc biệt là các hộ nghèo, người già, trẻ em và người khuyết tật – những người khó có khả năng tự sơ tán hoặc ứng phó với tình huống khẩn cấp.",
+                "",
+                "Chính quyền địa phương, nhất là cấp xã và thôn bản, chịu áp lực lớn trong công tác phòng chống, ứng cứu và khắc phục hậu quả thiên tai.",
+                "",
+                "Các lực lượng cứu hộ – cứu nạn, thường xuyên đối mặt với nguy hiểm do thiếu thông tin chính xác và kịp thời về diễn biến thời tiết, địa hình và mức độ rủi ro.",
+                "",
+                "Ngành nông nghiệp và giáo dục, khi mùa màng bị cuốn trôi, trường học hư hại hoặc gián đoạn do thiên tai, ảnh hưởng đến đời sống và tương lai của người dân"
+            ],
+            "Tác động": [
+                "Tác động của vấn đề:",
+                "",
+                "Thiệt hại về người và tài sản: Mỗi năm có hàng chục người thiệt mạng hoặc mất tích do lũ quét, sạt lở đất; hàng nghìn ngôi nhà bị cuốn trôi hoặc hư hỏng nặng, gây tổn thất lớn cho người dân.",
+                "",
+                "Ảnh hưởng đến đời sống và sinh kế: Mất mùa, gia súc chết, cơ sở vật chất bị phá hủy khiến người dân rơi vào cảnh khó khăn, đặc biệt là các hộ nghèo càng thêm dễ tổn thương.",
+                "",
+                "Gián đoạn hoạt động xã hội: Giao thông tê liệt, học sinh không thể đến trường, người dân không tiếp cận được dịch vụ y tế, cứu trợ chậm trễ.",
+                "",
+                "Tăng gánh nặng cho chính quyền: Công tác cứu hộ, hỗ trợ tái thiết tốn kém thời gian, nhân lực và ngân sách, trong khi việc dự phòng và cảnh báo chưa hiệu quả.",
+                "",
+                "Tâm lý bất an kéo dài: Người dân luôn sống trong lo lắng mỗi mùa mưa bão, ảnh hưởng đến sức khỏe tinh thần và chất lượng cuộc sống."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Thời điểm và bối cảnh xảy ra vấn đề:",
+                "",
+                "Vấn đề thường xảy ra vào mùa mưa bão hằng năm, kéo dài từ khoảng tháng 6 đến tháng 11, đặc biệt nghiêm trọng vào các tháng 9 và 10. Khu vực chịu ảnh hưởng nhiều nhất là các tỉnh miền Trung như Quảng Bình, Quảng Trị, Thừa Thiên Huế, và Quảng Nam – nơi có địa hình đồi núi hiểm trở, xen kẽ sông suối và dân cư sống rải rác.",
+                "",
+                "Trong bối cảnh biến đổi khí hậu ngày càng phức tạp, tần suất và cường độ của các hiện tượng thời tiết cực đoan như mưa lớn, bão mạnh, lũ quét và sạt lở đất ngày càng tăng. Nhiều địa phương chưa có đủ nguồn lực để đầu tư vào hệ thống theo dõi, cảnh báo thiên tai hiện đại, trong khi dân cư vẫn còn thiếu kỹ năng phòng tránh và phản ứng kịp thời với các tình huống khẩn cấp."
+            ],
+            "Thực trạng": [
+                "Thực trạng, vấn đề đang tồn tại:",
+                "",
+                "Hiện nay, tại nhiều vùng thường xuyên chịu ảnh hưởng bởi thiên tai như lũ lụt và sạt lở đất ở miền Trung, hệ thống cảnh báo sớm còn thiếu và yếu. Việc dự báo thời tiết chưa đủ chính xác và chưa được cập nhật kịp thời đến người dân. Nhiều địa phương vẫn chủ yếu sử dụng phương pháp thủ công như loa phường hoặc cán bộ đi thông báo từng nhà, dẫn đến việc người dân không được sơ tán đúng lúc, gây thiệt hại nghiêm trọng về người và tài sản. Ngoài ra, hạ tầng công nghệ phục vụ công tác dự báo và cảnh báo cũng còn hạn chế, không đồng bộ giữa các địa phương. Điều này làm giảm hiệu quả phòng chống và ứng phó với thiên tai."
+            ]
+        }
+    },
+    {
+        "category": "An toàn môi trường mạng",
+        "title": "PB-050",
+        "link": "https://dataforlife.vn/idea-bank/pb-050/",
+        "details": {
+            "Đề xuất": [
+                "Một website giúp trẻ em học kỹ năng an toàn mạng, phụ huynh có công cụ hỗ trợ quản lý."
+            ],
+            "Đối tượng": [
+                "Trẻ em, phụ huynh, giáo viên."
+            ],
+            "Tác động": [
+                "Trẻ dễ tổn thương tâm lý, ảnh hưởng học tập, có nguy cơ bị xâm hại qua mạng."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Internet phát triển mạnh sau COVID-19, trẻ học online sớm, mạng xã hội phổ biến."
+            ],
+            "Thực trạng": [
+                "Có 91% trẻ em Việt Nam từ 12–17 tuổi sử dụng internet hằng ngày, nhưng gần 45% không được hướng dẫn cách dùng mạng an toàn. Nhiều em từng tiếp xúc với nội dung độc hại, bị dụ dỗ hoặc bắt nạt qua mạng. Thiếu kỹ năng tự bảo vệ trên mạng; Phụ huynh và nhà trường chưa có công cụ kiểm soát hiệu quả."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-051",
+        "link": "https://dataforlife.vn/idea-bank/pb-051/",
+        "details": {
+            "Đề xuất": [
+                "cần thiết lập biểu mẫu cho người dân tự kê khai công việc đang làm, thu nhập, ngành nghề phát cho tổ trưởng trong vòng 1 đến 2 ngày tổ trưởng phái cho người dân kê khai thu thập lại và giao cho điều tra viên nhập lên hệ thông. sau khi nhập dữ liệu diều tra viên lập 01 quyển sổ trả về cho Tổ trưởng tổ nhân dân để tiện quản lý khi có thay đổ nhân khẩu và cũng là cơ sở dữ liệu để các điều ttra viên khác thực hiện tránh mất thời gian công sức và kinh phí.",
+                "cần xác định việc lấy định vị có mục đích gì? có mang lại hiệu quả không?"
+            ],
+            "Đối tượng": [
+                "Điều tra viên và người dân, tổ trưởng tổ nhân dân"
+            ],
+            "Tác động": [
+                "mất thời gian, kinh phí không hiệu quả"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tháng 4/2025 tôi được tham gia lớp tập huấn về điều tra nông nghiệp nông thôn sau đó tôi được phân công phải điều tra 245 hộ. thực tế hộ này gồm những ai, như thế nào không có một mãi mai và cũng không biết phải thực hiện như thế nào? thời gian hoàn thành điều tra là cươi tháng 5/2025.",
+                "tôi loay hoay thăm dò hỏi cách làm từ điều tra viên khác sau đó nhập vào phần mềm lúc được lúc không.khi xuống địa bàn phải nhờ tổ trưởng tổ nhân dân dẫn đi thực tế từng nhà ghi chép người đi làm người ở nhà nên phải đi nhiều lần và vào những khung giờ khác nhau. họ quy định phải định vị và nhập thông tin tại chổ."
+            ],
+            "Thực trạng": [
+                "Điều tra nông nghiệp nông thôn cần xác định mục đích thực hiện cũng như hiệu quả nó mang lại như thế nào? việc điều tra này có tạo ra thu nhập hay gây lãng phí kinh phí nhà nước?",
+                "tôi là một điều tra viên được tập huấn 1 buổi tại Hội trường xã sau đó giao cho tôi địa bàn 3 tổ nhân dân với số lượng phải điều tra là 245 hộ không có một cái sườn và hướng dẫn cụ thể cũng không biết mục đích của việc điều tra nhăm mang lại kết quả gì."
+            ]
+        }
+    },
+    {
+        "category": "Cơ sở vật chất",
+        "title": "PB-052",
+        "link": "https://dataforlife.vn/idea-bank/pb-052/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống nhà vệ sinh xanh- sạch -đẹp"
+            ],
+            "Đối tượng": [
+                "Học sinh"
+            ],
+            "Tác động": [
+                "Nhà trường thuê nhân viên vệ sinh , tuy nhiên chi phí thuê nhân viên có hạn chế ."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hằng ngày"
+            ],
+            "Thực trạng": [
+                "Tại một số trường học ,đặc biệt các  trường tiểu học , nhiều học sinh và phụ huynh luôn báo về tình trạng nhà vệ sinh , cần có người thường xuyên dọn dẹp tránh bị ảnh hưởng sức khỏe các cháu và luôn sạch sẽ . Nhà trường phối hợp Ban HPH để giải quyết vấn đề này . Vì vậy cần có giải pháp tối ưu nào tốt hơn không vì năm sau không thu học phí học sinh, chi phí của nhà trường và các chi phí khác sẽ giải quyết như thế nào ?"
+            ]
+        }
+    },
+    {
+        "category": "Dữ liệu sức khoẻ cá nhân",
+        "title": "PB-042",
+        "link": "https://dataforlife.vn/idea-bank/pb-042/",
+        "details": {
+            "Đề xuất": [
+                "\"Xây dựng hệ thống QR y tế khẩn cấp cá nhân:",
+                "– Mỗi người có mã QR gắn trên điện thoại/thẻ/vòng đeo tay hoặc CCCD",
+                "– Khi quét mã: hiển thị bệnh nền, dị ứng thuốc, thuốc đang dùng, nhóm máu, người thân liên hệ",
+                "– Đồng bộ với app y tế/phần mềm quản lý hồ sơ sức khỏe quốc gia",
+                "– Dữ liệu mã hóa, chỉ hiển thị khi khẩn cấp",
+                "– Triển khai thí điểm cho người bệnh mãn tính, người cao tuổi sống một mình tại các quận trọng điểm ở Đà Nẵng\""
+            ],
+            "Đối tượng": [
+                "Người có bệnh nền (tim mạch, tiểu đường, hen, động kinh...), người cao tuổi, trẻ nhỏ, người khuyết tật, người nước ngoài"
+            ],
+            "Tác động": [
+                "Dễ cấp cứu sai thuốc gây sốc phản vệ, xử lý chậm dẫn đến tử vong, mất an toàn y tế cộng đồng, tăng gánh nặng cho ngành y tế"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Trong các tình huống: tai nạn giao thông, đột quỵ, ngất xỉu tại nơi công cộng, tại nhà khi sống một mình hoặc khi không có người thân bên cạnh"
+            ],
+            "Thực trạng": [
+                "Khi xảy ra tai nạn hoặc cấp cứu nơi công cộng, người gặp nạn thường không thể cung cấp thông tin bệnh nền/dị ứng/thuốc đang dùng → dễ cấp cứu sai, mất “giờ vàng” xử lý"
+            ]
+        }
+    },
+    {
+        "category": "Chợ truyền thống",
+        "title": "PB-053",
+        "link": "https://dataforlife.vn/idea-bank/pb-053/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng \"Chợ ảo văn hóa số\" - Thiết kế không gian 3D, mô phỏng chân thực không gian chợ; tích hợp livetream, VR/AR. các gian hàng sản phẩm thủ công, ẩm thực, văn hóa. Đặc biệt sử dụng công nghê AR kết hợp thế giới thực và đối tượng ảo thông qua điện thoại hoặc kính AR , người dùng sẽ thấy các vật thể ở xung quanh. Sử dụng ứng dụng  mua đồ đồ nội thất nhúng vào phòng khách; mua quần áo,  các loại mũ, nón lá, đồ thủ công... Mỗi sản phẩm được chuẩn hóa thông tin: nguồn gốc, câu chuyện trải nghiệm địa phương, chứng nhận OCOP; kết nối với bảo tàng, thư viện ...."
+            ],
+            "Đối tượng": [
+                "Đối với người bán, tiểu thương. nghệ nhân: Doanh thu sụt giảm, không tiếp cận thị trường quốc tế. Đối với khách du lịch: trải nghiệm văn hóa chưa sống động, thiếu tương tác, khó tìm thông tin sản phẩm, giá cả, xuất xử."
+            ],
+            "Tác động": [
+                "\"Thành phố Đà Nẵng: mất cơ hội khẳng định vị thế thành phố sáng tạo; thông minh. Giảm sức cạnh tranh",
+                " du lịch, đặc biệt với các điểm đến mới đang số hóa\""
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Sau Covid thị trường du lịch toàn cầu bắt đầu phục hồi mạnh, nhu cầu khám phá văn hóa- ẩm thực tăng cao. Cạnh tranh gay gắt với các thành phố du lịch khác như Huế, Hội An, Nha Trang.... Sự xuất hiện của công nghệ VR/AR trở thành xu hướng. Đà Nẵng định hướng trở thành thành phố thông minh, trung tâm công nghệ, Khách du lịch quốc tế ( Hàn, Nhật, Châu Âu...) có nhu cầu tìm hiểu văn hóa số. Lực lượng nghệ nhân, tiểu thương đang muốn chuyển đổi số nhưng chưa có mô hình cụ thể."
+            ],
+            "Thực trạng": [
+                "Các chợ truyền thống ( chợ Hàn, chợ Cồn, Chợ Đống Đa...) đang mất dần sức hút với khách quốc tế, do thông tin không đầy đủ, khó tiếp cận online. Không gian chợ còn thiếu sáng tạo. chưa số hóa, chưa có kênh tiếp thị trực tuyến toàn cầu. Sản phẩm thủ công, đặc sản địa phương vẫn còn phụ thuộc vào bán ofline; chưa tận dụng được công nghệ mới VR/AR, thương mại điện tử. Ảnh hưởng của dịch bệnh và thói quen du lịch mới: sau Covid khách du lịch muốn  \" trải nghiệm trước\" online trước khi đến và xu hướng du lịch tại nhà đang lên ngôi"
+            ]
+        }
+    },
+    {
+        "category": "Cảnh báo thiên tai",
+        "title": "PB-049",
+        "link": "https://dataforlife.vn/idea-bank/pb-049/",
+        "details": {
+            "Đề xuất": [
+                "Đề xuất về giải pháp mong muốn:",
+                "",
+                "Xây dựng hệ thống cảnh báo sớm hiện đại và đồng bộ: Ứng dụng công nghệ cảm biến, radar thời tiết, và trí tuệ nhân tạo để theo dõi mưa, lũ, sạt lở theo thời gian thực; tích hợp dữ liệu từ trung ương đến địa phương.",
+                "",
+                "Phát triển nền tảng thông tin đa kênh: Thiết lập ứng dụng trên điện thoại, hệ thống nhắn tin SMS tự động và loa phát thanh địa phương để gửi cảnh báo nhanh, chính xác đến từng hộ dân.",
+                "",
+                "Đào tạo và nâng cao năng lực cộng đồng: Tổ chức tập huấn định kỳ cho người dân về kỹ năng ứng phó thiên tai, sơ tán khẩn cấp, và sử dụng thiết bị hỗ trợ.",
+                "",
+                "Xây dựng bản đồ rủi ro thiên tai chi tiết: Cập nhật thường xuyên khu vực có nguy cơ cao để quy hoạch dân cư, xây dựng nhà an toàn, và bố trí điểm sơ tán phù hợp.",
+                "",
+                "Tăng cường đầu tư và hỗ trợ từ Nhà nước và các tổ chức quốc tế: Đảm bảo nguồn lực tài chính và kỹ thuật để triển khai hiệu quả các giải pháp dài hạn, hướng tới mục tiêu giảm thiểu thiệt hại và bảo vệ an toàn cho người dân."
+            ],
+            "Đối tượng": [
+                "Đối tượng bị ảnh hưởng:",
+                "",
+                "Người dân vùng núi và ven sông suối, đặc biệt là các hộ nghèo, người già, trẻ em và người khuyết tật – những người khó có khả năng tự sơ tán hoặc ứng phó với tình huống khẩn cấp.",
+                "",
+                "Chính quyền địa phương, nhất là cấp xã và thôn bản, chịu áp lực lớn trong công tác phòng chống, ứng cứu và khắc phục hậu quả thiên tai.",
+                "",
+                "Các lực lượng cứu hộ – cứu nạn, thường xuyên đối mặt với nguy hiểm do thiếu thông tin chính xác và kịp thời về diễn biến thời tiết, địa hình và mức độ rủi ro.",
+                "",
+                "Ngành nông nghiệp và giáo dục, khi mùa màng bị cuốn trôi, trường học hư hại hoặc gián đoạn do thiên tai, ảnh hưởng đến đời sống và tương lai của người dân"
+            ],
+            "Tác động": [
+                "Tác động của vấn đề:",
+                "",
+                "Thiệt hại về người và tài sản: Mỗi năm có hàng chục người thiệt mạng hoặc mất tích do lũ quét, sạt lở đất; hàng nghìn ngôi nhà bị cuốn trôi hoặc hư hỏng nặng, gây tổn thất lớn cho người dân.",
+                "",
+                "Ảnh hưởng đến đời sống và sinh kế: Mất mùa, gia súc chết, cơ sở vật chất bị phá hủy khiến người dân rơi vào cảnh khó khăn, đặc biệt là các hộ nghèo càng thêm dễ tổn thương.",
+                "",
+                "Gián đoạn hoạt động xã hội: Giao thông tê liệt, học sinh không thể đến trường, người dân không tiếp cận được dịch vụ y tế, cứu trợ chậm trễ.",
+                "",
+                "Tăng gánh nặng cho chính quyền: Công tác cứu hộ, hỗ trợ tái thiết tốn kém thời gian, nhân lực và ngân sách, trong khi việc dự phòng và cảnh báo chưa hiệu quả.",
+                "",
+                "Tâm lý bất an kéo dài: Người dân luôn sống trong lo lắng mỗi mùa mưa bão, ảnh hưởng đến sức khỏe tinh thần và chất lượng cuộc sống."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Thời điểm và bối cảnh xảy ra vấn đề:",
+                "",
+                "Vấn đề thường xảy ra vào mùa mưa bão hằng năm, kéo dài từ khoảng tháng 6 đến tháng 11, đặc biệt nghiêm trọng vào các tháng 9 và 10. Khu vực chịu ảnh hưởng nhiều nhất là các tỉnh miền Trung như Quảng Bình, Quảng Trị, Thừa Thiên Huế, và Quảng Nam – nơi có địa hình đồi núi hiểm trở, xen kẽ sông suối và dân cư sống rải rác.",
+                "",
+                "Trong bối cảnh biến đổi khí hậu ngày càng phức tạp, tần suất và cường độ của các hiện tượng thời tiết cực đoan như mưa lớn, bão mạnh, lũ quét và sạt lở đất ngày càng tăng. Nhiều địa phương chưa có đủ nguồn lực để đầu tư vào hệ thống theo dõi, cảnh báo thiên tai hiện đại, trong khi dân cư vẫn còn thiếu kỹ năng phòng tránh và phản ứng kịp thời với các tình huống khẩn cấp."
+            ],
+            "Thực trạng": [
+                "Thực trạng, vấn đề đang tồn tại:",
+                "",
+                "Hiện nay, tại nhiều vùng thường xuyên chịu ảnh hưởng bởi thiên tai như lũ lụt và sạt lở đất ở miền Trung, hệ thống cảnh báo sớm còn thiếu và yếu. Việc dự báo thời tiết chưa đủ chính xác và chưa được cập nhật kịp thời đến người dân. Nhiều địa phương vẫn chủ yếu sử dụng phương pháp thủ công như loa phường hoặc cán bộ đi thông báo từng nhà, dẫn đến việc người dân không được sơ tán đúng lúc, gây thiệt hại nghiêm trọng về người và tài sản. Ngoài ra, hạ tầng công nghệ phục vụ công tác dự báo và cảnh báo cũng còn hạn chế, không đồng bộ giữa các địa phương. Điều này làm giảm hiệu quả phòng chống và ứng phó với thiên tai."
+            ]
+        }
+    },
+    {
+        "category": "An toàn môi trường mạng",
+        "title": "PB-050",
+        "link": "https://dataforlife.vn/idea-bank/pb-050/",
+        "details": {
+            "Đề xuất": [
+                "Một website giúp trẻ em học kỹ năng an toàn mạng, phụ huynh có công cụ hỗ trợ quản lý."
+            ],
+            "Đối tượng": [
+                "Trẻ em, phụ huynh, giáo viên."
+            ],
+            "Tác động": [
+                "Trẻ dễ tổn thương tâm lý, ảnh hưởng học tập, có nguy cơ bị xâm hại qua mạng."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Internet phát triển mạnh sau COVID-19, trẻ học online sớm, mạng xã hội phổ biến."
+            ],
+            "Thực trạng": [
+                "Có 91% trẻ em Việt Nam từ 12–17 tuổi sử dụng internet hằng ngày, nhưng gần 45% không được hướng dẫn cách dùng mạng an toàn. Nhiều em từng tiếp xúc với nội dung độc hại, bị dụ dỗ hoặc bắt nạt qua mạng. Thiếu kỹ năng tự bảo vệ trên mạng; Phụ huynh và nhà trường chưa có công cụ kiểm soát hiệu quả."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-051",
+        "link": "https://dataforlife.vn/idea-bank/pb-051/",
+        "details": {
+            "Đề xuất": [
+                "cần thiết lập biểu mẫu cho người dân tự kê khai công việc đang làm, thu nhập, ngành nghề phát cho tổ trưởng trong vòng 1 đến 2 ngày tổ trưởng phái cho người dân kê khai thu thập lại và giao cho điều tra viên nhập lên hệ thông. sau khi nhập dữ liệu diều tra viên lập 01 quyển sổ trả về cho Tổ trưởng tổ nhân dân để tiện quản lý khi có thay đổ nhân khẩu và cũng là cơ sở dữ liệu để các điều ttra viên khác thực hiện tránh mất thời gian công sức và kinh phí.",
+                "cần xác định việc lấy định vị có mục đích gì? có mang lại hiệu quả không?"
+            ],
+            "Đối tượng": [
+                "Điều tra viên và người dân, tổ trưởng tổ nhân dân"
+            ],
+            "Tác động": [
+                "mất thời gian, kinh phí không hiệu quả"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tháng 4/2025 tôi được tham gia lớp tập huấn về điều tra nông nghiệp nông thôn sau đó tôi được phân công phải điều tra 245 hộ. thực tế hộ này gồm những ai, như thế nào không có một mãi mai và cũng không biết phải thực hiện như thế nào? thời gian hoàn thành điều tra là cươi tháng 5/2025.",
+                "tôi loay hoay thăm dò hỏi cách làm từ điều tra viên khác sau đó nhập vào phần mềm lúc được lúc không.khi xuống địa bàn phải nhờ tổ trưởng tổ nhân dân dẫn đi thực tế từng nhà ghi chép người đi làm người ở nhà nên phải đi nhiều lần và vào những khung giờ khác nhau. họ quy định phải định vị và nhập thông tin tại chổ."
+            ],
+            "Thực trạng": [
+                "Điều tra nông nghiệp nông thôn cần xác định mục đích thực hiện cũng như hiệu quả nó mang lại như thế nào? việc điều tra này có tạo ra thu nhập hay gây lãng phí kinh phí nhà nước?",
+                "tôi là một điều tra viên được tập huấn 1 buổi tại Hội trường xã sau đó giao cho tôi địa bàn 3 tổ nhân dân với số lượng phải điều tra là 245 hộ không có một cái sườn và hướng dẫn cụ thể cũng không biết mục đích của việc điều tra nhăm mang lại kết quả gì."
+            ]
+        }
+    },
+    {
+        "category": "Cơ sở vật chất",
+        "title": "PB-052",
+        "link": "https://dataforlife.vn/idea-bank/pb-052/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống nhà vệ sinh xanh- sạch -đẹp"
+            ],
+            "Đối tượng": [
+                "Học sinh"
+            ],
+            "Tác động": [
+                "Nhà trường thuê nhân viên vệ sinh , tuy nhiên chi phí thuê nhân viên có hạn chế ."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hằng ngày"
+            ],
+            "Thực trạng": [
+                "Tại một số trường học ,đặc biệt các  trường tiểu học , nhiều học sinh và phụ huynh luôn báo về tình trạng nhà vệ sinh , cần có người thường xuyên dọn dẹp tránh bị ảnh hưởng sức khỏe các cháu và luôn sạch sẽ . Nhà trường phối hợp Ban HPH để giải quyết vấn đề này . Vì vậy cần có giải pháp tối ưu nào tốt hơn không vì năm sau không thu học phí học sinh, chi phí của nhà trường và các chi phí khác sẽ giải quyết như thế nào ?"
+            ]
+        }
+    },
+    {
+        "category": "Dữ liệu sức khoẻ cá nhân",
+        "title": "PB-042",
+        "link": "https://dataforlife.vn/idea-bank/pb-042/",
+        "details": {
+            "Đề xuất": [
+                "\"Xây dựng hệ thống QR y tế khẩn cấp cá nhân:",
+                "– Mỗi người có mã QR gắn trên điện thoại/thẻ/vòng đeo tay hoặc CCCD",
+                "– Khi quét mã: hiển thị bệnh nền, dị ứng thuốc, thuốc đang dùng, nhóm máu, người thân liên hệ",
+                "– Đồng bộ với app y tế/phần mềm quản lý hồ sơ sức khỏe quốc gia",
+                "– Dữ liệu mã hóa, chỉ hiển thị khi khẩn cấp",
+                "– Triển khai thí điểm cho người bệnh mãn tính, người cao tuổi sống một mình tại các quận trọng điểm ở Đà Nẵng\""
+            ],
+            "Đối tượng": [
+                "Người có bệnh nền (tim mạch, tiểu đường, hen, động kinh...), người cao tuổi, trẻ nhỏ, người khuyết tật, người nước ngoài"
+            ],
+            "Tác động": [
+                "Dễ cấp cứu sai thuốc gây sốc phản vệ, xử lý chậm dẫn đến tử vong, mất an toàn y tế cộng đồng, tăng gánh nặng cho ngành y tế"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Trong các tình huống: tai nạn giao thông, đột quỵ, ngất xỉu tại nơi công cộng, tại nhà khi sống một mình hoặc khi không có người thân bên cạnh"
+            ],
+            "Thực trạng": [
+                "Khi xảy ra tai nạn hoặc cấp cứu nơi công cộng, người gặp nạn thường không thể cung cấp thông tin bệnh nền/dị ứng/thuốc đang dùng → dễ cấp cứu sai, mất “giờ vàng” xử lý"
+            ]
+        }
+    },
+    {
+        "category": "Chợ truyền thống",
+        "title": "PB-053",
+        "link": "https://dataforlife.vn/idea-bank/pb-053/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng \"Chợ ảo văn hóa số\" - Thiết kế không gian 3D, mô phỏng chân thực không gian chợ; tích hợp livetream, VR/AR. các gian hàng sản phẩm thủ công, ẩm thực, văn hóa. Đặc biệt sử dụng công nghê AR kết hợp thế giới thực và đối tượng ảo thông qua điện thoại hoặc kính AR , người dùng sẽ thấy các vật thể ở xung quanh. Sử dụng ứng dụng  mua đồ đồ nội thất nhúng vào phòng khách; mua quần áo,  các loại mũ, nón lá, đồ thủ công... Mỗi sản phẩm được chuẩn hóa thông tin: nguồn gốc, câu chuyện trải nghiệm địa phương, chứng nhận OCOP; kết nối với bảo tàng, thư viện ...."
+            ],
+            "Đối tượng": [
+                "Đối với người bán, tiểu thương. nghệ nhân: Doanh thu sụt giảm, không tiếp cận thị trường quốc tế. Đối với khách du lịch: trải nghiệm văn hóa chưa sống động, thiếu tương tác, khó tìm thông tin sản phẩm, giá cả, xuất xử."
+            ],
+            "Tác động": [
+                "\"Thành phố Đà Nẵng: mất cơ hội khẳng định vị thế thành phố sáng tạo; thông minh. Giảm sức cạnh tranh",
+                " du lịch, đặc biệt với các điểm đến mới đang số hóa\""
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Sau Covid thị trường du lịch toàn cầu bắt đầu phục hồi mạnh, nhu cầu khám phá văn hóa- ẩm thực tăng cao. Cạnh tranh gay gắt với các thành phố du lịch khác như Huế, Hội An, Nha Trang.... Sự xuất hiện của công nghệ VR/AR trở thành xu hướng. Đà Nẵng định hướng trở thành thành phố thông minh, trung tâm công nghệ, Khách du lịch quốc tế ( Hàn, Nhật, Châu Âu...) có nhu cầu tìm hiểu văn hóa số. Lực lượng nghệ nhân, tiểu thương đang muốn chuyển đổi số nhưng chưa có mô hình cụ thể."
+            ],
+            "Thực trạng": [
+                "Các chợ truyền thống ( chợ Hàn, chợ Cồn, Chợ Đống Đa...) đang mất dần sức hút với khách quốc tế, do thông tin không đầy đủ, khó tiếp cận online. Không gian chợ còn thiếu sáng tạo. chưa số hóa, chưa có kênh tiếp thị trực tuyến toàn cầu. Sản phẩm thủ công, đặc sản địa phương vẫn còn phụ thuộc vào bán ofline; chưa tận dụng được công nghệ mới VR/AR, thương mại điện tử. Ảnh hưởng của dịch bệnh và thói quen du lịch mới: sau Covid khách du lịch muốn  \" trải nghiệm trước\" online trước khi đến và xu hướng du lịch tại nhà đang lên ngôi"
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-032",
+        "link": "https://dataforlife.vn/idea-bank/pb-032/",
+        "details": {
+            "Đề xuất": [
+                "Một ứng dụng di động cho phép người dân chụp ảnh, định vị và gửi phản ánh vi phạm đô thị trực tiếp đến chính quyền địa phương theo thời gian thực, đồng thời theo dõi tiến độ xử lý."
+            ],
+            "Đối tượng": [
+                "Người dân sinh sống trong khu vực có vi phạm, cơ quan quản lý đô thị, chính quyền địa phương."
+            ],
+            "Tác động": [
+                "Tăng cường sự tham gia của người dân vào quản lý xã hội, nâng cao hiệu quả xử lý vi phạm, góp phần xây dựng đô thị văn minh, hiện đại."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Nhiều đô thị lớn như TP.HCM, Hà Nội, Đà Nẵng... đối mặt với tình trạng quá tải trong quản lý trật tự đô thị, lực lượng thanh tra mỏng và việc tiếp nhận phản ánh của người dân chưa hiệu quả."
+            ],
+            "Thực trạng": [
+                "Các vi phạm như lấn chiếm vỉa hè, xây dựng trái phép, quảng cáo không đúng quy định xảy ra phổ biến nhưng việc phát hiện, xử lý còn chậm trễ hoặc không triệt để do thiếu kênh phản ánh tiện lợi."
+            ]
+        }
+    },
+    {
+        "category": "Hạ tầng kỹ thuật đô thị",
+        "title": "PB-033",
+        "link": "https://dataforlife.vn/idea-bank/pb-033/",
+        "details": {
+            "Đề xuất": [
+                "Tạo Ứng dụng “BÁO HẠI” – Một nền tảng phản ánh sự cố công cộng, với các tính năng chính:",
+                "",
+                "Chụp ảnh + định vị GPS sự cố → hệ thống AI phân loại & đánh giá mức độ nguy hiểm.",
+                "",
+                "Tự động chuyển phản ánh đến cơ quan có thẩm quyền xử lý.",
+                "",
+                "Ví dụ: Đèn đường hư → chuyển về điện lực; cống nghẹt → chuyển về đô thị; cây xanh gãy → chuyển về môi trường...",
+                "",
+                "Cập nhật tiến độ xử lý để người dân theo dõi.",
+                "",
+                "Bảng thống kê theo địa phương, giúp lãnh đạo theo dõi vùng nào nhiều phản ánh – từ đó lập kế hoạch bảo trì/bảo dưỡng tốt hơn."
+            ],
+            "Đối tượng": [
+                "Người dân (nguy cơ tai nạn, bức xúc không được xử lý).",
+                "",
+                "Chính quyền địa phương (khó giám sát, chậm khắc phục, bị đánh giá kém).",
+                "",
+                "Các đơn vị quản lý hạ tầng (thiếu dữ liệu thực tế, mất uy tín khi để sự cố kéo dài)."
+            ],
+            "Tác động": [
+                "Tăng tương tác giữa người dân và chính quyền, tạo niềm tin, minh bạch.",
+                "",
+                "Giảm tai nạn – thiệt hại do sự cố không được xử lý kịp thời.",
+                "",
+                "Giúp chính quyền số hóa việc tiếp nhận & xử lý hạ tầng công cộng nhanh, gọn, khoa học."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Các đô thị, đặc biệt là TP nhỏ, thiếu cổng tiếp nhận số hóa.",
+                "",
+                "Nhiều sở ngành quản lý chồng chéo, dẫn đến trễ xử lý",
+                "",
+                "Phản ánh thường chỉ được tiếp nhận qua tổng đài cố định hoặc giấy tờ thủ công."
+            ],
+            "Thực trạng": [
+                "Trong đời sống hàng ngày, người dân thường gặp tình trạng hạ tầng công cộng bị xuống cấp như:",
+                "",
+                "Cột điện bị nghiêng, chập cháy.",
+                "",
+                "Nắp cống mất, gây nguy hiểm.",
+                "",
+                "Đèn đường không sáng, gây tai nạn.",
+                "",
+                "Cây xanh ngã, dây điện chùng, ổ gà...",
+                "",
+                "Tuy nhiên, không có kênh tiếp nhận phản ánh thống nhất. Người dân không biết báo cho ai, hoặc báo xong không biết ai xử lý – dẫn đến chậm trễ, tai nạn, thiệt hại."
+            ]
+        }
+    },
+    {
+        "category": "Khoa học - Công nghệ",
+        "title": "PB-034",
+        "link": "https://dataforlife.vn/idea-bank/pb-034/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển ứng dụng dựa trên trí tuệ nhân tạo (AI) tích hợp các tính năng:",
+                "- Chuyển đổi ngôn ngữ ký hiệu sang văn bản/giọng nói và ngược lại bằng công nghệ nhận diện hình ảnh và xử lý ngôn ngữ tự nhiên (NLP).",
+                "- Chuyển đổi văn bản thành giọng nói hoặc chữ nổi cho người khiếm thị, hỗ trợ đọc nội dung số hóa.",
+                "- Giao diện điều khiển bằng giọng nói hoặc cử chỉ cho người khuyết tật vận động.",
+                "- Tích hợp với các nền tảng Chính phủ số để hỗ trợ người khuyết tật tiếp cận dịch vụ công (đăng ký y tế, trợ cấp xã hội, v.v.).",
+                "- Dữ liệu: Sử dụng dữ liệu từ các tổ chức y tế, giáo dục và cộng đồng để cá nhân hóa trải nghiệm người dùng.",
+                "Ứng dụng sẽ được thiết kế đơn giản, tương thích với điện thoại thông minh giá rẻ, và có khả năng hoạt động ngoại tuyến để phù hợp với khu vực nông thôn."
+            ],
+            "Đối tượng": [
+                "- Người khiếm thính, khiếm thị, hoặc khuyết tật vận động.",
+                "- Gia đình, người chăm sóc, và cộng đồng liên quan.",
+                "- Các tổ chức cung cấp dịch vụ công, giáo dục, và doanh nghiệp không thể tiếp cận nhóm người dùng này."
+            ],
+            "Tác động": [
+                "- Xã hội: Người khuyết tật bị cô lập, khó tham gia vào các hoạt động kinh tế, giáo dục, và xã hội.",
+                "- Kinh tế: Giảm cơ hội việc làm và đóng góp kinh tế của người khuyết tật.",
+                "- Chính phủ số: Cản trở việc xây dựng một xã hội số toàn diện, nơi mọi người đều có thể tiếp cận dịch vụ công"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề này tồn tại lâu dài và trở nên rõ rệt hơn trong thời đại chuyển đổi số, khi các dịch vụ trực tuyến, học tập và làm việc từ xa ngày càng phổ biến (đặc biệt từ năm 2020 do đại dịch COVID-19). Các nền tảng hiện tại thường thiếu công cụ hỗ trợ phù hợp cho người khuyết tật, dẫn đến sự bất bình đẳng trong tiếp cận thông tin và dịch vụ."
+            ],
+            "Thực trạng": [
+                "Người khuyết tật (đặc biệt là người khiếm thính, khiếm thị hoặc khuyết tật vận động) gặp khó khăn trong việc giao tiếp và tiếp cận thông tin. Ví dụ, người khiếm thính khó tham gia các cuộc trò chuyện trực tiếp hoặc qua video mà không có hỗ trợ ngôn ngữ ký hiệu; người khiếm thị gặp khó khăn trong việc đọc nội dung số hóa; người khuyết tật vận động khó sử dụng các thiết bị công nghệ thông thường"
+            ]
+        }
+    },
+    {
+        "category": "chữa bệnh",
+        "title": "PB-035",
+        "link": "https://dataforlife.vn/idea-bank/pb-035/",
+        "details": {
+            "Đề xuất": [
+                "Mong muốn có web chung lưu trữ lịch sử khám bệnh của người dân ở các bệnh viện . App này được quản lý tại các bệnh viện từ tỉnh lên đến trung ương. Người dân đỡ phải lưu trữ giấy tờ và quản lý được lịch sử bệnh tình của mình trên web, đồng thời là cơ sơ để các bác sỹ tại tất cả các bệnh viện thăm khám thuận tiện, không phải làm lại các xét nghiệm đã làm đỡ tốn nhiều thời gian và tiền của bệnh nhân."
+            ],
+            "Đối tượng": [
+                "Nhân dân đi khám bệnh, điều trị bệnh"
+            ],
+            "Tác động": [
+                "Nhân dân tốn rất nhiều tiền và thời gian trong việc khám bệnh"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Mỗi ngày có hàng triệu người đi khám bệnh ở các bệnh viện trên cả nước"
+            ],
+            "Thực trạng": [
+                "Bệnh nhân phải lưu lại toàn bộ lịch sử khám sức khỏe mỗi lần khám bệnh, tại mỗi bệnh viện khác nhau. Lưu bản giấy , nhiều người làm thất lạc, ko nhớ lịch sử bệnh. Mặt khác đến khám ở mỗi bệnh viện khác nhau lại ko lấy kết quả xét nghiệm khám bệnh ở bệnh viện trước đó đã khám phải làm lại tốn thời gian và tiền của nhân dân"
+            ]
+        }
+    },
+    {
+        "category": "An ninh mạng",
+        "title": "PB-036",
+        "link": "https://dataforlife.vn/idea-bank/pb-036/",
+        "details": {
+            "Đề xuất": [
+                "Một công cụ có khả năng nhận diện các khuôn mặt bị giả mạo hoặc giọng nói được tạo bởi máy tính trong các cuộc gọi video hoặc bản ghi âm."
+            ],
+            "Đối tượng": [
+                "Tất cả mọi người, đặc biệt là những người dễ bị tổn thương hoặc thiếu thông tin về hành vi lừa đảo trực tuyến."
+            ],
+            "Tác động": [
+                "Gây ra thiệt hại về tài chính, tinh thần cho các nạn nhân, làm suy giảm niềm tin vào các dịch vụ viễn thông và gây bất ổn xã hội."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Các đối tượng thường dùng công nghệ giả mạo khuôn mặt để giả mạo thành người thân, bạn bè, các cán bộ ngành công an,... nhằm tạo dựng lòng tin của nạn nhân hòng chiếm đoạt tài sản."
+            ],
+            "Thực trạng": [
+                "Nạn lừa đảo qua các cuộc gọi bằng video. Nạn nhân thường mất số tiền khá lớn, trước khi trình báo cơ quan chức năng. Tuy nhiên, các đối tượng thường ở nước ngoài nên rất khó để truy lùng, do đó việc lấy lại số tiền đã mất gần như là không thể."
+            ]
+        }
+    },
+    {
+        "category": "Khoa học - Công nghệ",
+        "title": "PB-037",
+        "link": "https://dataforlife.vn/idea-bank/pb-037/",
+        "details": {
+            "Đề xuất": [
+                "Giải pháp Dịch tự động tại cửa khẩu hải quan",
+                "🔹 Giải pháp công nghệ",
+                "Triển khai thiết bị dịch đa ngôn ngữ thông minh tại quầy làm thủ tục hải quan: kết hợp nhận diện giọng nói (ASR), dịch máy thần kinh (NMT), và chuyển văn bản thành giọng nói (TTS).",
+                "",
+                "Hỗ trợ các ngôn ngữ phổ biến tại cửa khẩu: Trung, Lào, Thái, Hàn, Nhật, Anh, Khmer, có thể mở rộng thêm theo nhu cầu.",
+                "",
+                "Cung cấp song song ứng dụng dịch di động (mobile app) dành cho lái xe, thương nhân để tự giao tiếp với hệ thống và cán bộ.",
+                "",
+                "🔹 Tích hợp và quản lý",
+                "Kết nối với Hệ thống quản lý dữ liệu Hải quan, hỗ trợ lưu trữ hội thoại, phiên dịch, làm bằng chứng giao tiếp và truy vết khi có tranh chấp.",
+                "",
+                "Tùy biến nội dung dịch theo ngữ cảnh chuyên ngành hải quan, đảm bảo độ chính xác về các thuật ngữ: “tờ khai”, “thuế nhập khẩu”, “tạm nhập tái xuất”…",
+                "",
+                "🔹 Hỗ trợ vận hành",
+                "Cán bộ hải quan được đào tạo sử dụng hệ thống dịch tự động, đồng thời có quyền chỉnh sửa hoặc điều hướng hội thoại trong thời gian thực."
+            ],
+            "Đối tượng": [
+                "✅ Người hưởng lợi:",
+                "Cán bộ hải quan: Giảm căng thẳng, tăng hiệu quả xử lý, không cần sử dụng thông dịch viên thủ công.",
+                "",
+                "Người xuất nhập cảnh, thương nhân quốc tế: Dễ dàng khai báo, hỏi đáp quy trình, nộp hồ sơ đúng ngay lần đầu.",
+                "",
+                "Doanh nghiệp xuất nhập khẩu: Tiết kiệm thời gian, tránh lỗi hồ sơ, tăng tốc dòng vận chuyển hàng hóa.",
+                "",
+                "⚠️ Đối tượng cần thích nghi:",
+                "Cán bộ hải quan hiện nay: Cần đào tạo thêm kỹ năng vận hành công cụ dịch tự động, đảm bảo ứng xử linh hoạt khi có lỗi dịch.",
+                "",
+                "Người dân ngôn ngữ hiếm gặp: Vẫn có thể gặp hạn chế nếu hệ thống chưa hỗ trợ đầy đủ các ngôn ngữ đặc thù."
+            ],
+            "Tác động": [
+                "Đối với hoạt động hải quan:",
+                "Tăng tốc độ xử lý hồ sơ và thông quan.",
+                "",
+                "Hạn chế nhầm lẫn, sai sót trong quá trình tiếp nhận thông tin từ người nước ngoài.",
+                "",
+                "Tiết kiệm nguồn lực (giảm nhu cầu phiên dịch viên trực tiếp).",
+                " Đối với công tác quản lý nhà nước:",
+                "Chuẩn hóa giao tiếp xuyên biên giới, phù hợp xu thế hội nhập.",
+                "",
+                "Nâng cao chỉ số giao thương, năng lực logistics quốc gia.",
+                "",
+                "Tăng tính minh bạch và truy vết trong quá trình kiểm tra, đối chiếu hồ sơ.",
+                "Đối với người dân và doanh nghiệp:",
+                "Tiết kiệm thời gian, chi phí và công sức khi làm thủ tục.",
+                "",
+                "Tránh nhầm lẫn ngôn ngữ dẫn đến lỗi hồ sơ hoặc bị xử phạt không đáng có.",
+                "",
+                "Tăng tính chuyên nghiệp, thân thiện trong trải nghiệm giao dịch với cơ quan nhà nước."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tăng trưởng mạnh về giao thương quốc tế: Việt Nam đang tham gia sâu vào các hiệp định thương mại lớn như CPTPP, EVFTA, RCEP… dẫn đến gia tăng mạnh số lượng doanh nghiệp và cá nhân giao thương qua cửa khẩu.",
+                "",
+                "Chính phủ thúc đẩy chuyển đổi số trong ngành Hải quan: Nhiều hệ thống như VNACCS/VCIS, Hệ thống 1 cửa quốc gia, tự động hóa cảng biển… đã triển khai, nhưng giao tiếp con người – máy móc – người vẫn bị chặn lại bởi rào cản ngôn ngữ.",
+                "",
+                "Sự phát triển của AI và công nghệ dịch tự động (NMT, ASR, TTS) cho phép triển khai các thiết bị hỗ trợ dịch thông minh, dịch trực tiếp giọng nói, văn bản với độ chính xác ngày càng cao, đặc biệt khi tích hợp ngữ cảnh chuyên ngành."
+            ],
+            "Thực trạng": [
+                "Giao tiếp ngôn ngữ là rào cản lớn tại cửa khẩu: Các cửa khẩu quốc tế, đặc biệt là các khu vực biên giới tiếp giáp Trung Quốc, Lào, Campuchia… thường xuyên tiếp nhận người dân, thương nhân, lái xe quốc tế không sử dụng tiếng Việt.",
+                "",
+                "Đội ngũ cán bộ hải quan không thể am hiểu hết các ngôn ngữ của người khai báo, dẫn đến việc giao tiếp bằng tay chân, ghi chép không thống nhất, dịch thủ công thiếu chính xác.",
+                "",
+                "Trong một số trường hợp, thông tin bị hiểu sai có thể gây ra tắc nghẽn quy trình, chậm thông quan, mất cơ hội thương mại hoặc sai sót hồ sơ pháp lý."
+            ]
+        }
+    },
+    {
+        "category": "Khoa học - Công nghệ",
+        "title": "PB-038",
+        "link": "https://dataforlife.vn/idea-bank/pb-038/",
+        "details": {
+            "Đề xuất": [
+                "Ý tưởng: Hệ thống quản lý năng lượng thông minh cho tòa nhà đô thị",
+                "",
+                "Giải pháp:",
+                "•        Phát triển một hệ thống quản lý năng lượng sử dụng cảm biến IoT để giám sát mức tiêu thụ điện, nước, và khí đốt trong các tòa nhà.",
+                "•        Tính năng: Hiển thị báo cáo tiêu thụ năng lượng qua ứng dụng/web, gợi ý cách tiết kiệm (tắt thiết bị không cần thiết), và tự động điều chỉnh hệ thống chiếu sáng, điều hòa dựa trên nhu cầu.",
+                "•        Tích hợp với Cơ sở dữ liệu quốc gia về dân cư để quản lý tài khoản cư dân và phân bổ chi phí minh bạch.",
+                "•        Sử dụng AI để dự đoán nhu cầu năng lượng và tối ưu hóa sử dụng nguồn điện tái tạo (nếu có).",
+                "",
+                "Lợi ích:",
+                "•        Giảm chi phí năng lượng cho cư dân và doanh nghiệp.",
+                "•        Giảm áp lực lên lưới điện quốc gia, đặc biệt trong giờ cao điểm.",
+                "•        Hỗ trợ mục tiêu phát triển bền vững và giảm phát thải."
+            ],
+            "Đối tượng": [
+                "Đối tượng hưởng lợi: Cư dân, quản lý tòa nhà, công ty cung cấp năng lượng, và cơ quan môi trường."
+            ],
+            "Tác động": [
+                "Tác động: Thúc đẩy Kinh tế số và đô thị thông minh với quản lý năng lượng bền vững."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Bối cảnh: Việt Nam tiêu thụ khoảng 250 tỷ kWh điện mỗi năm, với các đô thị lớn chiếm phần lớn, nhưng nhiều tòa nhà chưa áp dụng giải pháp tiết kiệm năng lượng."
+            ],
+            "Thực trạng": [
+                "Vấn đề: Các tòa nhà văn phòng, chung cư ở đô thị tiêu thụ lượng lớn điện năng, nhưng thiếu công cụ giám sát và tối ưu hóa, dẫn đến lãng phí và chi phí cao."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-039",
+        "link": "https://dataforlife.vn/idea-bank/pb-039/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển hệ thống xác thực danh tính bằng khuôn mặt (FaceID) tại các điểm dịch vụ công như UBND, trụ sở xã:",
+                "- Người dân chỉ cần quét mặt để xác thực thông tin thay vì mang giấy tờ.",
+                "- Hệ thống kết nối với Cơ sở dữ liệu quốc gia dân cư để tự động điền biểu mẫu.",
+                "- Giảm thời gian xử lý thủ tục từ hàng giờ xuống vài phút."
+            ],
+            "Đối tượng": [
+                "Cán bộ hành chính, người dân thực hiện thủ tục công, đặc biệt người lớn tuổi, người khuyết tật."
+            ],
+            "Tác động": [
+                "Giảm hiệu suất xử lý công việc, gây phiền hà cho người dân và lãng phí nguồn lực"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Giai đoạn chuyển đổi số quốc gia 2021-2030; nhu cầu cải cách hành chính tăng cao"
+            ],
+            "Thực trạng": [
+                "Thủ tục hành chính còn rườm rà, giấy tờ phức tạp, gây mất thời gian và dễ xảy ra sai sót, đặc biệt ở vùng nông thôn, miền núi"
+            ]
+        }
+    },
+    {
+        "category": "Lên kế hoạch",
+        "title": "PB-040",
+        "link": "https://dataforlife.vn/idea-bank/pb-040/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển app/web AI lập lịch trình du lịch thông minh:",
+                "– Người dùng chọn số ngày, sở thích, ngân sách, địa điểm quan tâm",
+                "– AI gợi ý lịch trình tối ưu theo thời tiết, giờ mở cửa, review, khoảng cách",
+                "– Tích hợp mô tả địa điểm bằng ảnh 360°, tư vấn ăn uống – di chuyển – thời tiết",
+                "– Hỗ trợ đa ngôn ngữ (Việt/Anh), giao diện đơn giản dễ dùng",
+                "– Tự động cập nhật sự kiện, hoạt động nổi bật trong khu vực"
+            ],
+            "Đối tượng": [
+                "Du khách cá nhân, nhóm nhỏ, khách nước ngoài"
+            ],
+            "Tác động": [
+                "Tốn thời gian tìm kiếm, lịch trình không tối ưu, giảm trải nghiệm du lịch"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hằng ngày, thường xuyên, đặc biệt trong các kỳ nghỉ lễ, dịp cao điểm du lịch"
+            ],
+            "Thực trạng": [
+                "Du khách không biết nên sắp xếp hành trình du lịch như thế nào cho hợp lý theo thời tiết, khoảng cách, sở thích; phải tự tìm thông tin rời rạc trên nhiều kênh khác nhau, dễ gặp các trường hợp lừa hoặc thông tin không chính xác"
+            ]
+        }
+    },
+    {
+        "category": "Khoa học - Công nghệ",
+        "title": "PB-037",
+        "link": "https://dataforlife.vn/idea-bank/pb-037/",
+        "details": {
+            "Đề xuất": [
+                "Giải pháp Dịch tự động tại cửa khẩu hải quan",
+                "🔹 Giải pháp công nghệ",
+                "Triển khai thiết bị dịch đa ngôn ngữ thông minh tại quầy làm thủ tục hải quan: kết hợp nhận diện giọng nói (ASR), dịch máy thần kinh (NMT), và chuyển văn bản thành giọng nói (TTS).",
+                "",
+                "Hỗ trợ các ngôn ngữ phổ biến tại cửa khẩu: Trung, Lào, Thái, Hàn, Nhật, Anh, Khmer, có thể mở rộng thêm theo nhu cầu.",
+                "",
+                "Cung cấp song song ứng dụng dịch di động (mobile app) dành cho lái xe, thương nhân để tự giao tiếp với hệ thống và cán bộ.",
+                "",
+                "🔹 Tích hợp và quản lý",
+                "Kết nối với Hệ thống quản lý dữ liệu Hải quan, hỗ trợ lưu trữ hội thoại, phiên dịch, làm bằng chứng giao tiếp và truy vết khi có tranh chấp.",
+                "",
+                "Tùy biến nội dung dịch theo ngữ cảnh chuyên ngành hải quan, đảm bảo độ chính xác về các thuật ngữ: “tờ khai”, “thuế nhập khẩu”, “tạm nhập tái xuất”…",
+                "",
+                "🔹 Hỗ trợ vận hành",
+                "Cán bộ hải quan được đào tạo sử dụng hệ thống dịch tự động, đồng thời có quyền chỉnh sửa hoặc điều hướng hội thoại trong thời gian thực."
+            ],
+            "Đối tượng": [
+                "✅ Người hưởng lợi:",
+                "Cán bộ hải quan: Giảm căng thẳng, tăng hiệu quả xử lý, không cần sử dụng thông dịch viên thủ công.",
+                "",
+                "Người xuất nhập cảnh, thương nhân quốc tế: Dễ dàng khai báo, hỏi đáp quy trình, nộp hồ sơ đúng ngay lần đầu.",
+                "",
+                "Doanh nghiệp xuất nhập khẩu: Tiết kiệm thời gian, tránh lỗi hồ sơ, tăng tốc dòng vận chuyển hàng hóa.",
+                "",
+                "⚠️ Đối tượng cần thích nghi:",
+                "Cán bộ hải quan hiện nay: Cần đào tạo thêm kỹ năng vận hành công cụ dịch tự động, đảm bảo ứng xử linh hoạt khi có lỗi dịch.",
+                "",
+                "Người dân ngôn ngữ hiếm gặp: Vẫn có thể gặp hạn chế nếu hệ thống chưa hỗ trợ đầy đủ các ngôn ngữ đặc thù."
+            ],
+            "Tác động": [
+                "Đối với hoạt động hải quan:",
+                "Tăng tốc độ xử lý hồ sơ và thông quan.",
+                "",
+                "Hạn chế nhầm lẫn, sai sót trong quá trình tiếp nhận thông tin từ người nước ngoài.",
+                "",
+                "Tiết kiệm nguồn lực (giảm nhu cầu phiên dịch viên trực tiếp).",
+                " Đối với công tác quản lý nhà nước:",
+                "Chuẩn hóa giao tiếp xuyên biên giới, phù hợp xu thế hội nhập.",
+                "",
+                "Nâng cao chỉ số giao thương, năng lực logistics quốc gia.",
+                "",
+                "Tăng tính minh bạch và truy vết trong quá trình kiểm tra, đối chiếu hồ sơ.",
+                "Đối với người dân và doanh nghiệp:",
+                "Tiết kiệm thời gian, chi phí và công sức khi làm thủ tục.",
+                "",
+                "Tránh nhầm lẫn ngôn ngữ dẫn đến lỗi hồ sơ hoặc bị xử phạt không đáng có.",
+                "",
+                "Tăng tính chuyên nghiệp, thân thiện trong trải nghiệm giao dịch với cơ quan nhà nước."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tăng trưởng mạnh về giao thương quốc tế: Việt Nam đang tham gia sâu vào các hiệp định thương mại lớn như CPTPP, EVFTA, RCEP… dẫn đến gia tăng mạnh số lượng doanh nghiệp và cá nhân giao thương qua cửa khẩu.",
+                "",
+                "Chính phủ thúc đẩy chuyển đổi số trong ngành Hải quan: Nhiều hệ thống như VNACCS/VCIS, Hệ thống 1 cửa quốc gia, tự động hóa cảng biển… đã triển khai, nhưng giao tiếp con người – máy móc – người vẫn bị chặn lại bởi rào cản ngôn ngữ.",
+                "",
+                "Sự phát triển của AI và công nghệ dịch tự động (NMT, ASR, TTS) cho phép triển khai các thiết bị hỗ trợ dịch thông minh, dịch trực tiếp giọng nói, văn bản với độ chính xác ngày càng cao, đặc biệt khi tích hợp ngữ cảnh chuyên ngành."
+            ],
+            "Thực trạng": [
+                "Giao tiếp ngôn ngữ là rào cản lớn tại cửa khẩu: Các cửa khẩu quốc tế, đặc biệt là các khu vực biên giới tiếp giáp Trung Quốc, Lào, Campuchia… thường xuyên tiếp nhận người dân, thương nhân, lái xe quốc tế không sử dụng tiếng Việt.",
+                "",
+                "Đội ngũ cán bộ hải quan không thể am hiểu hết các ngôn ngữ của người khai báo, dẫn đến việc giao tiếp bằng tay chân, ghi chép không thống nhất, dịch thủ công thiếu chính xác.",
+                "",
+                "Trong một số trường hợp, thông tin bị hiểu sai có thể gây ra tắc nghẽn quy trình, chậm thông quan, mất cơ hội thương mại hoặc sai sót hồ sơ pháp lý."
+            ]
+        }
+    },
+    {
+        "category": "Khoa học - Công nghệ",
+        "title": "PB-038",
+        "link": "https://dataforlife.vn/idea-bank/pb-038/",
+        "details": {
+            "Đề xuất": [
+                "Ý tưởng: Hệ thống quản lý năng lượng thông minh cho tòa nhà đô thị",
+                "",
+                "Giải pháp:",
+                "•        Phát triển một hệ thống quản lý năng lượng sử dụng cảm biến IoT để giám sát mức tiêu thụ điện, nước, và khí đốt trong các tòa nhà.",
+                "•        Tính năng: Hiển thị báo cáo tiêu thụ năng lượng qua ứng dụng/web, gợi ý cách tiết kiệm (tắt thiết bị không cần thiết), và tự động điều chỉnh hệ thống chiếu sáng, điều hòa dựa trên nhu cầu.",
+                "•        Tích hợp với Cơ sở dữ liệu quốc gia về dân cư để quản lý tài khoản cư dân và phân bổ chi phí minh bạch.",
+                "•        Sử dụng AI để dự đoán nhu cầu năng lượng và tối ưu hóa sử dụng nguồn điện tái tạo (nếu có).",
+                "",
+                "Lợi ích:",
+                "•        Giảm chi phí năng lượng cho cư dân và doanh nghiệp.",
+                "•        Giảm áp lực lên lưới điện quốc gia, đặc biệt trong giờ cao điểm.",
+                "•        Hỗ trợ mục tiêu phát triển bền vững và giảm phát thải."
+            ],
+            "Đối tượng": [
+                "Đối tượng hưởng lợi: Cư dân, quản lý tòa nhà, công ty cung cấp năng lượng, và cơ quan môi trường."
+            ],
+            "Tác động": [
+                "Tác động: Thúc đẩy Kinh tế số và đô thị thông minh với quản lý năng lượng bền vững."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Bối cảnh: Việt Nam tiêu thụ khoảng 250 tỷ kWh điện mỗi năm, với các đô thị lớn chiếm phần lớn, nhưng nhiều tòa nhà chưa áp dụng giải pháp tiết kiệm năng lượng."
+            ],
+            "Thực trạng": [
+                "Vấn đề: Các tòa nhà văn phòng, chung cư ở đô thị tiêu thụ lượng lớn điện năng, nhưng thiếu công cụ giám sát và tối ưu hóa, dẫn đến lãng phí và chi phí cao."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-039",
+        "link": "https://dataforlife.vn/idea-bank/pb-039/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển hệ thống xác thực danh tính bằng khuôn mặt (FaceID) tại các điểm dịch vụ công như UBND, trụ sở xã:",
+                "- Người dân chỉ cần quét mặt để xác thực thông tin thay vì mang giấy tờ.",
+                "- Hệ thống kết nối với Cơ sở dữ liệu quốc gia dân cư để tự động điền biểu mẫu.",
+                "- Giảm thời gian xử lý thủ tục từ hàng giờ xuống vài phút."
+            ],
+            "Đối tượng": [
+                "Cán bộ hành chính, người dân thực hiện thủ tục công, đặc biệt người lớn tuổi, người khuyết tật."
+            ],
+            "Tác động": [
+                "Giảm hiệu suất xử lý công việc, gây phiền hà cho người dân và lãng phí nguồn lực"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Giai đoạn chuyển đổi số quốc gia 2021-2030; nhu cầu cải cách hành chính tăng cao"
+            ],
+            "Thực trạng": [
+                "Thủ tục hành chính còn rườm rà, giấy tờ phức tạp, gây mất thời gian và dễ xảy ra sai sót, đặc biệt ở vùng nông thôn, miền núi"
+            ]
+        }
+    },
+    {
+        "category": "Kinh tế - Tài chính",
+        "title": "PB-029",
+        "link": "https://dataforlife.vn/idea-bank/pb-029/",
+        "details": {
+            "Đề xuất": [
+                "Thiết kế một ứng dụng di động hoặc nền tảng web đơn giản, cho phép hộ kinh doanh cá thể nhập doanh thu, chi phí, tồn kho, và thông tin cơ bản khác chỉ bằng vài thao tác chạm. Hệ thống có thể tích hợp nhắc lịch thu chi, phân tích báo cáo đơn giản, và hỗ trợ tạo hồ sơ tín dụng điện tử. Đồng thời, dữ liệu này có thể kết nối lên hệ thống dữ liệu lớn của địa phương/phòng thương mại để phục vụ đánh giá, hỗ trợ chính sách, hoặc giới thiệu lên các nền tảng TMĐT, kênh phân phối hiện đại."
+            ],
+            "Đối tượng": [
+                "Các hộ kinh doanh nhỏ (tạp hóa, quán ăn, bán hàng rong...), chủ yếu là lao động tự do, người trung niên hoặc cao tuổi, phụ nữ không có vốn lớn. Đây là nhóm chiếm tỷ trọng lớn trong nền kinh tế phi chính thức của Việt Nam."
+            ],
+            "Tác động": [
+                "Không có dữ liệu hoạt động đồng nghĩa với việc không thể đánh giá năng lực kinh doanh, không thể tiếp cận vốn ngân hàng, bảo hiểm xã hội hoặc chương trình hỗ trợ nhà nước. Ngoài ra, Nhà nước cũng khó thu thập dữ liệu đầu vào để lập chính sách vĩ mô cho nhóm này."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Trong quá trình triển khai chiến lược chuyển đổi số quốc gia, chính phủ đang đẩy mạnh việc đưa người dân và doanh nghiệp nhỏ lẻ lên môi trường số. Tuy nhiên, nhóm hộ kinh doanh cá thể vẫn bị “bỏ quên” do đặc thù quy mô nhỏ, trình độ công nghệ thấp và thiếu thói quen ghi chép, báo cáo dữ liệu."
+            ],
+            "Thực trạng": [
+                "Hộ kinh doanh cá thể – như các tiểu thương tại chợ truyền thống, hàng ăn nhỏ lẻ, xe đẩy bán hàng rong... – vẫn đang hoạt động hoàn toàn thủ công, không có hệ thống ghi nhận doanh thu, chi phí, hay thông tin khách hàng. Điều này dẫn đến việc họ không thể tiếp cận vốn vay, các chương trình hỗ trợ chính sách, hay gia nhập nền kinh tế số."
+            ]
+        }
+    },
+    {
+        "category": "Phát triển du lịch",
+        "title": "PB-021",
+        "link": "https://dataforlife.vn/idea-bank/pb-021/",
+        "details": {
+            "Đề xuất": [
+                "Tạo app phản ánh, cấp phù hiệu QR cho xe chính thức."
+            ],
+            "Đối tượng": [
+                "Khách du lịch, người mới đến thành phố."
+            ],
+            "Tác động": [
+                "Mất lòng tin, ảnh hưởng hình ảnh địa phương."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Bến xe, sân bay, khu du lịch đông khách nước ngoài."
+            ],
+            "Thực trạng": [
+                "Tình trạng taxi dù, xe ôm lừa đảo khách du lịch",
+                "Vấn đề cụ thể: Chặt chém, đi vòng, không rõ nguồn gốc."
+            ]
+        }
+    },
+    {
+        "category": "Giáo dục",
+        "title": "PB-022",
+        "link": "https://dataforlife.vn/idea-bank/pb-022/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng một nền tảng tra cứu tuyển sinh đại học tập trung, chính xác và dễ sử dụng, giúp thí sinh so sánh, chọn ngành phù hợp một cách thuận tiện và hiệu quả."
+            ],
+            "Đối tượng": [
+                "Đối tượng bị ảnh hưởng là học sinh lớp 12 và phụ huynh."
+            ],
+            "Tác động": [
+                "Thí sinh mất nhiều thời gian tra cứu, dễ tiếp cận thông tin sai lệch, dẫn đến chọn ngành không phù hợp, ảnh hưởng đến tương lai học tập và nghề nghiệp."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề xảy ra hằng năm vào thời điểm tuyển sinh đại học, từ khoảng tháng 3 đến tháng 8, khi học sinh lớp 12 bắt đầu tìm hiểu và đăng ký nguyện vọng. Trong giai đoạn này, các trường công bố thông tin riêng lẻ, trong khi thí sinh phải đưa ra quyết định quan trọng cho tương lai học tập và nghề nghiệp."
+            ],
+            "Thực trạng": [
+                "Thực trạng hiện nay là thông tin tuyển sinh đại học còn phân tán và thiếu nhất quán. Mỗi trường công bố thông tin tuyển sinh trên website riêng với cách trình bày và cập nhật khác nhau, gây khó khăn cho thí sinh trong việc tìm kiếm, so sánh và tổng hợp dữ liệu. Nhiều thí sinh phải tự tổng hợp thủ công thông tin từ nhiều nguồn như trang web của trường, mạng xã hội, diễn đàn học sinh, hoặc hỏi han bạn bè, dẫn đến nguy cơ tiếp cận thông tin sai lệch hoặc không đầy đủ. Ngoài ra, việc thiếu một hệ thống hỗ trợ ra quyết định ngành học phù hợp cũng khiến nhiều học sinh chọn ngành theo cảm tính, theo xu hướng, hoặc chịu ảnh hưởng từ người khác mà không có căn cứ rõ ràng."
+            ]
+        }
+    },
+    {
+        "category": "Y tế",
+        "title": "PB-023",
+        "link": "https://dataforlife.vn/idea-bank/pb-023/",
+        "details": {
+            "Đề xuất": [
+                "có 1 App theo dõi tiêm chủng cho trẻ nhỏ"
+            ],
+            "Đối tượng": [
+                "Phụ huuynh và trẻ nhỏ"
+            ],
+            "Tác động": [
+                "Phụ huynh ko nắm rõ được việc tiêm phòng con"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Hiện tại đến địa chỉ tiêm phòng sẽ đươc bác sỹ tư vấn mới rõ con đang thiếu mũi tiêm nào"
+            ],
+            "Thực trạng": [
+                "Khi đi tiêm cho con , chúng tôi chưa nắm rõ được con đang thiếu mũi nào, nếu tim theo giấy thì mất thời gian"
+            ]
+        }
+    },
+    {
+        "category": "Đổi mới sáng tạo",
+        "title": "PB-024",
+        "link": "https://dataforlife.vn/idea-bank/pb-024/",
+        "details": {
+            "Đề xuất": [
+                "Ứng dụng hướng dẫn phản ứng khẩn cấp theo tình huống, vị trí và thiết bị sẵn có."
+            ],
+            "Đối tượng": [
+                "Người dân, lực lượng cứu hộ."
+            ],
+            "Tác động": [
+                "Phản ứng chậm, thiệt hại lớn về người và tài sản."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "rong các khu dân cư, đặc biệt là nơi thiếu diễn tập phòng chống thiên tai."
+            ],
+            "Thực trạng": [
+                "Người dân không biết quy trình xử lý khi gặp tình huống khẩn cấp như cháy nổ, ngập nước."
+            ]
+        }
+    },
+    {
+        "category": "Kinh tế - Tài chính",
+        "title": "PB-025",
+        "link": "https://dataforlife.vn/idea-bank/pb-025/",
+        "details": {
+            "Đề xuất": [
+                "1. Các thông tin có sẵn trong cơ sở dữ liệu dân cư hoặc trung tâm dữ liệu quốc gia cần được mở cho phép các tổ chức tín dụng xác thực một cách nhanh chóng, dễ dàng. 2. Các thông tin chưa có sẵn nhưng các đơn vị cung cấp cho phép cung cấp thông qua nền tảng Open API. Cần có cơ chế và tiêu chuẩn chung cho việc này, và bắt buộc các tổ chức cung cấp dịch vụ cho khách hàng đại chúng như ngân hàng, bảo hiểm, điện, nước, viễn thông... đều phải cung cấp API. 3. Các tổ chức tín dụng khi nhận được đơn xin vay của khách hàng có thể xác thực thông tin một cách nhanh chóng, tự động và giảm hồ sơ giấy tờ của khách hàng. Quá trình này đòi hỏi phải có sự đồng ý rõ ràng của khách hàng (chủ thể dữ liệu) thông qua tick box, OTP, chữ ký điện tử. Điều này vừa bảo đảm thông tin khách hàng được bảo mật mà vẫn chia sẻ được thông tin một cách hợp lý. 4. Cần có quy định để bảo vệ tính pháp lý của các thông tin đã được xác thực thông qua cơ chế này để bảo vệ quyền và lợi ích của các tổ chức tín dụng, khách hàng.",
+                "Việc mở rộng cơ chế này có thể làm giảm chi phí giao dịch của rất nhiều loại giao dịch, hoạt động khác, không chỉ dừng lại ở các hoạt động cấp tín dụng của tổ chức tín dụng."
+            ],
+            "Đối tượng": [
+                "Các khách hàng vay, các tổ chức tín dụng"
+            ],
+            "Tác động": [
+                "Chí phí giao dịch tăng cao, thời gian của người dân phải tốn nhiều cho một giao dịch, dẫn tới năng xuất lao động chung của xã hội giảm xuống."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Các tổ chức tín dụng tại Việt Nam"
+            ],
+            "Thực trạng": [
+                "Đối với các tổ chức tín dụng và khách hàng đi vay, chi phí và thời gian xử lý hồ sơ tín dụng đang ở mức rất cao. Mỗi khách hàng đang vay phải xác minh thu nhập, nghề nghiệp, và các thông tin khác trong khi các thông tin này về cơ bản đều có sẵn. Chỉ thiếu cơ chế và kỹ thuật xử lý."
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-026",
+        "link": "https://dataforlife.vn/idea-bank/pb-026/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng phần mềm theo dõi di biến động của các đối tượng phạm tội, đối tượng truy nã theo thời gian thực qua hệ thống camera an ninh, camera giám sát giao thông, camera của các tổ chức, cá nhân (thông qua nhận diện khuôn mặt). ",
+                "Yêu cầu cụ thể của phần mềm: Dữ liệu đầu vào: Hình ảnh nhận diện của đối tượng; Dữ liệu đầu ra: Vị trí hiện tại của đối tượng, lịch sử di chuyển của đối tượng"
+            ],
+            "Đối tượng": [
+                "Toàn xã hội"
+            ],
+            "Tác động": [
+                "Vấn đề đặt ra cần nhanh chóng truy vết, bắt giữ đối tượng, ngăn chặn hành vi phạm tội, không để đối tượng gây nguy hiểm cho xã hội"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tình hình tội phạm phức tạp, việc theo dõi, truy vết đối tượng bằng phương pháp truyền thống đôi khi không đạt hiệu quả cao nhất"
+            ],
+            "Thực trạng": [
+                "Hiện nay, hệ thống camera an ninh, camera giám sát giao thông, camera của các tổ chức, cá nhân được lắp đặt, sử dụng ngày càng nhiều. Nếu các dữ liệu camera được thu thập, hệ thống hóa theo thời gian thực thì có thể phục vụ công tác phòng, chống tội phạm như truy vết các đối tượng phạm tội, đối tượng truu nã"
+            ]
+        }
+    },
+    {
+        "category": "Dịch vụ công trực tuyến",
+        "title": "PB-027",
+        "link": "https://dataforlife.vn/idea-bank/pb-027/",
+        "details": {
+            "Đề xuất": [
+                "Chatbot thông minh tích hợp dữ liệu dân cư: Phát triển Chatbot AI sử dụng cơ sở dữ liệu quốc gia về dân cư để hỗ trợ người dân tra cứu thông tin, thực hiện các thủ tục hành chính (như cấp căn cước, đăng ký cư trú...) qua giao diện giọng nói hoặc văn bản"
+            ],
+            "Đối tượng": [
+                "Toàn bộ người dân"
+            ],
+            "Tác động": [
+                "- Chatbot thông minh cung cấp phản hồi tức thì 24/7, giúp người dân tra cứu thông tin về thủ tục hành chính (như giấy tờ cần chuẩn bị, quy trình, thời gian xử lý) mà không cần chờ đợi tại cơ quan hành chính hoặc liên hệ qua điện thoại.",
+                "- Chatbot có thể xử lý hàng loạt câu hỏi lặp đi lặp lại hoặc đơn giản, giúp giảm khối lượng công việc cho cán bộ hành chính, từ đó tập trung vào các nhiệm vụ phức tạp hơn.",
+                "- Chatbot cung cấp thông tin dựa trên cơ sở dữ liệu được chuẩn hóa, đảm bảo tính chính xác và thống nhất, tránh sai sót do yếu tố con người."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Mục tiêu đến năm 2030 đạt 100% cơ quan nhà nước, tổ chức cung cấp dịch vụ công trực tuyến liên tục cải tiến chất lượng để phục vụ người dân tốt nhất. 70% người dân trưởng thành sử dụng dịch vụ công trực tuyến."
+            ],
+            "Thực trạng": [
+                "Hiện nay nhiều người dân gặp khó khăn khi thao tác trên các trang dịch vụ công, do không nắm rõ các bước thực hiện hoặc có nhiều câu hỏi thắc mắc khi thao tác",
+                "- Nhiều cơ quan hành chính công, đặc biệt ở các thành phố lớn, thường xuyên đối mặt với tình trạng quá tải do lượng lớn người dân đến tra cứu thông tin hoặc thực hiện thủ tục hành chính (ví dụ: cấp chứng minh nhân dân, đăng ký hộ khẩu, nộp thuế).",
+                "- Các cơ quan hành chính thường chỉ làm việc trong giờ hành chính (8h-17h), không đáp ứng được nhu cầu của người dân có lịch trình bận rộn hoặc ở xa.",
+                "- Dịch vụ hỗ trợ qua điện thoại thường xuyên quá tải, đường dây bận hoặc phản hồi chậm.",
+                "- Thông tin về thủ tục hành chính (giấy tờ cần chuẩn bị, quy trình, chi phí) thường không được cung cấp đầy đủ hoặc dễ tiếp cận trên các kênh chính thức.",
+                "- Một số địa phương chưa cập nhật kịp thời các thay đổi về quy định pháp luật, dẫn đến thông tin không đồng bộ giữa các nguồn."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-028",
+        "link": "https://dataforlife.vn/idea-bank/pb-028/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống giám sát chất lượng dịch vụ công: sử dụng Big Data để phân tích phản hồi từ người dân về các dịch vụ công, từ đó đưa ra các đề xuất cải thiện hiệu quả các dịch vụ."
+            ],
+            "Đối tượng": [
+                "- Người dân: Gặp khó khăn khi sử dụng dịch vụ công kém chất lượng (chậm trễ, thiếu minh bạch, thủ tục rườm rà).",
+                "- Cơ quan nhà nước: Mất lòng tin từ người dân, khó khăn trong việc cải thiện dịch vụ do thiếu dữ liệu tổng hợp.",
+                "- Doanh nghiệp: Bị ảnh hưởng bởi quy trình hành chính chậm trễ, làm giảm hiệu quả kinh doanh.",
+                "- Nhà nghiên cứu và tổ chức xã hội: Khó tiếp cận dữ liệu để đề xuất chính sách cải thiện."
+            ],
+            "Tác động": [
+                "- Xã hội: Giảm lòng tin vào hệ thống quản lý nhà nước, làm gia tăng bất mãn trong cộng đồng.",
+                "- Kinh tế: Chất lượng dịch vụ công kém làm chậm tiến độ phát triển kinh tế, đặc biệt là trong các lĩnh vực cần thủ tục hành chính nhanh chóng (đầu tư, khởi nghiệp).",
+                "- Hiệu quả quản lý: Các cơ quan không thể tối ưu hóa nguồn lực do thiếu dữ liệu phân tích, dẫn đến lãng phí ngân sách.",
+                "- Chuyển đổi số: Cản trở tiến trình xây dựng chính phủ điện tử và nâng cao trải nghiệm người dùng trong dịch vụ công."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Vấn đề này nổi bật trong bối cảnh chuyển đổi số toàn cầu và ở Việt Nam từ khoảng năm 2015 đến nay, khi nhu cầu sử dụng dịch vụ công trực tuyến tăng mạnh. Sự phát triển của công nghệ Big Data và nhu cầu minh bạch hóa quản lý nhà nước đã làm lộ rõ hạn chế của các hệ thống giám sát truyền thống. Đặc biệt, từ năm 2020, đại dịch COVID-19 đã thúc đẩy việc sử dụng các nền tảng số, nhưng cũng làm gia tăng các phàn nàn về chất lượng dịch vụ công (ví dụ: đăng ký hỗ trợ, cấp phép hành chính)."
+            ],
+            "Thực trạng": [
+                "Hiện nay, nhiều quốc gia, bao gồm Việt Nam, đối mặt với tình trạng thiếu minh bạch và hiệu quả trong việc giám sát chất lượng dịch vụ công (như y tế, giáo dục, hành chính công). Hệ thống thu thập phản hồi từ người dân thường thủ công, phân mảnh, hoặc không được phân tích sâu. Dữ liệu phản hồi (qua khảo sát, khiếu nại, hoặc mạng xã hội) không được xử lý tập trung, dẫn đến việc khó xác định các vấn đề trọng tâm. Ngoài ra, thiếu công cụ phân tích dữ liệu lớn (Big Data) khiến các cơ quan quản lý không thể đưa ra giải pháp cải thiện kịp thời."
+            ]
+        }
+    },
+    {
+        "category": "Cấp cứu",
+        "title": "PB-018",
+        "link": "https://dataforlife.vn/idea-bank/pb-018/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống quản lý cấp cứu thông minh tích hợp định vị GPS và dữ liệu giao thông thời gian thực; phát triển ứng dụng di động cho người dân gọi cấp cứu với khả năng truyền hình ảnh và dữ liệu sinh hiệu; triển khai AI dự đoán tình trạng bệnh nhân dựa trên thông tin cuộc gọi; xây dựng hệ thống phân bổ xe cứu thương tối ưu dựa trên vị trí, trang thiết bị và chuyên môn; phát triển nền tảng kết nối thông tin giữa xe cứu thương và bệnh viện; tích hợp công nghệ đèn giao thông ưu tiên cho xe cấp cứu."
+            ],
+            "Đối tượng": [
+                "Bệnh nhân cấp cứu và gia đình họ; nhân viên y tế cấp cứu; bệnh viện và trung tâm y tế; các trung tâm điều phối cấp cứu; cơ quan quản lý y tế và giao thông."
+            ],
+            "Tác động": [
+                "Tăng tỷ lệ tử vong và biến chứng do không được cấp cứu kịp thời (ước tính 15-20% ca cấp cứu bị ảnh hưởng tiêu cực); tăng chi phí y tế do tình trạng bệnh nhân trở nên nghiêm trọng hơn; tạo áp lực lớn lên hệ thống y tế và nhân viên cấp cứu; giảm niềm tin của người dân vào hệ thống y tế công; ảnh hưởng đến khả năng cứu sống bệnh nhân đặc biệt trong \"giờ vàng\" cấp cứu."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Diễn ra quanh năm, trầm trọng hơn vào giờ cao điểm giao thông, các dịp lễ Tết và thời tiết xấu; đặc biệt nghiêm trọng tại các khu vực có mật độ dân số cao nhưng đường nhỏ, hay kẹt xe; tình trạng ngày càng phức tạp do số lượng cuộc gọi cấp cứu tăng 25% trong 5 năm qua nhưng hệ thống quản lý chưa được nâng cấp tương ứng."
+            ],
+            "Thực trạng": [
+                "Quá trình điều phối xe cứu thương và dịch vụ y tế khẩn cấp còn chậm và thiếu hiệu quả; thời gian đáp ứng trung bình tại đô thị là 15-20 phút, vùng nông thôn lên tới 35-45 phút; 30% các cuộc gọi cấp cứu không xác định được vị trí chính xác; thiếu thông tin về tình trạng bệnh nhân trước khi đến hiện trường; việc lựa chọn tuyến đường và bệnh viện còn dựa nhiều vào kinh nghiệm của nhân viên."
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-019",
+        "link": "https://dataforlife.vn/idea-bank/pb-019/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống giám sát và cảnh báo cháy sớm sử dụng IoT và AI; phát triển bản đồ số về mức độ rủi ro cháy nổ theo khu vực và thời gian thực; thiết kế ứng dụng di động kết nối người dân với lực lượng PCCC với tính năng báo cháy nhanh và hướng dẫn thoát hiểm; triển khai hệ thống quản lý thông tin về cơ sở vật chất, lối thoát hiểm, nguồn nước của các tòa nhà; xây dựng nền tảng điều phối lực lượng PCCC thông minh với khả năng tính toán tuyến đường tối ưu và phân bổ nguồn lực; phát triển hệ thống đánh giá an toàn PCCC tự động cho các cơ sở kinh doanh và nhà ở."
+            ],
+            "Đối tượng": [
+                "Người dân sống tại các khu vực có nguy cơ cháy nổ cao; chủ nhà trọ, chung cư mini; lực lượng PCCC và cứu nạn cứu hộ; chính quyền địa phương; công ty bảo hiểm; hệ thống y tế tiếp nhận nạn nhân."
+            ],
+            "Tác động": [
+                "Thiệt hại về người (trung bình 100-150 người tử vong mỗi năm do cháy nổ) và tài sản (ước tính 500-700 tỷ đồng); tạo tâm lý bất an cho người dân tại các khu vực có nguy cơ cao; ảnh hưởng đến chất lượng cuộc sống và sức khỏe tinh thần của người dân; gây áp lực lớn cho lực lượng PCCC và y tế; tạo gánh nặng chi phí khắc phục hậu quả và tái thiết."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Gia tăng vào mùa khô và thời điểm sử dụng nhiều thiết bị điện (mùa hè); tập trung tại các khu đô thị cũ, khu nhà trọ sinh viên, khu dân cư có mật độ cao và nhiều hộ kinh doanh; đặc biệt nghiêm trọng tại các thành phố lớn với tốc độ đô thị hóa nhanh nhưng quản lý chưa theo kịp; số lượng vụ cháy tăng 15% mỗi năm trong 3 năm gần đây."
+            ],
+            "Thực trạng": [
+                "Công tác phòng chống cháy nổ tại các khu dân cư, chung cư mini và nhà trọ còn nhiều hạn chế; 70% các vụ cháy nổ được phát hiện quá muộn; thời gian phản ứng trung bình từ khi phát hiện đến khi báo cáo là 5-7 phút; thiếu hệ thống cảnh báo sớm và thông tin về các khu vực có nguy cơ cao; việc tiếp cận các khu vực cháy thường gặp khó khăn do quy hoạch đô thị không hợp lý; 45% các khu nhà trọ, chung cư mini không đáp ứng các tiêu chuẩn phòng cháy."
+            ]
+        }
+    },
+    {
+        "category": "An ninh mạng",
+        "title": "PB-009",
+        "link": "https://dataforlife.vn/idea-bank/pb-009/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống thu thập thông tin và phân tích nội dung trên mạng xã hội (Social Media Content Analysis System)",
+                "Mục tiêu: Hệ thống này nhằm thu thập, phân tích nội dung từ các nền tảng mạng xã hội, sử dụng các mô hình NLP (Xử lý ngôn ngữ tự nhiên) để nhận diện hành vi xấu, sai, hoặc vi phạm, sau đó phân loại và đưa ra cảnh báo cho các cơ quan thụ lý để xử lý."
+            ],
+            "Đối tượng": [
+                "Đối tượng ảnh hưởng bởi nội dung xấu, sai trên không gian mạng rất đa dạng và có thể ảnh hưởng sâu rộng đến cả cá nhân, tổ chức, và xã hội. Dưới đây là các nhóm đối tượng chính bị tác động: Người dùng cá nhân, Các tổ chức và doanh nghiệp, Cộng đồng mạng và xã hội, Những người làm công tác giáo dục và truyền thông,..."
+            ],
+            "Tác động": [
+                "Nội dung xấu, sai trên không gian mạng tác động nghiêm trọng đến các đối tượng khác nhau. Người dùng cá nhân, đặc biệt là trẻ em, thanh thiếu niên, dễ bị tổn thương về tâm lý, dẫn đến hành vi sai lệch hoặc ảnh hưởng đến sự phát triển nhận thức. Các tổ chức và doanh nghiệp có thể bị tổn hại uy tín, gây thiệt hại về tài chính. Cộng đồng mạng bị chia rẽ, làm gia tăng sự thù địch, bạo lực. Trẻ em và thanh thiếu niên đối mặt với nguy cơ tiếp xúc với thông tin độc hại, gây rối loạn tâm lý và hành vi."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Giai đoạn bùng nổ của mạng xã hội"
+            ],
+            "Thực trạng": [
+                "Giám sát nội dung trên không gian mạng là một vấn đề quan trọng trong việc đảm bảo an ninh, bảo vệ quyền lợi người dùng, cũng như ngăn ngừa các hành vi vi phạm pháp luật hoặc các hành vi xấu. Tuy nhiên, công tác này gặp nhiều khó khăn do tính chất phức tạp của môi trường trực tuyến, các yếu tố kỹ thuật và vấn đề về quyền riêng tư. Dưới đây là một số yếu tố và thách thức chính khi giám sát nội dung trên không gian mạng: Khối lượng dữ liệu khổng lồ, Đa dạng hình thức nội dung, Tốc độ phát triển của thông tin, Bảo mật và quyền riêng tư, Phân biệt giữa tự do ngôn luận và kiểm duyệt"
+            ]
+        }
+    },
+    {
+        "category": "Đổi mới sáng tạo",
+        "title": "PB-011",
+        "link": "https://dataforlife.vn/idea-bank/pb-011/",
+        "details": {
+            "Đề xuất": [
+                "Một hệ thống xác thực nhà trọ, có đánh giá minh bạch từ chính sinh viên"
+            ],
+            "Đối tượng": [
+                "Sinh viên và phụ huynh"
+            ],
+            "Tác động": [
+                "Gây thiệt hại tài chính, ảnh hưởng an toàn cá nhân"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Sinh viên mới nhập học tại các đô thị lớn, xa nhà"
+            ],
+            "Thực trạng": [
+                "Sinh viên năm nhất khi nhập học thường gặp khó khăn trong việc tìm nhà trọ an toàn, rõ ràng pháp lý và giá cả hợp lý. Nhiều em bị lừa cọc hoặc thuê phải nhà trọ kém chất lượng. Nguyên nhân do chưa có kênh thông tin chính thống, đáng tin cậy"
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-012",
+        "link": "https://dataforlife.vn/idea-bank/pb-012/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển một hệ thống đánh giá mức độ rủi ro an ninh khu dân cư dựa trên dữ liệu và công nghệ hiện đại, bao gồm:",
+                "",
+                "Thu thập dữ liệu: Sử dụng camera giám sát, cảm biến và các nguồn dữ liệu khác để thu thập thông tin về hoạt động trong khu dân cư.",
+                "",
+                "Phân tích dữ liệu: Áp dụng trí tuệ nhân tạo (AI) và học máy (machine learning) để phân tích dữ liệu, phát hiện các mẫu hành vi bất thường hoặc có nguy cơ cao.",
+                "",
+                "Đánh giá rủi ro: Xây dựng mô hình đánh giá rủi ro an ninh dựa trên các yếu tố như tần suất sự cố, thời gian xảy ra, vị trí, và các yếu tố khác.",
+                "",
+                "Cảnh báo sớm: Gửi cảnh báo đến ban quản lý và cư dân khi phát hiện nguy cơ an ninh, giúp họ có biện pháp phòng ngừa kịp thời.",
+                "",
+                "Báo cáo và đề xuất: Cung cấp báo cáo định kỳ và đề xuất các biện pháp cải thiện an ninh cho khu dân cư."
+            ],
+            "Đối tượng": [
+                "Cư dân sinh sống trong các khu dân cư, đặc biệt là người già, trẻ em và phụ nữ.",
+                "",
+                "Ban quản lý khu dân cư và lực lượng bảo vệ.",
+                "",
+                "Cơ quan chức năng địa phương, như công an phường/xã"
+            ],
+            "Tác động": [
+                "Gia tăng các vụ việc liên quan đến an ninh, như trộm cắp, gây rối trật tự.",
+                "",
+                "Giảm chất lượng cuộc sống và cảm giác an toàn của cư dân.",
+                "",
+                "Tăng gánh nặng cho lực lượng chức năng trong việc xử lý các vụ việc an ninh."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Trong bối cảnh đô thị hóa nhanh chóng, mật độ dân cư tăng cao, và sự phát triển của các khu chung cư, việc đảm bảo an ninh trở nên phức tạp hơn. Các khu dân cư mới thường thiếu hệ thống giám sát an ninh hiệu quả, trong khi các khu cũ lại đối mặt với hạ tầng an ninh xuống cấp."
+            ],
+            "Thực trạng": [
+                "Hiện nay, việc đánh giá an ninh khu dân cư chủ yếu dựa trên cảm quan hoặc báo cáo định kỳ, thiếu sự hỗ trợ của công nghệ và dữ liệu. Điều này dẫn đến việc không phát hiện kịp thời các khu vực có nguy cơ cao về an ninh, như trộm cắp, xâm nhập trái phép, hoặc các hành vi gây rối trật tự công cộng"
+            ]
+        }
+    },
+    {
+        "category": "Hạ tầng kỹ thuật đô thị",
+        "title": "PB-013",
+        "link": "https://dataforlife.vn/idea-bank/pb-013/",
+        "details": {
+            "Đề xuất": [
+                "Giải pháp:",
+                "Xây dựng nền tảng thu thập dữ liệu từ cảm biến nước, camera giao thông, dữ liệu di động MobiFone.",
+                "Ứng dụng AI để dự báo điểm ngập, điều phối lộ trình di chuyển thông minh.",
+                "Cảnh báo người dân qua SMS, app, push notification; cung cấp dashboard cho chính quyền điều hành khẩn cấp.",
+                "Tác động:",
+                "Giảm thiểu thiệt hại do ngập lụt, tăng khả năng ứng phó kịp thời.",
+                "Hỗ trợ quản lý giao thông, an toàn đô thị thông minh."
+            ],
+            "Đối tượng": [
+                "Người dân, cơ quan, doanh nghiệp, toàn xã hội"
+            ],
+            "Tác động": [
+                "gây ách tắc giao thông, nguy hiểm cho người dân"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Khi xảy ra bão, mưa lớn, triều cường..."
+            ],
+            "Thực trạng": [
+                "Các thành phố lớn đối mặt với tình trạng ngập úng cục bộ, gây ách tắc giao thông và nguy hiểm cho người dân.",
+                "Việc thông tin cảnh báo còn chậm, thiếu dữ liệu số hóa theo từng tuyến đường, khu dân cư."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-014",
+        "link": "https://dataforlife.vn/idea-bank/pb-014/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển một ứng dụng di động và website (tích hợp với VNeID) cung cấp bản đồ số hóa các điểm cung cấp dịch vụ công trên toàn quốc. Người dân có thể tra cứu vị trí cơ quan gần nhất, giờ làm việc, quy trình thực hiện, giấy tờ cần chuẩn bị, và liên kết trực tiếp để nộp hồ sơ trực tuyến. AI sẽ gợi ý lộ trình tối ưu và hỗ trợ đa ngôn ngữ."
+            ],
+            "Đối tượng": [
+                "người dân, đặc biệt ở khu vực nông thôn hoặc nhóm ít sử dụng công nghệ"
+            ],
+            "Tác động": [
+                "Việc cung cấp thông tin dịch vụ công một cách tập trung, dễ tiếp cận là yếu tố quan trọng để tăng hiệu quả quản lý hành chính, giảm áp lực cho cơ quan nhà nước, và nâng cao trải nghiệm của người dân. Nếu không giải quyết, vấn đề này sẽ cản trở mục tiêu Chính phủ số, làm chậm chuyển đổi số, và gia tăng bất bình đẳng trong tiếp cận dịch vụ công."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "nhiều người dân, đặc biệt ở khu vực nông thôn hoặc nhóm ít sử dụng công nghệ, không biết cách tra cứu thông tin về các cơ quan cung cấp dịch vụ công, giờ làm việc, hoặc giấy tờ cần chuẩn bị. Điều này dẫn đến việc phải di chuyển nhiều lần, mất thời gian, và tăng chi phí."
+            ],
+            "Thực trạng": [
+                "Người dân gặp khó khăn trong việc tìm kiếm thông tin về vị trí, thời gian, và quy trình của các dịch vụ công (như cấp giấy phép, đăng ký hộ khẩu, hoặc nộp thuế) do thông tin phân tán, thiếu tập trung, và không dễ tiếp cận."
+            ]
+        }
+    },
+    {
+        "category": "Dịch vụ công trực tuyến",
+        "title": "PB-015",
+        "link": "https://dataforlife.vn/idea-bank/pb-015/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển một hệ thống AI tích hợp vào ứng dụng VNeID và Cổng Dịch vụ công quốc gia để tự động theo dõi thời hạn của các thủ tục hành chính (giấy phép, chứng nhận, thuế, v.v.) và gửi cảnh báo cho người dân/doanh nghiệp trước khi quá hạn. Hệ thống sẽ cung cấp hướng dẫn cụ thể để gia hạn hoặc hoàn thành thủ tục, hỗ trợ đa kênh (SMS, email, thông báo đẩy)."
+            ],
+            "Đối tượng": [
+                "Người dân (đặc biệt là người lao động, người lớn tuổi), doanh nghiệp (đặc biệt là doanh nghiệp nhỏ và vừa), và cơ quan hành chính (do phải xử lý các trường hợp vi phạm hoặc yêu cầu gia hạn khẩn cấp)."
+            ],
+            "Tác động": [
+                "Một hệ thống cảnh báo tự động sẽ giảm thiểu vi phạm hành chính, tiết kiệm thời gian và chi phí cho người dân/doanh nghiệp, đồng thời giảm tải cho cơ quan quản lý. Nếu không giải quyết, vấn đề này sẽ làm giảm hiệu quả chuyển đổi số, tăng gánh nặng hành chính, và gây bất mãn trong cộng đồng."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "hệ thống hiện tại chưa có cơ chế tự động nhắc nhở người dân và doanh nghiệp về thời hạn của các giấy tờ hoặc thủ tục hành chính. Điều này gây ra nhiều trường hợp bị phạt hoặc phải làm lại thủ tục từ đầu, đặc biệt với những người bận rộn, doanh nghiệp nhỏ, hoặc người dân ở vùng sâu không thường xuyên tra cứu thông tin."
+            ],
+            "Thực trạng": [
+                "Người dân và doanh nghiệp thường quên hoặc không được thông báo kịp thời về thời hạn của các thủ tục hành chính (như gia hạn giấy phép kinh doanh, giấy phép lái xe, hoặc nộp thuế), dẫn đến vi phạm, phạt hành chính, và mất thời gian xử lý."
+            ]
+        }
+    },
+    {
+        "category": "Giáo dục",
+        "title": "PB-016",
+        "link": "https://dataforlife.vn/idea-bank/pb-016/",
+        "details": {
+            "Đề xuất": [
+                "Có thể tạo một trang web để phụ huynh đăng ký giữ chỗ trước cho con."
+            ],
+            "Đối tượng": [
+                "Phụ huynh và trẻ em"
+            ],
+            "Tác động": [
+                "Phụ huynh mất nhiều thời gian đi lại và làm thủ tục."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Khi trẻ em đăng ký vào lớp 1, mỗi năm, tại Hà Nội sẽ có khoảng 150.000 trẻ em đăng ký vào lớp một"
+            ],
+            "Thực trạng": [
+                "Phụ huynh phải xếp hàng từ đêm để giữ chỗ, trực tiếp đến trường để làm thủ tục cho con"
+            ]
+        }
+    },
+    {
+        "category": "Khoa học - Công nghệ",
+        "title": "PB-017",
+        "link": "https://dataforlife.vn/idea-bank/pb-017/",
+        "details": {
+            "Đề xuất": [
+                "Một ứng dụng hiển thị bản đồ các bãi đỗ xe theo thời gian thực, bao gồm thông tin về số chỗ còn trống (dựa trên cảm biến hoặc dữ liệu người dùng đóng góp), giá cả, giờ hoạt động. AI dự đoán tình trạng chỗ trống, gợi ý bãi đỗ xe phù hợp nhất dựa trên điểm đến của người dùng và cho phép đặt chỗ, thanh toán trực tuyến."
+            ],
+            "Đối tượng": [
+                "Người dùng ô tô, người tham gia giao thông khác."
+            ],
+            "Tác động": [
+                "Lãng phí thời gian, nhiên liệu, cản trở giao thông."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Số lượng ô tô tăng nhanh, hạ tầng bãi đỗ xe thiếu."
+            ],
+            "Thực trạng": [
+                "Vấn đề tìm kiếm chỗ đậu xe ô tô khó khăn tại các khu vực trung tâm thành phố dẫn tới Mất thời gian tìm chỗ đậu xe, đậu xe sai quy định."
+            ]
+        }
+    },
+    {
+        "category": "Cấp cứu",
+        "title": "PB-018",
+        "link": "https://dataforlife.vn/idea-bank/pb-018/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống quản lý cấp cứu thông minh tích hợp định vị GPS và dữ liệu giao thông thời gian thực; phát triển ứng dụng di động cho người dân gọi cấp cứu với khả năng truyền hình ảnh và dữ liệu sinh hiệu; triển khai AI dự đoán tình trạng bệnh nhân dựa trên thông tin cuộc gọi; xây dựng hệ thống phân bổ xe cứu thương tối ưu dựa trên vị trí, trang thiết bị và chuyên môn; phát triển nền tảng kết nối thông tin giữa xe cứu thương và bệnh viện; tích hợp công nghệ đèn giao thông ưu tiên cho xe cấp cứu."
+            ],
+            "Đối tượng": [
+                "Bệnh nhân cấp cứu và gia đình họ; nhân viên y tế cấp cứu; bệnh viện và trung tâm y tế; các trung tâm điều phối cấp cứu; cơ quan quản lý y tế và giao thông."
+            ],
+            "Tác động": [
+                "Tăng tỷ lệ tử vong và biến chứng do không được cấp cứu kịp thời (ước tính 15-20% ca cấp cứu bị ảnh hưởng tiêu cực); tăng chi phí y tế do tình trạng bệnh nhân trở nên nghiêm trọng hơn; tạo áp lực lớn lên hệ thống y tế và nhân viên cấp cứu; giảm niềm tin của người dân vào hệ thống y tế công; ảnh hưởng đến khả năng cứu sống bệnh nhân đặc biệt trong \"giờ vàng\" cấp cứu."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Diễn ra quanh năm, trầm trọng hơn vào giờ cao điểm giao thông, các dịp lễ Tết và thời tiết xấu; đặc biệt nghiêm trọng tại các khu vực có mật độ dân số cao nhưng đường nhỏ, hay kẹt xe; tình trạng ngày càng phức tạp do số lượng cuộc gọi cấp cứu tăng 25% trong 5 năm qua nhưng hệ thống quản lý chưa được nâng cấp tương ứng."
+            ],
+            "Thực trạng": [
+                "Quá trình điều phối xe cứu thương và dịch vụ y tế khẩn cấp còn chậm và thiếu hiệu quả; thời gian đáp ứng trung bình tại đô thị là 15-20 phút, vùng nông thôn lên tới 35-45 phút; 30% các cuộc gọi cấp cứu không xác định được vị trí chính xác; thiếu thông tin về tình trạng bệnh nhân trước khi đến hiện trường; việc lựa chọn tuyến đường và bệnh viện còn dựa nhiều vào kinh nghiệm của nhân viên."
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-019",
+        "link": "https://dataforlife.vn/idea-bank/pb-019/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng hệ thống giám sát và cảnh báo cháy sớm sử dụng IoT và AI; phát triển bản đồ số về mức độ rủi ro cháy nổ theo khu vực và thời gian thực; thiết kế ứng dụng di động kết nối người dân với lực lượng PCCC với tính năng báo cháy nhanh và hướng dẫn thoát hiểm; triển khai hệ thống quản lý thông tin về cơ sở vật chất, lối thoát hiểm, nguồn nước của các tòa nhà; xây dựng nền tảng điều phối lực lượng PCCC thông minh với khả năng tính toán tuyến đường tối ưu và phân bổ nguồn lực; phát triển hệ thống đánh giá an toàn PCCC tự động cho các cơ sở kinh doanh và nhà ở."
+            ],
+            "Đối tượng": [
+                "Người dân sống tại các khu vực có nguy cơ cháy nổ cao; chủ nhà trọ, chung cư mini; lực lượng PCCC và cứu nạn cứu hộ; chính quyền địa phương; công ty bảo hiểm; hệ thống y tế tiếp nhận nạn nhân."
+            ],
+            "Tác động": [
+                "Thiệt hại về người (trung bình 100-150 người tử vong mỗi năm do cháy nổ) và tài sản (ước tính 500-700 tỷ đồng); tạo tâm lý bất an cho người dân tại các khu vực có nguy cơ cao; ảnh hưởng đến chất lượng cuộc sống và sức khỏe tinh thần của người dân; gây áp lực lớn cho lực lượng PCCC và y tế; tạo gánh nặng chi phí khắc phục hậu quả và tái thiết."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Gia tăng vào mùa khô và thời điểm sử dụng nhiều thiết bị điện (mùa hè); tập trung tại các khu đô thị cũ, khu nhà trọ sinh viên, khu dân cư có mật độ cao và nhiều hộ kinh doanh; đặc biệt nghiêm trọng tại các thành phố lớn với tốc độ đô thị hóa nhanh nhưng quản lý chưa theo kịp; số lượng vụ cháy tăng 15% mỗi năm trong 3 năm gần đây."
+            ],
+            "Thực trạng": [
+                "Công tác phòng chống cháy nổ tại các khu dân cư, chung cư mini và nhà trọ còn nhiều hạn chế; 70% các vụ cháy nổ được phát hiện quá muộn; thời gian phản ứng trung bình từ khi phát hiện đến khi báo cáo là 5-7 phút; thiếu hệ thống cảnh báo sớm và thông tin về các khu vực có nguy cơ cao; việc tiếp cận các khu vực cháy thường gặp khó khăn do quy hoạch đô thị không hợp lý; 45% các khu nhà trọ, chung cư mini không đáp ứng các tiêu chuẩn phòng cháy."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-001",
+        "link": "https://dataforlife.vn/idea-bank/pb-001/",
+        "details": {
+            "Đề xuất": [
+                "1. Có một tổ chức cụ thể và đầu mối duy nhất thực hiện chức năng về phòng chống rửa tiền hoặc chức năng về xử lí báo cáo. 2. Có một trang web riêng để các đơn vị liên quan truy cập, nộp báo cáo, cập nhật tin tức liên quan, nhận kết quả xử lí báo cáo.",
+                "3. Tất cả các doanh nghiệp sử dụng mã số đăng ký doanh nghiệp để đăng nhập trang web và gửi báo cáo nếu có. 4. Thiết lập một loại báo cáo điện tử với nhiều trang khác nhau, mỗi trang ghi nhận các bước cần thiết, bước trước là điều kiện tiên quyết cho bước sau được ghi nhận, thông tin nào bắt buộc có theo quy định, thông tin nào ghi nhận thêm và có một file hướng dẫn cụ thể cho từng bước."
+            ],
+            "Đối tượng": [
+                "Các tổ chức tài chính ngân hàng, nhà nước, người dân, môi trường"
+            ],
+            "Tác động": [
+                "1. Các số liệu báo cáo khắp nơi đổ về cơ quan công an và ngân hàng nhà nước là rất lớn, trong trường hợp không thiết kế hệ thống và loại báo cáo riêng thì việc tổng hợp, phân tích là rất khó khăn. 2. Việc in ấn báo cáo mang lại tác động xấu đến môi trường, ảnh hưởng đến môi trường về mặt lâu dài, việc lưu trữ khó khăn do không có đủ không gian hoặc sẽ tốn thêm tiền cho các đơn vị liên quan để trả cho bên thứ 3 lưu trữ hồ sơ giấy. 3. Việc gửi báo cáo giấy tốn nhiều thời gian, công sức, tiền bạc, chậm trễ trong việc tiếp nhận và xử lí."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Các báo cáo giao dịch đáng ngờ, báo cáo về người hoặc tổ chức có hành vi rửa tiền được nộp qua giấy, khó khăn trong việc tổng hợp số liệu, phản ứng nhanh của cơ quan chức năng đối với hành vi cần phải được ngăn chặn ngay, từ đó tội phạm phát giác được và thay đổi phương thức cũng như hành vi mà khó bị phát hiện"
+            ],
+            "Thực trạng": [
+                "Hiện nay nhà nước đang không có một hệ thống trực tuyến cụ thể để tiếp nhận, tổng hợp và phản ứng nhanh đối với các hành vi rửa tiền"
+            ]
+        }
+    },
+    {
+        "category": "Quy hoạch và kiến trúc",
+        "title": "PB-002",
+        "link": "https://dataforlife.vn/idea-bank/pb-002/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng một trang web tra cứu quy hoạch đất đai tích hợp dữ liệu từ các địa phương, giúp người dân dễ dàng kiểm tra thông tin chỉ với vài thao tác, tăng minh bạch và thuận tiện trong các giao dịch liên quan đến đất đai."
+            ],
+            "Đối tượng": [
+                "Người dân, nhà đầu tư cá nhân, doanh nghiệp bất động sản nhỏ lẻ"
+            ],
+            "Tác động": [
+                "Thiếu kênh tra cứu nhanh khiến người dân mất thời gian, dễ bị lừa đảo do thông tin không rõ ràng, làm giảm niềm tin vào cơ quan quản lý và cản trở hoạt động phát triển kinh tế"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tính đến năm 2023, chỉ khoảng 40/63 tỉnh thành có cổng thông tin quy hoạch đất đai được cập nhật trực tuyến đầy đủ. Trong số này, nhiều tỉnh vẫn chưa cung cấp dữ liệu thời gian thực hoặc thông tin chi tiết theo từng thửa đất."
+            ],
+            "Thực trạng": [
+                "Theo Bộ Tài nguyên và Môi trường, tính đến năm 2023, chỉ khoảng 40/63 tỉnh thành có cổng thông tin quy hoạch đất đai được cập nhật trực tuyến đầy đủ. Trong số này, nhiều tỉnh vẫn chưa cung cấp dữ liệu thời gian thực hoặc thông tin chi tiết theo từng thửa đất. Người dân đang gặp khó khăn trong việc tra cứu thông tin quy hoạch đất đai do thiếu một hệ thống trực tuyến minh bạch và đồng bộ, dẫn đến mất thời gian, dễ bị lừa đảo và gây cản trở trong các quyết định đầu tư hoặc xây dựng"
+            ]
+        }
+    },
+    {
+        "category": "Đổi mới sáng tạo",
+        "title": "PB-003",
+        "link": "https://dataforlife.vn/idea-bank/pb-003/",
+        "details": {
+            "Đề xuất": [
+                "Thiết kế một app là nền tảng để giúp người thất lạc đăng tải thông tin tìm kiếm, và giúp người nhặt được đăng tải thông tin để trả lại đồ đạc bị đánh mất, thất lạc. Đăng nhập bằng VNeID"
+            ],
+            "Đối tượng": [
+                "Du khách, người dân khi di chuyển giữa các địa điểm, nơi tập trung đông người"
+            ],
+            "Tác động": [
+                "Khi mất đồ không biết tìm ở đâu và đôi khi người nhặt được cũng không biết trả lại cho ai, bằng cách nào. Nếu có sản phẩm khắc phục vấn đề này sẽ tiết kiệm thời gian tìm đồ và nâng cao tỉ lệ tìm thấy đồ thất lạc cho mọi người"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tại các địa điểm tập trung đông người có yếu tố dịch chuyển: sân bay, nhà ga, bến tàu, xe, các địa điểm concert, nhạc hội, sự kiện,....."
+            ],
+            "Thực trạng": [
+                "Hiện nay, tình trạng quên, mất đồ thất lạc xảy ra rất phổ biến. Chưa có cơ quan, tổ chức nào có chức năng quản lý và hỗ trợ người dân, khách du lịch trong việc này (chưa đến mức tài sản bị ăn trộm, cướp,...). Do đó, hình thức các chợ đồ dùng nhặt được hoặc chợ đầu mối thông tin trên mạng Internet xuất hiện rất nhiều (hội nhóm Facebook, zalo,...), ngoài chức năng kết nối thông tin giúp hỗ trợ tìm đồ thất lạc còn tiềm ẩn nhiều rủi ro về tội phạm. Một số điểm nóng (sân bay, nhà ga, bền tàu xe, concert...) thường có hệ thống website tìm đồ thất lạc nhưng chưa đồng bộ, vẫn mất nhiều thời gian và thông tin thường chưa được cập nhật chính xác. Cần thiết có một hệ thống có chức năng ưu việt và uy tín, chất lượng có độ tin cậy và an toàn cao giúp người dân có thể tìm đồ thất lạc dễ dàng."
+            ]
+        }
+    },
+    {
+        "category": "An ninh trật tự",
+        "title": "PB-004",
+        "link": "https://dataforlife.vn/idea-bank/pb-004/",
+        "details": {
+            "Đề xuất": [
+                "Phát triển một nền tảng AI tích hợp trực tiếp vào hệ thống camera giám sát."
+            ],
+            "Đối tượng": [
+                "Lực lượng công an, cơ sở giáo dục, gia đình và xã hội, đặc biệt là làm ảnh hưởng đến tình hình ANTT trên địa bàn"
+            ],
+            "Tác động": [
+                "Quản lý, giám sát, truy vết, điều tra các đối tượng khó khăn vì chủ yếu các đối tượng hoạt động vào khung giờ 23h đêm đến 2h sáng."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tại địa bàn thành phố Vinh, tỉnh Nghệ An: Tình trạng thanh thiếu niên vi phạm pháp luật, TTATGT (tụ tập đông người, rủ rê, lôi kéo, điều khiển phương tiện, nẹt pô, không đội mũ bảo hiểm, không gắn biển số, chở quá số người quy đinh, lạng lách, đánh võng, ném chai bia vào lòng đường mang theo vũ khí, hung khí nguy hiểm (dao phóng lợn, kiếm….) để giải quyết mâu thuẫn, thể hiện bản thân, cố ý gây thương tích, gây rối trật tự công cộng có xu hướng gia tăng và coi thường pháp luật gây hoang mang, bức xúc trong dư luận quần chúng nhân dân kèm theo sự lo lắng của gia đìn h và xã hội, đặc biệt là dịp nghỉ hè đang cận kề tới (năm 2024 đã khởi tố gần 100 đối tượng). Bên cạnh đó, tình trạng trộm cắp tài sản tại các nhà dân, chung cư, nhà trọ; cướp giật tài sản tại các tuyến phố dự báo tiềm ẩn phức tạp."
+            ],
+            "Thực trạng": [
+                "Trong bối cảnh xã hội ngày càng phát triển, các thách thức về an ninh trật tự (ANTT) ngày càng trở nên phức tạp và đa dạng. Lực lượng công an cơ sở (công an phường, xã) phải đối mặt với áp lực lớn trong việc giám sát, xử lý và dự báo các hành vi vi phạm ANTT, trong khi nguồn lực và công cụ hỗ trợ còn hạn chế. Do đó, việc ứng dụng trí tuệ nhân tạo (AI) vào công tác đảm bảo ANTT là nhu cầu cấp thiết."
+            ]
+        }
+    },
+    {
+        "category": "chuỗi giá trị nông sản",
+        "title": "PB-005",
+        "link": "https://dataforlife.vn/idea-bank/pb-005/",
+        "details": {
+            "Đề xuất": [
+                "- Xây dựng sàn giao dịch Thương mại điện tử chuyên biệt cho nông sản và đặc sản địa phương.",
+                "- Tích hợp hệ thống truy xuất nguồn gốc blockchain (iCheck), xác thực chứng nhận đạt chuẩn.",
+                "- Công khai đánh giá uy tín nhà cung cấp, minh bạch thông tin.",
+                "- Hỗ trợ logistics, đồng gói, thanh toán an toàn.",
+                "- Kết nối trực tiếp giữa người sản xuất và người tiêu dùng, gia tăng giá trị gia tăng và tính minh bạch cho sản phẩm nông sản Việt.",
+                "Tính năng chính của Sàn TMĐT:",
+                "1.Cho người bán (nông dân/HTX):",
+                "-Tạo gian hàng riêng, đăng sản phẩm, cập nhật quy trình sản xuất.",
+                "-Tích hợp QR code Blockchain để truy xuất nguồn gốc (từ gieo trồng đến đóng gói).",
+                "-Được gợi ý cải tiến sản phẩm (qua AI phân tích phản hồi người dùng).",
+                "2.Cho người mua:",
+                "-Tìm kiếm sản phẩm theo vùng miền, chứng nhận, quy trình sản xuất.",
+                "-Quét QR để kiểm tra lịch sử sản phẩm (đất trồng, phân bón, người sản xuất…).",
+                "-Đánh giá sản phẩm & hỗ trợ trực tiếp cho người bán nếu mong muốn.",
+                "3.Hệ thống & quản trị:",
+                "-Dashboard thống kê theo vùng, sản lượng, phản hồi người tiêu dùng.",
+                "-Công cụ xác thực sản phẩm liên kết với chính quyền địa phương."
+            ],
+            "Đối tượng": [
+                "- Nông dân, hợp tác xã, doanh nghiệp nông sản gặp khó khăn trong việc tìm đầu ra.",
+                "- Người tiêu dùng lo ngại về chất lượng và nguồn gốc sản phẩm.",
+                "- Các nhà phân phối mất thời gian và chi phí để xác minh nguồn cung đáng tin cậy."
+            ],
+            "Tác động": [
+                "- Mất giá trị nông sản do bán qua trung gian.",
+                "- Tình trạng ép giá, thất thu cho nông dân.",
+                "- Mất niềm tin của người tiêu dùng đối với sản phẩm nông sản nội địa.",
+                "Đối tượng hưởng lợi:",
+                "-Nông dân, HTX sản xuất đặc sản vùng miền.",
+                "-Người tiêu dùng muốn mua sản phẩm sạch, rõ nguồn gốc.",
+                "-Cơ quan quản lý muốn kiểm soát chất lượng hàng hóa nông sản."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Sau đại dịch COVID-19, nhu cầu môi giới, kênh bán hàng trực tuyến và truy xuất minh bạch nguồn gốc tăng cao. Tuy nhiên, hạ tầng chuyển đổi số trong nông nghiệp chưa đồng bộ, nhiều hợp tác xã, nông hộ chưa được tiếp cận công nghệ thông tin."
+            ],
+            "Thực trạng": [
+                "Việt Nam là một trong những quốc gia có lợi thế về sản xuất nông sản và đặc sản địa phương phong phú. Tuy nhiên, nông sản Việt Nam vẫn đang gặp nhiều khó khăn trong việc tiêu thụ trong nước và xuất khẩu. Các vấn đề bao gồm:",
+                "- Thiếu kênh phân phối đồng bộ.",
+                "- Gian lận thương mại, hàng giả mạo nguồn gốc.",
+                "- Thiếu công nghệ truy xuất nguồn gốc.",
+                "- Khó tiếp cận các sàn TMDT lớn do thiếu kiến thức, điều kiện hỗ trợ.",
+                "- Tăng thu nhập cho người dân, góp phần phát triển kinh tế số nông thôn"
+            ]
+        }
+    },
+    {
+        "category": "chữa bệnh",
+        "title": "PB-006",
+        "link": "https://dataforlife.vn/idea-bank/pb-006/",
+        "details": {
+            "Đề xuất": [
+                "Một hệ thống đặt lịch khám trực tuyến thống nhất cho các bệnh viện công"
+            ],
+            "Đối tượng": [
+                "Người bệnh, đặc biệt là người già và người có hoàn cảnh khó khăn"
+            ],
+            "Tác động": [
+                "Gây mệt mỏi, tốn thời gian, làm giảm hiệu quả điều trị"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Các bệnh viện công tuyến đầu tại thành phố lớn."
+            ],
+            "Thực trạng": [
+                "Mỗi ngày, các bệnh viện công lớn tại Hà Nội và TP.HCM tiếp nhận hàng nghìn lượt bệnh nhân đến khám. Người dân thường phải đến từ rất sớm, xếp hàng lấy số thứ tự, chờ đợi lâu trong tình trạng quá tải. Tình trạng này xảy ra do chưa có hệ thống đặt lịch khám bệnh trực tuyến được triển khai đồng bộ tại các bệnh viện công."
+            ]
+        }
+    },
+    {
+        "category": "Hành chính",
+        "title": "PB-001",
+        "link": "https://dataforlife.vn/idea-bank/pb-001/",
+        "details": {
+            "Đề xuất": [
+                "1. Có một tổ chức cụ thể và đầu mối duy nhất thực hiện chức năng về phòng chống rửa tiền hoặc chức năng về xử lí báo cáo. 2. Có một trang web riêng để các đơn vị liên quan truy cập, nộp báo cáo, cập nhật tin tức liên quan, nhận kết quả xử lí báo cáo.",
+                "3. Tất cả các doanh nghiệp sử dụng mã số đăng ký doanh nghiệp để đăng nhập trang web và gửi báo cáo nếu có. 4. Thiết lập một loại báo cáo điện tử với nhiều trang khác nhau, mỗi trang ghi nhận các bước cần thiết, bước trước là điều kiện tiên quyết cho bước sau được ghi nhận, thông tin nào bắt buộc có theo quy định, thông tin nào ghi nhận thêm và có một file hướng dẫn cụ thể cho từng bước."
+            ],
+            "Đối tượng": [
+                "Các tổ chức tài chính ngân hàng, nhà nước, người dân, môi trường"
+            ],
+            "Tác động": [
+                "1. Các số liệu báo cáo khắp nơi đổ về cơ quan công an và ngân hàng nhà nước là rất lớn, trong trường hợp không thiết kế hệ thống và loại báo cáo riêng thì việc tổng hợp, phân tích là rất khó khăn. 2. Việc in ấn báo cáo mang lại tác động xấu đến môi trường, ảnh hưởng đến môi trường về mặt lâu dài, việc lưu trữ khó khăn do không có đủ không gian hoặc sẽ tốn thêm tiền cho các đơn vị liên quan để trả cho bên thứ 3 lưu trữ hồ sơ giấy. 3. Việc gửi báo cáo giấy tốn nhiều thời gian, công sức, tiền bạc, chậm trễ trong việc tiếp nhận và xử lí."
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Các báo cáo giao dịch đáng ngờ, báo cáo về người hoặc tổ chức có hành vi rửa tiền được nộp qua giấy, khó khăn trong việc tổng hợp số liệu, phản ứng nhanh của cơ quan chức năng đối với hành vi cần phải được ngăn chặn ngay, từ đó tội phạm phát giác được và thay đổi phương thức cũng như hành vi mà khó bị phát hiện"
+            ],
+            "Thực trạng": [
+                "Hiện nay nhà nước đang không có một hệ thống trực tuyến cụ thể để tiếp nhận, tổng hợp và phản ứng nhanh đối với các hành vi rửa tiền"
+            ]
+        }
+    },
+    {
+        "category": "Quy hoạch và kiến trúc",
+        "title": "PB-002",
+        "link": "https://dataforlife.vn/idea-bank/pb-002/",
+        "details": {
+            "Đề xuất": [
+                "Xây dựng một trang web tra cứu quy hoạch đất đai tích hợp dữ liệu từ các địa phương, giúp người dân dễ dàng kiểm tra thông tin chỉ với vài thao tác, tăng minh bạch và thuận tiện trong các giao dịch liên quan đến đất đai."
+            ],
+            "Đối tượng": [
+                "Người dân, nhà đầu tư cá nhân, doanh nghiệp bất động sản nhỏ lẻ"
+            ],
+            "Tác động": [
+                "Thiếu kênh tra cứu nhanh khiến người dân mất thời gian, dễ bị lừa đảo do thông tin không rõ ràng, làm giảm niềm tin vào cơ quan quản lý và cản trở hoạt động phát triển kinh tế"
+            ],
+            "Thời điểm, Bối cảnh": [
+                "Tính đến năm 2023, chỉ khoảng 40/63 tỉnh thành có cổng thông tin quy hoạch đất đai được cập nhật trực tuyến đầy đủ. Trong số này, nhiều tỉnh vẫn chưa cung cấp dữ liệu thời gian thực hoặc thông tin chi tiết theo từng thửa đất."
+            ],
+            "Thực trạng": [
+                "Theo Bộ Tài nguyên và Môi trường, tính đến năm 2023, chỉ khoảng 40/63 tỉnh thành có cổng thông tin quy hoạch đất đai được cập nhật trực tuyến đầy đủ. Trong số này, nhiều tỉnh vẫn chưa cung cấp dữ liệu thời gian thực hoặc thông tin chi tiết theo từng thửa đất. Người dân đang gặp khó khăn trong việc tra cứu thông tin quy hoạch đất đai do thiếu một hệ thống trực tuyến minh bạch và đồng bộ, dẫn đến mất thời gian, dễ bị lừa đảo và gây cản trở trong các quyết định đầu tư hoặc xây dựng"
+            ]
+        }
+    }
+]
